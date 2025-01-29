@@ -34,7 +34,7 @@
 
 • Редактирование — настройка параметров.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.20.png" alt=""><figcaption></figcaption></figure>
 
 ## Создание стеллажа
 
@@ -55,7 +55,7 @@
 
 4\. Нажать кнопку Создать.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.39.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.39.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Редактирование стеллажа
 
@@ -76,7 +76,7 @@
 
 4\. Нажать Обновить.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.05.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -85,7 +85,7 @@
 3. В открывшемся окне нажать кнопку Подтвердить.\
 
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Переход на страницу стеллажа
 
@@ -109,7 +109,7 @@
 
 • Онлайн — устройства передают данные.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
 
 • Графики:
 
@@ -131,7 +131,7 @@
 
 • Total Asic — все устройства, включая нерабочие.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
 
 ## Карта стеллажа
 
@@ -150,7 +150,7 @@
 
 • Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Список устройств на стеллаже
 
@@ -173,4 +173,4 @@
 
 • IP-адрес — автоматически определяется агентом или задаётся вручную.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
