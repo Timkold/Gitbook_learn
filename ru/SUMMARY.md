@@ -1,7 +1,7 @@
 # Table of contents
 
 * [BullPool](README.md)
-* [Pool](pool/)
+* [Pool](pool/README.md)
   * [С чего начать?](pool/s-chego-nachat.md)
   * [Описание вкладок](pool/opisanie-vkladok/)
     * [Воркеры](pool/opisanie-vkladok/vorkery.md)
