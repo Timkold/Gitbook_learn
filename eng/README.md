@@ -1,25 +1,25 @@
 ---
-description: Добро пожаловать в Руководство пользователя!
+description: Welcome to the User Guide!
 coverY: 0
 ---
 
-# BullPool 1
+# BullPool
 
-## BullPool: инновации для вашего успеха
-
-\
-Рады представить вам два мощных инструмента, созданных для упрощения процессов и достижения ваших целей. BullPool — это ваш путь к эффективности, стабильности и полной прозрачности в работе.
-
-## Что вас ждет в этом руководстве?
+## BullPool: innovation for your success
 
 \
-На страницах данного руководства вы найдете:
+We are pleased to introduce two powerful tools designed to simplify processes and help you achieve your goals. BullPool is your path to efficiency, stability, and complete transparency in your work.
 
-• 🔧 Пошаговое руководство по началу работы с Pool и Hashcare.
+## What awaits you in this guide?
 
-• 🌟 Описание ключевых функций и их преимущества.
+\
+On the pages of this guide, you will find:
 
-• 💡 Практичные советы и ответы на самые популярные вопросы.
+• 🔧 A step-by-step guide to getting started with Pool and Hashcare.
 
-Этот материал станет вашим надежным помощником, чтобы извлечь максимум из наших продуктов. Начнем? 🚀
+• 🌟 A description of key features and their benefits.
+
+• 💡 Practical tips and answers to the most popular questions.
+
+This material will be your reliable assistant to get the most out of our products. Shall we begin? 🚀
 

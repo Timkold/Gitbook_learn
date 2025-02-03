@@ -1,86 +1,86 @@
-# 🏢 Дата-центр
+# 🏢 Data Center
 
-Дата-центр — это сущность, представляющая площадку, включающую связанные помещения и стеллажи. Отображаются только данные устройств, привязанных к стеллажам внутри конкретного дата-центра. 📌 По умолчанию при первом входе в ЛК создаётся один дата-центр.
+A data center is an entity representing a site that includes interconnected rooms and racks. Only data from devices linked to racks within a specific data center are displayed. 📌 By default, one data center is created upon the first login to the personal account.
 
-## 📋 Таблица Дата-центры
+## 📋 Data Centers Table
 
 \
-• Поиск 🔍: ищет по символам в названии.
+• Search 🔍: searches by characters in the name.
 
-• Добавить дата-центр ➕: кнопка для создания нового ДЦ.
+• Add Data Center ➕: button to create a new data center.
 
-Поля таблицы:
+Table fields:
 
-• ID: номер в базе данных.
+• ID: database number.
 
-• Имя: название ДЦ.
+• Name: data center name.
 
-• Редактирование ✏️: кнопка для изменений.
+• Edit ✏️: button for modifications.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.00.48.png" alt=""><figcaption></figcaption></figure>
 
-## ➕ Создание Дата-центра
+## ➕ Creating a Data Center
 
 \
-1\. Перейдите в раздел Дата-центры.
+1\. Go to the Data Centers section.
 
-2\. Нажмите кнопку Добавить дата-центр.
+2\. Click the Add Data Center button.
 
-3\. Введите название в поле Имя.
+3\. Enter the name in the Name field.
 
-4\. Нажмите Создать.
+4\. Click Create.
 
 \
-💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
+💡 The first data center is created with ID 1. A new data center receives the next sequential ID, even if previous ones were deleted.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## ✏️ Редактирование Дата-центра
+## ✏️ Editing a Data Center
 
 \
-1\. Нажмите на кнопку ⋮ рядом с нужным ДЦ.
+1\. Click the ⋮ button next to the desired data center.
 
-2\. Выберите пункт Изменить.
+2\. Select Edit.
 
-3\. Введите новое название в поле Имя.
+3\. Enter the new name in the Name field.
 
-4\. Нажмите Обновить.
+4\. Click Update.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.23.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## 🗑️ Удаление Дата-центра
+## 🗑️ Deleting a Data Center
 
 \
-1\. Нажмите на кнопку ⋮ рядом с нужным ДЦ.
+1\. Click the ⋮ button next to the desired data center.
 
-2\. Выберите пункт Удалить.
+2\. Select Delete.
 
-3\. В открывшемся окне подтвердите действие кнопкой Подтвердить.
+3\. In the pop-up window, confirm the action by clicking Confirm.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
-[_**🔹 Графики**_](#user-content-fn-1)[^1]
+[_**🔹 Charts**_](#user-content-fn-1)[^1]
 
 \
-• 📈 Хэшрейт: суммарный хэшрейт устройств (TH/s).
+• 📈 Hashrate: total device hashrate (TH/s).
 
-• Asic Hashrate: данные от устройства.
+• Asic Hashrate: data from the device.
 
-• Nominal Hashrate: заявлено производителем.
+• Nominal Hashrate: manufacturer-specified value.
 
-• ⚡ Потребление: суммарное энергопотребление устройств (W).
+• ⚡ Power Consumption: total power consumption of devices (W).
 
-• Asic Power: данные от устройства.
+• Asic Power: data from the device.
 
-• Nominal Power: заявлено производителем.
+• Nominal Power: manufacturer-specified value.
 
-🔹 Устройства
+🔹 Devices
 
-• ⚙️ Active Asic: работающие устройства.
+• ⚙️ Active Asic: operating devices.
 
-• 📋 Total Asic: общее количество устройств.
+• 📋 Total Asic: total number of devices.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.04.38.png" alt=""><figcaption></figcaption></figure>
 
