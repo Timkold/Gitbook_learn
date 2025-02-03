@@ -1,6 +1,6 @@
 # Table of contents
 
-* [BullPool 12](../)
+* [BullPool](../)
 * [Pool](pool/)
   * [С чего начать?](pool/s-chego-nachat.md)
   * [Описание вкладок](pool/opisanie-vkladok/)
