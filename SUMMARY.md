@@ -1,6 +1,6 @@
 # Table of contents
 
-* [BullPool test](README.md)
+* [BullPool](README.md)
 * [Table of contents](ru/SUMMARY.md)
 * [Hashсare](ru/hashsare/README.md)
   * [📘 Основные технические понятия](ru/hashsare/osnovnye-tekhnicheskie-ponyatiya.md)
