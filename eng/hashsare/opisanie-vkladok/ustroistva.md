@@ -54,19 +54,15 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • **Shelf Number** — free shelf number depending on the rack.
 
-• Cannot be 0. _Error: “Must be greater than or equal to 1”._
-
-• Cannot exceed the maximum number of shelves in the rack. _Error: “error.codes.rack\_exceed\_max\_size”._
-
-• Must be a number. _Error: “Invalid format”._
+* Cannot be 0. _Error: “Must be greater than or equal to 1”._
+* Cannot exceed the maximum number of shelves in the rack. _Error: “error.codes.rack\_exceed\_max\_size”._
+* Must be a number. _Error: “Invalid format”._
 
 • **Slot Number** — free slot number on the shelf.
 
-• Cannot be 0. _Error: “Must be greater than or equal to 1”._
-
-• Cannot exceed the maximum number of slots on the shelf.
-
-• Must be a number. _Error: “Invalid format”._
+* Cannot be 0. _Error: “Must be greater than or equal to 1”._
+* Cannot exceed the maximum number of slots on the shelf.
+* Must be a number. _Error: “Invalid format”._
 
 • **Stratum Pool URLs** — up to 3 addresses. _Optional._
 
