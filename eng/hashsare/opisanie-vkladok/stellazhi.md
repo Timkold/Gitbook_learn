@@ -6,7 +6,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 • By default, one rack is created and linked to the newly created room.
 
-\
+
 
 ## "Racks" Table
 
@@ -92,7 +92,7 @@ Table fields:
 
 \
 Rack Page Contents
-----------------------------
+------------------
 
 \
 • Details:
