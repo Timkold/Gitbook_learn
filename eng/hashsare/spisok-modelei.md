@@ -1,4 +1,4 @@
-# Список моделей
+# List of Models
 
 #### &#x20;<a href="#bitmain-antminer" id="bitmain-antminer"></a>
 
@@ -52,7 +52,4 @@
 
 1. Innosilicon T2TZ
 
-&#x20;Это список моделей, по которым мы отображаем данные в мониторинге. Если ваша модель не указана в списке, пожалуйста, свяжитесь с нами по электронной почте support@bullpool.io или через Телеграм-канал @bullpool\_support.”
-
-
-
+&#x20;This is the list of models for which we display data in the monitoring. If your model is not listed, please contact us by email at support@bullpool.io or via the Telegram channel @bullpool\_support.
