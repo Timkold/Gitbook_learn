@@ -17,7 +17,7 @@ Table fields:
 
 • Edit ✏️: button for modifications.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.00.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.00.48.png" alt=""><figcaption></figcaption></figure>
 
 ## ➕ Creating a Data Center
 
@@ -33,7 +33,7 @@ Table fields:
 \
 💡 The first data center is created with ID 1. A new data center receives the next sequential ID, even if previous ones were deleted.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.05.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## ✏️ Editing a Data Center
 
@@ -46,7 +46,7 @@ Table fields:
 
 4\. Click Update.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.23.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.23.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 🗑️ Deleting a Data Center
 
@@ -57,7 +57,7 @@ Table fields:
 
 3\. In the pop-up window, confirm the action by clicking Confirm.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -82,6 +82,6 @@ Table fields:
 
 • 📋 Total Asic: total number of devices.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.04.38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.04.38.png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 
