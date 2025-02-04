@@ -1,8 +1,8 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами личного кабинета, чтобы
-  полностью раскрыть все его возможности.
+  Further, you can familiarize yourself with the various sections of your personal account in order to
+  to fully explore all of its possibilities.
 ---
 
-# Описание вкладок
+# Tabs description
 
