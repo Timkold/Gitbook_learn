@@ -35,7 +35,7 @@
 
 • 🟡 Жёлтый — есть как активные, так и неактивные агенты.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
 
 ## 🚀 Шаги для создания:
 
@@ -52,7 +52,7 @@
 
 ⚠️ Если поле пустое, кнопка Создать неактивна.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -91,7 +91,7 @@
 
 1\. Выполните команду: <Путь к файлу>/hashcare-agent -Dapi-key=<ключ>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
 
 2\. API Key: скопируйте из соответствующего поля.
 
