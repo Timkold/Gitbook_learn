@@ -1,8 +1,6 @@
 # List of Models
 
-#### &#x20;<a href="#bitmain-antminer" id="bitmain-antminer"></a>
-
-#### **Bitmain (Antminer)** <a href="#bitmain-antminer" id="bitmain-antminer"></a>
+**Bitmain (Antminer)**
 
 1. Antminer T17
 2. Antminer T17+
@@ -52,4 +50,4 @@
 
 1. Innosilicon T2TZ
 
-&#x20;This is the list of models for which we display data in the monitoring. If your model is not listed, please contact us by email at support@bullpool.io or via the Telegram channel @bullpool\_support.
+This is the list of models for which we display data in the monitoring. If your model is not listed, please contact us by email at support@bullpool.io or via the Telegram channel @bullpool\_support.
