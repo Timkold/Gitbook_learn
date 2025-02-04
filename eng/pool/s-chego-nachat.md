@@ -19,7 +19,7 @@
 
 • ❗ _If the name is taken_, an error will appear: “Pool name is reserved.”
 
-• Comment (📝 optional field).
+• Comment (optional field).
 
 • Coin (default BTC).
 
@@ -57,12 +57,11 @@ To connect a device, follow these steps:
 
 • Worker, which consists of:
 
-&#x20;   \- Pool name — the name of the pool in the Pool Bullpool system.
-
-&#x20;   \- Device ID — set by you (can be unique or the same for multiple devices).
+* Pool name — the name of the pool in the Pool Bullpool system.
+* Device ID — set by you (can be unique or the same for multiple devices).
 
 \
-❕  _If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
+❕ _If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.39.13.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -73,9 +72,7 @@ To connect a device, follow these steps:
 
 2\. Click the “Withdraw” button next to the desired pool.
 
-3\. In the pop-up window, specify:
-
-• Wallet number to which funds will be withdrawn.
+3\. In the pop-up window specify the wallet number to which the funds will be withdrawn.
 
 4\. Click the “Save” button.
 
