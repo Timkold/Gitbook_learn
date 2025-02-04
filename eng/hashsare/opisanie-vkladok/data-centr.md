@@ -7,7 +7,9 @@ A data center is an entity representing a site that includes interconnected room
 \
 • Search: searches by characters in the name.
 
-• Add Data Center: button to create a new data center.
+• Create Data Center: button to create a new data center.
+
+
 
 Table fields:
 
@@ -59,11 +61,9 @@ Table fields:
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
 
+**🔹 Charts**\
 
 
-[_**🔹 Charts**_](#user-content-fn-1)[^1]
-
-\
 • Hashrate: total device hashrate (TH/s).
 
 • Asic Hashrate: data from the device.
@@ -76,12 +76,12 @@ Table fields:
 
 • Nominal Power: manufacturer-specified value.
 
+
+
 🔹 Devices
 
-• ⚙️ Active Asic: operating devices.
+• Active Asic: operating devices.
 
-• 📋 Total Asic: total number of devices.
+• Total Asic: total number of devices.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.04.38.png" alt=""><figcaption></figcaption></figure>
-
-[^1]: 
