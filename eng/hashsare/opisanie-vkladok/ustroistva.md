@@ -40,7 +40,7 @@
 
 • Редактирование — кнопка настройки параметров.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
 
 ## Создание устройства через форму
 
@@ -91,7 +91,7 @@
 4\. Нажать Создать.
 -------------------
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -100,14 +100,14 @@
 1. Перейти в пункт меню Устройства
 2. Выбрать в выпадающем меню пункт
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.33.32.png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.33.32.png" alt="" width="279"><figcaption></figcaption></figure>
 
 1. Выбрать файл .csv на жёстком диске
 2. При успешной загрузке появится сообщение “Файл успешно загружен“
 
 **Пример CSV таблицы**
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
 **Редактирование устройства**
 
@@ -168,7 +168,7 @@
 \
 
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.34.09.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.34.09.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3\. Нажать Обновить для сохранения изменений.
 
@@ -189,7 +189,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -242,7 +242,7 @@
 Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.\
 
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.45.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -327,4 +327,4 @@ _Настройка пула: «Настройка пулов» → Создат
 
 • Nominal Power — заявленное производителем потребление.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.37.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.37.58.png" alt=""><figcaption></figcaption></figure>
