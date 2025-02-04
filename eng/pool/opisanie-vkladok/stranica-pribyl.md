@@ -1,49 +1,45 @@
-# 📈 Страница “Прибыль”
+# 📈 “Profit” Page
 
-На странице “Прибыль” представлена информация о ежедневной доходности на момент закрытия каждого дня для всех ваших пулов.
+The “Profit” page provides information about daily profitability at the close of each day for all your pools.
 
-• 🔽 Выбор пула: переключайтесь между пулами с помощью выпадающего меню в правом верхнем углу.
+• 🔽 Pool selection: switch between pools using the dropdown menu in the upper right corner.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.53.08.png" alt=""><figcaption></figcaption></figure>
 
-## 💰 Как рассчитывается общая прибыль?
+## 💰 How is total profit calculated?
 
 \
-Общая прибыль вычисляется по следующей формуле:
+Total profit is calculated using the following formula:
 
-(TH \* стоимость BTC за TH \* количество дней)&#x20;
+(TH \* BTC price per TH \* number of days)&#x20;
 
-• 🗓️ Количество дней:
+• 🗓️ Number of days:
 
-• Неделя — 7 дней.
+• Week — 7 days.
 
-• Месяц — 30 дней.
+• Month — 30 days.
 
+This information helps you quickly assess the efficiency of each pool and plan your profitability.
 
+_Tip:_ add a chart or table for a visual representation of profit for each pool over the selected period.
 
-Эта информация помогает вам быстро оценить эффективность каждого пула и спланировать доходность.
-
-_Совет:_ добавьте график или таблицу для наглядного отображения прибыли по каждому пулу за выбранный период.
-
-
-
-## 📊 Таблица подсчёта прибыли
+## 📊 Profit Calculation Table
 
 \
-В таблице отображается информация о доходах для каждого дня, включая ключевые параметры:
+The table displays income data for each day, including key parameters:
 
-• 📅 День — дата, за которую рассчитывается прибыль.
+• 📅 Day — the date for which profit is calculated.
 
-• ⚡ Хэшрейт — суммарный хэшрейт всех устройств, подключённых к выбранному пулу.
+• ⚡ Hashrate — the total hashrate of all devices connected to the selected pool.
 
-• 💰 Общая прибыль — итоговая прибыль после вычета комиссии.
+• 💰 Total profit — final profit after deducting the fee.
 
-• 📈 Прибыль на TH/s — средний доход, приходящийся на каждый терахэш в секунду (TH/s), зафиксированный в указанный день.
+• 📈 Profit per TH/s — average revenue per terahash per second (TH/s) recorded on the given day.
 
-• 🔄 PPLNS — прибыль за день, рассчитанная по методу Pay Per Last N Shares (распределение доходов на основе последних отправленных шар).
+• 🔄 PPLNS — daily profit calculated using the Pay Per Last N Shares method (income distribution based on the last submitted shares).
 
-• 💵 PPS — прибыль за день, рассчитанная по методу Pay Per Share (фиксированная выплата за каждую принятую шар).
+• 💵 PPS — daily profit calculated using the Pay Per Share method (fixed payment for each accepted share).
 
-• 🏆 SOLO — прибыль за день при использовании метода SOLO (получение награды за самостоятельное решение блока).
+• 🏆 SOLO — daily profit when using the SOLO method (reward for independently solving a block).
 
-Эта таблица помогает вам анализировать эффективность каждого метода распределения доходов и управлять вашими ресурсами максимально выгодно.
+This table helps you analyze the efficiency of each income distribution method and manage your resources as profitably as possible.
