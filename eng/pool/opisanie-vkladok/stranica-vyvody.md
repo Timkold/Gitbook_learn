@@ -4,7 +4,7 @@
 
 • 🪙 Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.12.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.12.03.png" alt=""><figcaption></figcaption></figure>
 
 ## 📋 Состав таблицы “Выводы”
 
