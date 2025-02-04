@@ -1,119 +1,86 @@
-# С чего начать?
+# How to Get Started?
 
-Агент — это сервис для сбора данных о состоянии устройств и передачи их в систему мониторинга. Он помогает отслеживать производительность, работоспособность и состояние инфраструктуры для своевременного обнаружения проблем.
+An **agent** is a service for collecting device status data and transmitting it to the monitoring system. It helps track performance, operability, and infrastructure status for timely issue detection.
 
-🔗 Подключение:
+🔗 **Connection:**
 
-Агент подключается к устройствам через протоколы (SSH, HTTP API, SNMP) и считывает их состояние.
+The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads their status.
 
+## 🔍 Agent in HashCare:
 
+📍 Installed on the server at the site where the devices are located.
 
-## 🔍  Агент в HashCare:
+📊 Reads metrics from devices within the same network via IP addresses and transmits them to monitoring.
 
+✨ **How to Create an Agent:**
 
+1. Go to the **Agent** menu.
+2. Click the **Create New Agent** button.
 
-📍 Устанавливается на сервер площадки, где размещены устройства.
-
-📊 Считывает метрики с устройств в одной сети через IP-адреса и передаёт их в мониторинг.
-
-
-
-✨ Как создать агента:
-
-1\. Перейдите в меню Агент.
-
-2\. Нажмите кнопку Создать нового агента.
-
-
-
-## 📊 Статусы агентов:
+## 📊 Agent Statuses:
 
 \
-• 🟢 Зелёный — агент активен.
-
-• 🔴 Красный — агент неактивен.
-
-• 🟡 Жёлтый — есть как активные, так и неактивные агенты.
+• 🟢 **Green** — the agent is active.  
+• 🔴 **Red** — the agent is inactive.  
+• 🟡 **Yellow** — both active and inactive agents are present.  
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
 
-## 🚀 Шаги для создания:
+## 🚀 Steps to Create an Agent:
 
 \
-1\. Нажмите кнопку Создать нового агента.
+1. Click the **Create New Agent** button.  
+2. In the **Mode** field, select **Internal**.  
+3. 📥 Download the agent from the link.  
 
-2\. В поле Режим выберите Внутренний.
+🔗 Installation instructions can be accessed via the link.  
 
-3\. 📥 Скачайте агент по ссылке.
+4. Fill in the **Name** field (mandatory).  
 
-🔗 Инструкцию по установке можно открыть через ссылку.
-
-4\. Заполните поле Имя (обязательно).
-
-⚠️ Если поле пустое, кнопка Создать неактивна.
+⚠️ If the field is empty, the **Create** button will be inactive.  
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
-
-
-## 🌐 Добавление подсетей:
+## 🌐 Adding Subnets:
 
 \
-• Поле Сети необязательно для заполнения.
+• The **Networks** field is optional.  
+• Input format: `XX.XX.XX.XX/XX`  
+• `XX.XX.XX.XX` — IP address of a device or subnet.  
+• `/XX` — subnet mask (from 0 to 32).  
 
-• Формат ввода: XX.XX.XX.XX/XX
+**Example:** `10.4.21.32/27`  
 
-• XX.XX.XX.XX — IP адрес устройства или подсети.
-
-• /XX — маска подсети (от 0 до 32).
-
-• Пример: 10.4.21.32/27
-
-• Сетевой адрес: 10.4.21.32
-
-• Диапазон хостов: 10.4.21.33 – 10.4.21.62
-
-• Broadcast: 10.4.21.63
+- **Network Address:** `10.4.21.32`  
+- **Host Range:** `10.4.21.33 – 10.4.21.62`  
+- **Broadcast:** `10.4.21.63`  
 
 \
-➕ Чтобы добавить подсети:
+➕ **To Add Subnets:**  
 
-• Нажмите Добавить для добавления до 5 полей.
+• Click **Add** to add up to 5 fields.  
+• 🔺 **Limit:** A maximum of 125,000 IP addresses in subnets.  
 
-• 🔺 Лимит: максимум 125,000 IP-адресов в подсетях.
-
-
-
-## ⚙️ Установка агента:
+## ⚙️ Installing the Agent:
 
 \
 
-
-1\. Выполните команду: <Путь к файлу>/hashcare-agent -Dapi-key=<ключ>
+1. Run the command:   <file_path>/hashcare-agent -Dapi-key=<key>
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
 
-2\. API Key: скопируйте из соответствующего поля.
+2. **API Key:** Copy it from the corresponding field.
 
-
-
-## 🔍 Активация агента:
+## 🔍 Agent Activation:
 
 \
-• Внутренний агент активируется после успешного запуска на сервере.
+• The **internal agent** activates after successfully launching on the server.  
+• The following information is displayed:  
 
-• Отображается:
+- 🖥️ **Agent IP**  
+- 📜 **Version**  
+- 📊 **Number of devices** (updated every 1–5 minutes).  
 
-• 🖥️ IP агента
+• Devices from subnets are automatically added with their data filled in.
 
-• 📜 Версия
-
-• 📊 Количество устройств (обновляется через 1–5 минут).
-
-• Устройства из подсетей добавляются автоматически с заполнением их данных.
-
-
-
-
-
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Hashcare”
+You can explore the **personal account functionality** in the **"Hashcare"** section.
