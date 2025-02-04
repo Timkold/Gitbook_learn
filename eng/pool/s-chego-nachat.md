@@ -13,7 +13,7 @@
 
 3\. In the pop-up window, specify:
 
-• Pool name (🔑 required, no spaces, pattern: ^\[a-zA-Z0-9]+$).
+• Pool name (required, no spaces, pattern: ^\[a-zA-Z0-9]+$).
 
 • The name will be automatically prefixed with "bp".
 
