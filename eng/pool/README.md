@@ -4,18 +4,20 @@ Pool: Your point of control for mining and finances
 
 
 
-Pool — это удобный и функциональный сервис, созданный для полного контроля над вашими пулами. С его помощью вы сможете:
+Pool is a convenient and functional service created for complete control over your pools. With its help you will be able to:
 
-• Управлять пулами с максимальной простотой.
+• Manage your pools with maximum simplicity.
 
-• Просматривать подробную информацию о подключенных устройствах и их работе.
+• View detailed information about connected devices and their operation.
 
-• Контролировать и настраивать вывод средств быстро и без лишних действий.
-
-
-
-Этот инструмент объединяет все ключевые функции, необходимые для эффективного управления процессами, предоставляя вам мощный контроль и удобство в одном месте.
+• Control and customize withdrawals quickly and without unnecessary actions.
 
 
 
-_Ваши данные. Ваши устройства. Ваши решения._
+This tool brings together all the key features you need to effectively manage your processes, giving you powerful control and convenience in one place.
+
+
+
+_Your data. Your devices. Your solutions._
+
+Translated with DeepL.com (free version)
