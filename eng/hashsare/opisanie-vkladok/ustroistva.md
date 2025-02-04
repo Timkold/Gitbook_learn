@@ -2,9 +2,7 @@
 
 To collect data with an external agent, it is necessary to create devices with specified parameters. Devices are linked to a rack; creation is not possible without a link. By default, no devices are present.
 
-\
-Devices Table
--------------
+## Devices Table
 
 • Search — enter characters to filter by asset tag.
 
