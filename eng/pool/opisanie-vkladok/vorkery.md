@@ -1,82 +1,77 @@
-# Воркеры
+# Workers
 
-В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
+In the Bullpool system, devices are called workers (Worker). These are key elements that:
 
-• Представляют одно или несколько объединённых устройств, подключенных к майнинговому пулу.
+• Represent one or more combined devices connected to a mining pool.
 
-• Выполняют задачи по добыче криптовалюты.
+• Perform cryptocurrency mining tasks.
 
-## Что делает Worker?
+## What Does a Worker Do?
 
+Each worker:
 
+• 🖥️ Performs computational tasks to solve blocks.
 
-Каждый воркер:
+• 📊 Monitors performance — the pool records the results of its work.
 
-• 🖥️ Выполняет вычислительные задачи для решения блоков.
+• ⚡ Optimizes cryptocurrency mining efficiency. &#x20;
 
-• 📊 Отслеживает производительность — пул фиксирует результаты его работы.
+## Miner List
 
-• ⚡ Оптимизирует эффективность добычи криптовалюты. &#x20;
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.31.png" alt=""><figcaption><p>Data collected from the pool is displayed on the Miner List page. This page shows workers within a single pool. To select another pool, expand the dropdown menu of created pools.</p></figcaption></figure>
 
-## Список майнеров
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.50.png" alt="" width="176"><figcaption><p>List of created pools</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.31.png" alt=""><figcaption><p>Собранные с пула данные отображаются на странице Список майнеров. На странице отображаются воркеры на одном пуле. Что бы выбрать другой пул необходимо раскрыть выпадающее меню списка созданных пулов</p></figcaption></figure>
+### Worker Table: Key Information and Parameters
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.50.png" alt="" width="176"><figcaption><p>Список созданых пулов</p></figcaption></figure>
+The worker table provides complete information about each device connected to the pool. Here are the main columns and their values:
 
-Таблица воркеров: ключевая информация и параметры
+## 1. Miner
 
-В таблице воркеров представлена полная информация о каждом устройстве, подключённом к пулу. Вот основные столбцы и их значения:
+Worker identifier (ID Worker) in the pool. It allows quick identification of the device and its connection to the pool.
 
-## 1. Майнер
+## 2. Average Hashrate
 
-Идентификатор воркера (ID Worker) на пуле. Он позволяет быстро определить устройство и его связь с пулом.
+Device hashrate over different time intervals:
 
-## 2. Средний хэшрейт
+• 10-minute average — short-term performance indicator.
 
-Хэшрейт устройства за разные промежутки времени:
+• Hourly average — averaged value over the last hour.
 
-• Средний за 10 минут — показатель производительности за короткий период.
+• 24-hour average — long-term device stability indicator.
 
-• Средний за час — усреднённое значение за последний час.
+These data help analyze mining efficiency and identify deviations.
 
-• Средний за 24 часа — долгосрочный показатель стабильности устройства.
+## 3. Rejected Shares Percentage (Reject Rate)
 
-Эти данные помогают анализировать эффективность майнинга и выявлять отклонения.
+This metric shows the proportion of shares (task solutions) sent by the device but not accepted by the pool.
 
-## 3. Процент отклонённых шар (Reject Rate)
+• Expressed as a percentage.
 
-Этот показатель демонстрирует долю шаров (решений задач), которые были отправлены устройством, но не приняты пулом.
+• Indicates the efficiency of data transmission between the device and the pool.
 
-• Выражается в процентах.
+• A high Reject Rate may indicate network issues or device misconfiguration.
 
-• Указывает на эффективность передачи данных между устройством и пулом.
+## 4. Last Submission Time
 
-• Высокий Reject Rate может свидетельствовать о проблемах с сетью или настройками устройства.
+The time of the last share submission to the pool.
 
-## 4. Время последней отправки
+• Data updates every 5 minutes.
 
-Время последней передачи шар на пул.
+## 5. Status
 
-• Данные обновляются каждые 5 минут.
+Current device state:
 
-## 5. Статус
+• Active — the device is working and data is being received by the pool.
 
-Текущее состояние устройства:
+• Inactive — no data is being received from the device (possible connection or device issues).
 
-• Активный — устройство работает и данные поступают на пул.
+## 6. Actions
 
-• Неактивный — данные с устройства не поступают на пул (возможные проблемы с подключением или устройством).
+An interactive button that allows:
 
-## 6. Операции
+• Viewing the worker’s hashrate fluctuation graph.
 
-Интерактивная кнопка, которая позволяет:
-
-• Просмотреть график изменения хэшрейта воркера.
-
-• Проанализировать процент отказов (отклонённых шар).
+• Analyzing the rejection rate (rejected shares).
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.48.40.png" alt=""><figcaption></figcaption></figure>
-
-
-
