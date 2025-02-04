@@ -1,6 +1,6 @@
 # Workers
 
-In the Bullpool system, devices are called workers (Worker). These are key elements that:
+In the Bullpool system, devices are called workers. These are key elements that:
 
 • Represent one or more combined devices connected to a mining pool.
 
