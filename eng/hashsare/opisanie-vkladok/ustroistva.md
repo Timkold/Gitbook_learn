@@ -178,19 +178,89 @@ Automatically detected or set manually.
 Automatically detected or set manually.
 
 \
-**Power**
-
-• **Nominal Power** — static value for each model.
-
-• **W/TH** — power efficiency.
-
-• **Nominal Hashrate** — factory hashrate.
+# Power
 
 \
-**Additional Information**
+• **Nominal Power**  
 
-• **Worker Name** — consists of pool name and device name.
+A static value set for each device model.
 
-• **MAC Address** — automatically detected or set manually.
+• **W/TH**  
+
+A relative value calculated as the ratio of nominal consumption to the nominal hash rate of the model.
+
+• **Nominal Hashrate**  
+
+The factory hash rate value obtained by the internal agent from the ASIC.
+
+\
+## Additional Information
+
+\
+• **Worker Name**  
+
+Consists of the pool name and the device name in the pool. It is determined automatically by the internal agent or set manually in the device settings.
+
+• **MAC Address**  
+
+Automatically determined by the internal agent during device polling or set manually in the device settings.
+
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.45.png" alt=""><figcaption></figcaption></figure>
+
+## Metrics:
+
+• **Estimated Revenue (PPS | FPPS):**  
+
+  - **PPS (Pay Per Share):** Fixed payment per share.  
+  - **FPPS (Full Pay Per Share):** Includes commission revenue, higher than PPS.
+
+• **Pool Revenue:**  
+
+  The actual revenue from the pool for the selected period.  
+
+  _Pool setup: "Pool Settings" → Create Pool._
+
+• **Electricity Costs:**  
+
+  Based on device power consumption and the tariff:  
+
+  _(Power Consumption (W) × 24) ÷ 1000 × Tariff_  
+
+• **Profit:**  
+
+  _{FPPS revenue} - {Electricity costs}_  
+
+## Hashrate Chart
+
+• **Asic Hashrate** — the current hash rate reported by the device.  
+• **Nominal Hashrate** — the manufacturer-declared hash rate.  
+
+## Hashrate Per Board Chart
+
+Displays the performance of individual boards in an ASIC miner.  
+
+• Each board is labeled, e.g., SM 0, SM 1, SM 2.  
+• Helps detect malfunctions that reduce the overall hash rate.  
+
+## Device Temperature
+
+• **Board (boards) and chip (chip, PCB) temperature:** Displays heating of individual device components.  
+
+• **Air temperature (in/out):**  
+
+  - **In** — temperature of incoming cool air.  
+  - **Out** — temperature of outgoing heated air.  
+
+## Fan Speed Chart
+
+Displays the cooling fan speed in revolutions per minute (RPM).  
+
+• **In** — fans at the air intake.  
+• **Out** — fans at the air exhaust.  
+
+## Power Consumption Chart
+
+• **Asic Power** — current power consumption reported by the device.  
+• **Nominal Power** — manufacturer-declared power consumption.  
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.37.58.png" alt=""><figcaption></figcaption></figure>
