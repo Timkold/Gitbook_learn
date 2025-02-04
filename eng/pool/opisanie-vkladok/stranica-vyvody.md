@@ -1,21 +1,20 @@
-# 💸 Страница “Выводы”
+# 💸 "Withdrawals" Page
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+The "Withdrawals" page displays the history of all transactions related to client fund withdrawals.
 
-• 🪙 Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• Minimum withdrawal amount: transactions occur automatically as soon as the client's balance reaches 0.001 BTC.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.12.03.png" alt=""><figcaption></figcaption></figure>
 
-## 📋 Состав таблицы “Выводы”
+## 📋 "Withdrawals" Table Structure
 
 \
-Таблица включает следующие колонки:
+The table includes the following columns:
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 Date and Time — the moment the withdrawal was made.
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 Amount — the number of BTC transferred in the transaction.
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 Address — the wallet number to which the funds were sent.
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
-
+• 🔗 Transaction Number — a unique identifier of the operation in the blockchain.
