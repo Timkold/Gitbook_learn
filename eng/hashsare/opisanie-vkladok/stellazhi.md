@@ -1,174 +1,174 @@
 # Racks
 
-#### Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
+#### A rack is an entity linked to a specific room, containing a set number of slots for devices. It displays data only for devices within it.
 
-• Можно создать неограниченное количество стеллажей в одном помещении.
+• You can create an unlimited number of racks in one room.
 
-• По умолчанию создаётся один стеллаж, привязанный к созданному помещению.
+• By default, one rack is created and linked to the newly created room.
 
 \\
 
-## Таблица “Стеллажи”
+## "Racks" Table
 
 \
-• Поиск — поиск по названию.
+• Search — search by name.
 
-• Дата-центр — выбор стеллажей в конкретном дата-центре.
+• Data center — select racks in a specific data center.
 
-• Помещения — выбор стеллажей в помещении.
+• Rooms — select racks within a room.
 
-• Добавить новый стеллаж — кнопка для создания.
+• Add new rack — button for creation.
 
 \
-Поля таблицы:
+Table fields:
 -------------
 
-• ID — идентификатор в базе данных.
+• ID — identifier in the database.
 
-• Имя — название стеллажа.
+• Name — rack name.
 
-• Дата-центр — название дата-центра.
+• Data center — name of the data center.
 
-• Помещение — помещение, к которому привязан стеллаж.
+• Room — the room to which the rack is linked.
 
-• Редактирование — настройка параметров.
+• Editing — configure parameters.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.20.png" alt=""><figcaption></figcaption></figure>
 
-## Создание стеллажа
+## Creating a Rack
 
 \
-1\. Перейти в меню Стеллажи.
+1\. Go to the "Racks" menu.
 
-2\. Нажать кнопку Добавить новый стеллаж.
+2\. Click the "Create New Rack" button.
 
-3\. В открывшемся окне:
+3\. In the pop-up window:
 
-• Ввести название в поле Имя.
+• Enter a name in the "Name" field.
 
-• Указать количество полок (Высота) от 1 до 10.
+• Specify the number of shelves (Height) from 1 to 10.
 
-• Указать количество мест на полке (Ширина) от 1 до 10.
+• Specify the number of slots per shelf (Width) from 1 to 10.
 
-• Выбрать помещение из выпадающего списка.
+• Select a room from the dropdown list.
 
-4\. Нажать кнопку Создать.
+4\. Click the "Create" button.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.39.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Редактирование стеллажа
+## Editing a Rack
 
 \
-1\. Нажать на кнопку три точки рядом с нужным стеллажом.
+1\. Click the three-dot button next to the desired rack.
 
-2\. Выбрать пункт Изменить.
+2\. Select "Edit"
 
-3\. Внести изменения:
+3\. Make changes:
 
-• Новое имя.
+• New name.
 
-• Количество полок (Высота) от 1 до 10.
+• Number of shelves (Height) from 1 to 10.
 
-• Количество мест на полке (Ширина) от 1 до 10.
+• Number of slots per shelf (Width) from 1 to 10.
 
-• Помещение, к которому будет привязан стеллаж.
+• Room to which the rack will be linked.
 
-4\. Нажать Обновить.
+4\. Click "Update"
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
+## **Deleting a Rack:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
-1. Нажать на кнопку (три точки) рядом с нужным стеллажом
-2. Выбрать пункт меню Удалить
-3. В открывшемся окне нажать кнопку Подтвердить.\\
+1. Click the three-dot button next to the desired rack.
+2. Select "Delete" from the menu.
+3. In the pop-up window, click "Confirm"\\
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Переход на страницу стеллажа
+## Navigating to the Rack Page
 
 \
-4\. В меню Стеллажи нажать на ID нужного стеллажа.
+4\. In the "Racks" menu, click on the ID of the desired rack.
 
 \
-Содержимое страницы стеллажа
+Rack Page Contents
 ----------------------------
 
 \
-• Детали:
+• Details:
 
-• Размер: ширина × высота (например, 10×10).
+• Size: width × height (e.g., 10×10).
 
-• Количество мест: общее число (ширина × высота).
+• Number of slots: total count (width × height).
 
-• Количество устройств:
+• Number of devices:
 
-• Всего — неактивные + онлайн.
+• Total — inactive + online.
 
-• Онлайн — устройства передают данные.
+• Online — devices actively sending data.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
 
-• Графики:
+• Charts:
 
-• Хэшрейт:
+• Hashrate:
 
-• Asic Hashrate — переданный устройством.
+• Asic Hashrate — reported by the device.
 
-• Nominal Hashrate — заявленный производителем.
+• Nominal Hashrate — specified by the manufacturer.
 
-• Потребление:
+• Power consumption:
 
-• Asic Power — переданное устройством.
+• Asic Power — reported by the device.
 
-• Nominal Power — заявленное производителем.
+• Nominal Power — specified by the manufacturer.
 
-• Устройства:
+• Devices:
 
-• Active Asic — работающие устройства.
+• Active Asic — working devices.
 
-• Total Asic — все устройства, включая нерабочие.
+• Total Asic — all devices, including inactive ones.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
 
-## Карта стеллажа
+## Rack Map
 
 \
-Отображает 2D-схему с заданным количеством мест и размещёнными устройствами.
+Displays a 2D layout with the specified number of slots and placed devices.
 
-• В каждой ячейке указаны:
+• Each slot displays:
 
-• Действительный хэшрейт.
+• Actual hashrate.
 
-• Максимальная температура чипов.
+• Maximum chip temperature.
 
-• Особенности отображения:
+• Display features:
 
-• Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
+• If hashrate or temperature = 0 or exceeds the normal range, the text turns red.
 
-• Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
+• To view current issues, switch the displayed characteristic in the top right corner.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Список устройств на стеллаже
+## List of Devices on the Rack
 
 \
-Перечисляет устройства, привязанные к стеллажу.
+Lists devices linked to the rack.
 
-• Таблица включает:
+• The table includes:
 
-• ID устройства — уникальный идентификатор, заданный системой.
+• Device ID — unique identifier assigned by the system.
 
-• Модель — определяется агентом или задаётся вручную; отображается прошивка.
+• Model — detected by the agent or set manually; displays firmware.
 
-• Хэшрейт — текущий показатель устройства:
+• Hashrate — current device performance:
 
-• 🟢 Хэшрейт > 0
+• 🟢 Hashrate > 0
 
-• 🔴 Хэшрейт = 0 или не определён
+• 🔴 Hashrate = 0 or undefined
 
-• Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
+• Worker name — consists of the pool name and device, detected by the agent or set manually.
 
-• IP-адрес — автоматически определяется агентом или задаётся вручную.
+• IP address — automatically detected by the agent or set manually.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
