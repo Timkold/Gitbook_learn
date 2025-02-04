@@ -1,97 +1,84 @@
 ---
 description: >-
-  В этом разделе представлены ключевые термины и определения, которые помогут
-  лучше понять содержание документации.
+  This section presents key terms and definitions that will help you better understand the documentation.
 ---
 
-# 📘 Основные технические понятия
+# 📘 Key Technical Concepts
 
-## 💻 ASIC (асик)
+## 💻 ASIC (Application-Specific Integrated Circuit)
 
-🔹 Что это?
+🔹 **What is it?**  
 
-ASIC (Application-Specific Integrated Circuit) — это специализированное устройство, оптимизированное для вычисления хэш-функций, необходимых для добавления новых блоков в блокчейн.
+ASIC (Application-Specific Integrated Circuit) is a specialized device optimized for computing hash functions required to add new blocks to the blockchain.
 
-🔹 Особенности:
+🔹 **Features:**  
 
-• Разработан исключительно для выполнения вычислений по алгоритмам майнинга, например, SHA-256 для Bitcoin.
+• Designed exclusively for performing mining algorithm computations, such as SHA-256 for Bitcoin.
 
+## ⚡ Hashrate
 
+🔹 **What is it?**  
 
-## ⚡ Hashrate (Хэшрейт)
+Hashrate is the speed at which a mining device performs cryptographic computations to find new blocks in the blockchain.
 
-🔹 Что это?
+🔹 **Measurement Units:**  
 
-Хэшрейт — это скорость, с которой майнинг-устройство выполняет криптографические вычисления для поиска новых блоков в блокчейне.
+• H/s (hashes per second) — base unit.  
+• KH/s (kilohashes) = 1,000 H/s.  
+• MH/s (megahashes) = 1,000,000 H/s.  
+• GH/s (gigahashes) = 1,000,000,000 H/s.  
+• TH/s (terahashes) = 1,000,000,000,000 H/s.  
 
-🔹 Единицы измерения:
+🔹 **Why is it important?**  
 
-• H/s (хэши в секунду) — базовая единица.
+The higher the hashrate, the greater the device’s chance of finding the correct hash and receiving mining rewards.
 
-• KH/s (килохэши) = 1,000 H/s.
+## 🛠️ Hashrate per Board
 
-• MH/s (мегахэши) = 1,000,000 H/s.
+🔹 **What is it?**  
 
-• GH/s (гигахэши) = 1,000,000,000 H/s.
+The computing speed of individual boards inside an ASIC miner.
 
-• TH/s (терахэши) = 1,000,000,000,000 H/s.
+🔹 **Features:**  
 
-🔹 Зачем важен?
+• ASIC miners consist of multiple boards, each responsible for a portion of the computations.  
+• Hashrate per board displays the performance of each board and its contribution to the device’s total hashrate.  
 
-Чем выше хэшрейт, тем больше шансов устройства найти правильный хэш и получить вознаграждение за майнинг.
+🔹 **Measurement Units:**  
 
-## 🛠️ Хэшрейт плат
+The same as the total hashrate of the device: H/s, KH/s, MH/s, GH/s, TH/s, but on a smaller scale.
 
-🔹 Что это?
+## 🌡️ Device Temperature
 
-Скорость вычислений на отдельных платах внутри ASIC-майнера.
+🔹 **What is it?**  
 
-🔹 Особенности:
+The temperature of key ASIC miner components, such as chips and boards, during operation.
 
-• ASIC-майнеры состоят из нескольких плат, каждая из которых отвечает за часть вычислений.
+🔹 **Why is it important?**  
 
-• Хэшрейт плат отображает производительность каждой платы и её вклад в общий хэшрейт устройства.
+• Maintaining an optimal temperature ensures device stability, longevity, and performance.  
+• Overheating can lead to operational failures.  
 
-🔹 Единицы измерения:
+🔹 **Measurement Units:**  
 
-Те же, что и для общего хэшрейта устройства: H/s, KH/s, MH/s, GH/s, TH/s, но в меньшем масштабе.
+• °C (degrees Celsius).  
+• °F (degrees Fahrenheit).  
 
-## 🌡️ Температура устройства
+## 🔄 Device Fan Speed
 
-🔹 Что это?
+🔹 **What is it?**  
 
-Температура ключевых компонентов ASIC-майнера, таких как чипы и платы, в процессе работы.
+The rotation speed of the device’s fans, which provide cooling.
 
-🔹 Почему это важно?
+🔹 **Measurement Units:**  
 
-• Поддержание оптимальной температуры обеспечивает стабильность, долговечность и производительность устройства.
+• RPM (revolutions per minute).  
 
-• Перегрев может привести к сбоям в работе.
+🔹 **Role:**  
 
-🔹 Единицы измерения:
+• Faster fan rotation improves cooling.  
+• Ensures stable device operation under high loads.  
 
-• °C (градусы Цельсия).
+🎯 **Note:**  
 
-• °F (градусы Фаренгейта).
-
-
-
-## 🔄 Скорость вентиляторов устройства
-
-🔹 Что это?
-
-Частота вращения вентиляторов в устройстве, обеспечивающих его охлаждение.
-
-🔹 Единицы измерения:
-
-• RPM (обороты в минуту).
-
-🔹 Роль:
-
-• Ускоренное вращение вентиляторов улучшает охлаждение.
-
-• Поддерживает стабильную работу устройства при высокой нагрузке.
-
-🎯 Примечание
-
-Эти термины являются ключевыми для понимания функциональности ASIC-майнеров и процессов майнинга в целом. Они помогут вам лучше ориентироваться в системе и её возможностях.
+These terms are essential for understanding the functionality of ASIC miners and mining processes in general. They will help you better navigate the system and its capabilities.
