@@ -61,8 +61,7 @@ Table fields:
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
 
-**🔹 Charts**\
-
+🔹 Charts
 
 • Hashrate: total device hashrate (TH/s).
 
@@ -75,8 +74,6 @@ Table fields:
 • Asic Power: data from the device.
 
 • Nominal Power: manufacturer-specified value.
-
-
 
 🔹 Devices
 
