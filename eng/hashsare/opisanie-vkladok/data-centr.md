@@ -1,13 +1,13 @@
 # 🏢 Data Center
 
-A data center is an entity representing a site that includes interconnected rooms and racks. Only data from devices linked to racks within a specific data center are displayed. 📌 By default, one data center is created upon the first login to the personal account.
+A data center is an entity representing a site that includes interconnected rooms and racks. Only data from devices linked to racks within a specific data center are displayed. By default, one data center is created upon the first login to the personal account.
 
 ## 📋 Data Centers Table
 
 \
-• Search 🔍: searches by characters in the name.
+• Search: searches by characters in the name.
 
-• Add Data Center ➕: button to create a new data center.
+• Add Data Center: button to create a new data center.
 
 Table fields:
 
@@ -15,7 +15,7 @@ Table fields:
 
 • Name: data center name.
 
-• Edit ✏️: button for modifications.
+• Edit: button for modifications.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.00.48.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,13 +64,13 @@ Table fields:
 [_**🔹 Charts**_](#user-content-fn-1)[^1]
 
 \
-• 📈 Hashrate: total device hashrate (TH/s).
+• Hashrate: total device hashrate (TH/s).
 
 • Asic Hashrate: data from the device.
 
 • Nominal Hashrate: manufacturer-specified value.
 
-• ⚡ Power Consumption: total power consumption of devices (W).
+• Power Consumption: total power consumption of devices (W).
 
 • Asic Power: data from the device.
 
