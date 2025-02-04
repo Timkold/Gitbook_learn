@@ -96,8 +96,6 @@ To collect data with an external agent, it is necessary to create devices with s
 
 **Editing a Device**
 
-
-
 1\. Click the **three dots** button next to the required device.
 
 2\. Select **Edit**.
@@ -161,7 +159,6 @@ You can edit multiple devices using a CSV file. Upload a CSV file containing dev
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
 
-\
 Device Details:
 
 • **Model**
