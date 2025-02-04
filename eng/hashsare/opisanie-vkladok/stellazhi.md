@@ -1,12 +1,12 @@
 # Racks
 
-#### A rack is an entity linked to a specific room, containing a set number of slots for devices. It displays data only for devices within it.
+A rack is an entity linked to a specific room, containing a set number of slots for devices. It displays data only for devices within it.
 
 • You can create an unlimited number of racks in one room.
 
 • By default, one rack is created and linked to the newly created room.
 
-\\
+\
 
 ## "Racks" Table
 
