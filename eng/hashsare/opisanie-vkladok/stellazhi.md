@@ -85,49 +85,42 @@ Table fields:
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Navigating to the Rack Page
+### Navigating to the Rack Page
 
 \
 4\. In the "Racks" menu, click on the ID of the desired rack.
 
-\
-Rack Page Contents
-------------------
+## Rack Page Contents
 
-\
-• Details:
+### **Details:**
 
 • Size: width × height (e.g., 10×10).
 
-• Number of slots: total count (width × height).
+• Place Count: total count (width × height).
 
-• Number of devices:
+• Devices Count:
 
-• Total — inactive + online.
-
-• Online — devices actively sending data.
+* Total — inactive + online.
+* Online — devices actively sending data.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
 
-• Charts:
+### Charts:
 
 • Hashrate:
 
-• Asic Hashrate — reported by the device.
+* Asic Hashrate — reported by the device.
+* Nominal Hashrate — specified by the manufacturer.
 
-• Nominal Hashrate — specified by the manufacturer.
+• Energy consumption:
 
-• Power consumption:
-
-• Asic Power — reported by the device.
-
-• Nominal Power — specified by the manufacturer.
+* Asic Power — reported by the device.
+* Nominal Power — specified by the manufacturer.
 
 • Devices:
 
-• Active Asic — working devices.
-
-• Total Asic — all devices, including inactive ones.
+* Active Asic — working devices.
+* Total Asic — all devices, including inactive ones.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
 
@@ -138,15 +131,13 @@ Displays a 2D layout with the specified number of slots and placed devices.
 
 • Each slot displays:
 
-• Actual hashrate.
-
-• Maximum chip temperature.
+* Actual hashrate.
+* Maximum chip temperature.
 
 • Display features:
 
-• If hashrate or temperature = 0 or exceeds the normal range, the text turns red.
-
-• To view current issues, switch the displayed characteristic in the top right corner.
+* If hashrate or temperature = 0 or exceeds the normal range, the text turns red.
+* To view current issues, switch the displayed characteristic in the top right corner.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -155,20 +146,17 @@ Displays a 2D layout with the specified number of slots and placed devices.
 \
 Lists devices linked to the rack.
 
-• The table includes:
+•  The table includes:
 
-• Device ID — unique identifier assigned by the system.
+* Device ID — unique identifier assigned by the system.
+* Model — detected by the agent or set manually; displays firmware.
+* Hashrate — current device performance:
 
-• Model — detected by the agent or set manually; displays firmware.
+&#x20;     🟢 Hashrate > 0
 
-• Hashrate — current device performance:
+&#x20;     🔴 Hashrate = 0 or undefined
 
-• 🟢 Hashrate > 0
-
-• 🔴 Hashrate = 0 or undefined
-
-• Worker name — consists of the pool name and device, detected by the agent or set manually.
-
-• IP address — automatically detected by the agent or set manually.
+* Worker name — consists of the pool name and device, detected by the agent or set manually.
+* IP address — automatically detected by the agent or set manually.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
