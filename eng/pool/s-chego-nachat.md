@@ -62,7 +62,7 @@ To connect a device, follow these steps:
 &#x20;   \- Device ID — set by you (can be unique or the same for multiple devices).
 
 \
-\&#xNAN;_�� If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
+❕  _If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.39.13.png" alt="" width="375"><figcaption></figcaption></figure>
 
