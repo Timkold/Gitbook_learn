@@ -75,7 +75,7 @@ To connect a device, follow these steps:
 
 3\. In the pop-up window, specify:
 
-• 🪙 Wallet number to which funds will be withdrawn.
+• Wallet number to which funds will be withdrawn.
 
 4\. Click the “Save” button.
 
