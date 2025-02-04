@@ -1,8 +1,10 @@
 # Devices
 
+## Devices
+
 To collect data with an external agent, it is necessary to create devices with specified parameters. Devices are linked to a rack; creation is not possible without a link. By default, no devices are present.
 
-## Devices Table
+### Devices Table
 
 • Search — enter characters to filter by asset tag.
 
@@ -10,7 +12,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • Add Device — button for creation.
 
-## Table Fields
+### Table Fields
 
 • Device ID — unique system number.
 
@@ -18,9 +20,9 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • Hashrate — current performance (Th/s):
 
-&#x20;    🟢 Green circle — hashrate is greater than 0.
+🟢 Green circle — hashrate is greater than 0.
 
-&#x20;    🔴 Red circle — hashrate is 0 or undefined.
+🔴 Red circle — hashrate is 0 or undefined.
 
 • Worker Name — pool and device name (determined by the agent or manually).
 
@@ -34,7 +36,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
 
-## Creating a Device via Form
+### Creating a Device via Form
 
 1\. Go to the **Devices** menu.
 
@@ -74,13 +76,11 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • **Firmware Type** — _Required._
 
-\
-4\. Click **Create**.
----------------------
+### &#x20;4. Click **Create**.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
+### Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
 
 1. Go to the **Devices** menu.
 2. Select the appropriate option from the dropdown menu.
@@ -144,14 +144,14 @@ Editable parameters:
 
 3\. Click **Update** to save changes.
 
-## Editing Devices via CSV File <a href="#editing-devices-via-csv-file" id="editing-devices-via-csv-file"></a>
+### Editing Devices via CSV File <a href="#editing-devices-via-csv-file" id="editing-devices-via-csv-file"></a>
 
 You can edit multiple devices using a CSV file. Upload a CSV file containing devices that are already in the system.
 
 1. The main identifier is the **MAC address** — if the MAC in the CSV matches an existing device, other details will be updated accordingly.
 2. If the MAC address is not found in Hashcare, a new device will be created with the CSV parameters.
 
-### **Deleting a Device** <a href="#deleting-a-device" id="deleting-a-device"></a>
+#### **Deleting a Device** <a href="#deleting-a-device" id="deleting-a-device"></a>
 
 1. Click the **three dots** button next to the required device.
 2. Select **Delete**.
@@ -177,90 +177,86 @@ Automatically detected or set manually.
 
 Automatically detected or set manually.
 
-\
-# Power
+## Power
 
-\
-• **Nominal Power**  
+• **Nominal Power**
 
 A static value set for each device model.
 
-• **W/TH**  
+• **W/TH**
 
 A relative value calculated as the ratio of nominal consumption to the nominal hash rate of the model.
 
-• **Nominal Hashrate**  
+• **Nominal Hashrate**
 
 The factory hash rate value obtained by the internal agent from the ASIC.
 
-\
-## Additional Information
+### Additional Information
 
-\
-• **Worker Name**  
+• **Worker Name**
 
 Consists of the pool name and the device name in the pool. It is determined automatically by the internal agent or set manually in the device settings.
 
-• **MAC Address**  
+• **MAC Address**
 
 Automatically determined by the internal agent during device polling or set manually in the device settings.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.45.png" alt=""><figcaption></figcaption></figure>
 
-## Metrics:
+### Metrics:
 
-• **Estimated Revenue (PPS | FPPS):**  
+• **Estimated Revenue (PPS | FPPS):**
 
-  - **PPS (Pay Per Share):** Fixed payment per share.  
-  - **FPPS (Full Pay Per Share):** Includes commission revenue, higher than PPS.
+* **PPS (Pay Per Share):** Fixed payment per share.
+* **FPPS (Full Pay Per Share):** Includes commission revenue, higher than PPS.
 
-• **Pool Revenue:**  
+• **Pool Revenue:**
 
-  The actual revenue from the pool for the selected period.  
+The actual revenue from the pool for the selected period.
 
-  _Pool setup: "Pool Settings" → Create Pool._
+_Pool setup: "Pool Settings" → Create Pool._
 
-• **Electricity Costs:**  
+• **Electricity Costs:**
 
-  Based on device power consumption and the tariff:  
+Based on device power consumption and the tariff:
 
-  _(Power Consumption (W) × 24) ÷ 1000 × Tariff_  
+_(Power Consumption (W) × 24) ÷ 1000 × Tariff_
 
-• **Profit:**  
+• **Profit:**
 
-  _{FPPS revenue} - {Electricity costs}_  
+_{FPPS revenue} - {Electricity costs}_
 
-## Hashrate Chart
+### Hashrate Chart
 
-• **Asic Hashrate** — the current hash rate reported by the device.  
-• **Nominal Hashrate** — the manufacturer-declared hash rate.  
+• **Asic Hashrate** — the current hash rate reported by the device.\
+• **Nominal Hashrate** — the manufacturer-declared hash rate.
 
-## Hashrate Per Board Chart
+### Hashrate Per Board Chart
 
-Displays the performance of individual boards in an ASIC miner.  
+Displays the performance of individual boards in an ASIC miner.
 
-• Each board is labeled, e.g., SM 0, SM 1, SM 2.  
-• Helps detect malfunctions that reduce the overall hash rate.  
+• Each board is labeled, e.g., SM 0, SM 1, SM 2.\
+• Helps detect malfunctions that reduce the overall hash rate.
 
-## Device Temperature
+### Device Temperature
 
-• **Board (boards) and chip (chip, PCB) temperature:** Displays heating of individual device components.  
+• **Board (boards) and chip (chip, PCB) temperature:** Displays heating of individual device components.
 
-• **Air temperature (in/out):**  
+• **Air temperature (in/out):**
 
-  - **In** — temperature of incoming cool air.  
-  - **Out** — temperature of outgoing heated air.  
+* **In** — temperature of incoming cool air.
+* **Out** — temperature of outgoing heated air.
 
-## Fan Speed Chart
+### Fan Speed Chart
 
-Displays the cooling fan speed in revolutions per minute (RPM).  
+Displays the cooling fan speed in revolutions per minute (RPM).
 
-• **In** — fans at the air intake.  
-• **Out** — fans at the air exhaust.  
+• **In** — fans at the air intake.\
+• **Out** — fans at the air exhaust.
 
-## Power Consumption Chart
+### Power Consumption Chart
 
-• **Asic Power** — current power consumption reported by the device.  
-• **Nominal Power** — manufacturer-declared power consumption.  
+• **Asic Power** — current power consumption reported by the device.\
+• **Nominal Power** — manufacturer-declared power consumption.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.37.58.png" alt=""><figcaption></figcaption></figure>
