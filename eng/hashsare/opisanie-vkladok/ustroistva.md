@@ -177,13 +177,11 @@ Automatically detected or set manually.
 
 ## Power
 
-• **Nominal Power**
+• **Wattage**
 
 A static value set for each device model.
 
-• **W/TH**
-
-A relative value calculated as the ratio of nominal consumption to the nominal hash rate of the model.
+* **W/TH -** A relative value calculated as the ratio of nominal consumption to the nominal hash rate of the model.
 
 • **Nominal Hashrate**
 
@@ -229,7 +227,7 @@ _{FPPS revenue} - {Electricity costs}_
 • **Asic Hashrate** — the current hash rate reported by the device.\
 • **Nominal Hashrate** — the manufacturer-declared hash rate.
 
-### Hashrate Per Board Chart
+### Plate Hashrate
 
 Displays the performance of individual boards in an ASIC miner.
 
@@ -245,14 +243,14 @@ Displays the performance of individual boards in an ASIC miner.
 * **In** — temperature of incoming cool air.
 * **Out** — temperature of outgoing heated air.
 
-### Fan Speed Chart
+### Fan Speed
 
 Displays the cooling fan speed in revolutions per minute (RPM).
 
 • **In** — fans at the air intake.\
 • **Out** — fans at the air exhaust.
 
-### Power Consumption Chart
+### Energy Consumption
 
 • **Asic Power** — current power consumption reported by the device.\
 • **Nominal Power** — manufacturer-declared power consumption.
