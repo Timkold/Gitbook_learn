@@ -12,7 +12,7 @@
   * [🌟 С чего начать?](hashsare/s-chego-nachat.md)
   * [Описание вкладок](hashsare/opisanie-vkladok/README.md)
     * [🏢 Дата-центр](hashsare/opisanie-vkladok/data-centr.md)
-    * [🏠 Помещение](hashsare/opisanie-vkladok/pomeshenie.md)
+    * [🏠 Помещения](hashsare/opisanie-vkladok/pomeshenie.md)
     * [Стеллажи](hashsare/opisanie-vkladok/stellazhi.md)
     * [Устройства](hashsare/opisanie-vkladok/ustroistva.md)
   * [Список моделей](hashsare/spisok-modelei.md)
