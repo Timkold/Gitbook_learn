@@ -34,7 +34,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
 
-### Creating a Device via Form
+## Creating a Device via Form
 
 1\. Go to the **Devices** menu.
 
@@ -74,7 +74,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • **Firmware Type** — _Required._
 
-### &#x20;4. Click **Create**.
+4\. Click **Create**.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -82,23 +82,22 @@ To collect data with an external agent, it is necessary to create devices with s
 
 1. Go to the **Devices** menu.
 2. Select the appropriate option from the dropdown menu.
+3. Select a **.csv** file from the hard drive.
+4. If successfully uploaded, a message will appear: **"File successfully uploaded"**.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.33.32.png" alt="" width="279"><figcaption></figcaption></figure>
-
-1. Select a **.csv** file from the hard drive.
-2. If successfully uploaded, a message will appear: **"File successfully uploaded"**.
 
 **Example of a CSV Table**
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
-**Editing a Device**
+## **Editing a Device**
 
 1\. Click the **three dots** button next to the required device.
 
 2\. Select **Edit**.
 
-Editable parameters:
+_**Editable parameters:**_
 
 • **Device Type** — model. A dropdown menu with a search function. _Required._
 
@@ -142,14 +141,14 @@ Editable parameters:
 
 3\. Click **Update** to save changes.
 
-### Editing Devices via CSV File <a href="#editing-devices-via-csv-file" id="editing-devices-via-csv-file"></a>
+## Editing Devices via CSV File <a href="#editing-devices-via-csv-file" id="editing-devices-via-csv-file"></a>
 
 You can edit multiple devices using a CSV file. Upload a CSV file containing devices that are already in the system.
 
 1. The main identifier is the **MAC address** — if the MAC in the CSV matches an existing device, other details will be updated accordingly.
 2. If the MAC address is not found in Hashcare, a new device will be created with the CSV parameters.
 
-#### **Deleting a Device** <a href="#deleting-a-device" id="deleting-a-device"></a>
+## **Deleting a Device** <a href="#deleting-a-device" id="deleting-a-device"></a>
 
 1. Click the **three dots** button next to the required device.
 2. Select **Delete**.
@@ -157,7 +156,7 @@ You can edit multiple devices using a CSV file. Upload a CSV file containing dev
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Device Details:
+## Device Details:
 
 • **Model**
 

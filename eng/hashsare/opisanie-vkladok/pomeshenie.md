@@ -1,4 +1,4 @@
-# 🏠 Rooms
+# 🏠 Facility
 
 A "Room" is an entity one level below a "Data Center", which:
 
@@ -8,12 +8,6 @@ A "Room" is an entity one level below a "Data Center", which:
 
 • Displays data only for devices located in the racks within this room.
 
-A room is an entity one level below a data center, which:
 
-• Is linked to a single data center.
-
-• Includes one or more connected racks.
-
-• Displays data only for devices located in the racks within this room.
 
 The "Rooms" page is similar to the "Data Center" interface but provides information specific to the selected room.

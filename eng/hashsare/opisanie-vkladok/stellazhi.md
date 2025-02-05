@@ -10,7 +10,6 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 ## "Racks" Table
 
-\
 • Search — search by name.
 
 • Data center — select racks in a specific data center.
@@ -19,9 +18,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 • Add new rack — button for creation.
 
-\
-Table fields:
--------------
+## Table fields:
 
 • ID — identifier in the database.
 
@@ -37,7 +34,6 @@ Table fields:
 
 ## Creating a Rack
 
-\
 1\. Go to the "Racks" menu.
 
 2\. Click the "Create New Rack" button.
@@ -58,20 +54,16 @@ Table fields:
 
 ## Editing a Rack
 
-\
-1\. Click the three-dot button next to the desired rack.
+1\. Click the _three-dot_ button next to the desired rack.
 
 2\. Select "Edit"
 
 3\. Make changes:
 
-• New name.
-
-• Number of shelves (Height) from 1 to 10.
-
-• Number of slots per shelf (Width) from 1 to 10.
-
-• Room to which the rack will be linked.
+* New name.
+* Number of shelves (Height) from 1 to 10.
+* Number of slots per shelf (Width) from 1 to 10.
+* Room to which the rack will be linked.
 
 4\. Click "Update"
 
@@ -81,14 +73,13 @@ Table fields:
 
 1. Click the three-dot button next to the desired rack.
 2. Select "Delete" from the menu.
-3. In the pop-up window, click "Confirm"\\
+3. In the pop-up window, click "Confirm"
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Navigating to the Rack Page
+## Navigating to the Rack Page
 
-\
-4\. In the "Racks" menu, click on the ID of the desired rack.
+* In the "Racks" menu, click on the **Name** of the desired rack.
 
 ## Rack Page Contents
 
@@ -107,26 +98,25 @@ Table fields:
 
 ### Charts:
 
-• Hashrate:
+**• Hashrate:**
 
 * Asic Hashrate — reported by the device.
 * Nominal Hashrate — specified by the manufacturer.
 
-• Energy consumption:
+**• Energy consumption:**
 
 * Asic Power — reported by the device.
 * Nominal Power — specified by the manufacturer.
 
-• Devices:
+**• Devices:**
 
 * Active Asic — working devices.
 * Total Asic — all devices, including inactive ones.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
 
-## Rack Map
+### Rack Map
 
-\
 Displays a 2D layout with the specified number of slots and placed devices.
 
 • Each slot displays:
@@ -141,7 +131,7 @@ Displays a 2D layout with the specified number of slots and placed devices.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## List of Devices on the Rack
+### List of Devices on the Rack
 
 \
 Lists devices linked to the rack.

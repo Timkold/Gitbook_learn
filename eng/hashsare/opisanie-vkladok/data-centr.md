@@ -4,14 +4,13 @@ A data center is an entity representing a site that includes interconnected room
 
 ## 📋 Data Centers Table
 
-\
 • Search: searches by characters in the name.
 
 • Create Data Center: button to create a new data center.
 
 
 
-Table fields:
+**Table fields:**
 
 • ID: database number.
 
@@ -23,14 +22,13 @@ Table fields:
 
 ## ➕ Creating a Data Center
 
-\
-1\. Go to the Data Centers section.
+1\. Go to the **Data Centers** section.
 
-2\. Click the Add Data Center button.
+2\. Click the **Create Data Center** button.
 
-3\. Enter the name in the Name field.
+3\. Enter the name in the **Name** field.
 
-4\. Click Create.
+4\. Click **Create**.
 
 \
 💡 The first data center is created with ID 1. A new data center receives the next sequential ID, even if previous ones were deleted.
@@ -39,46 +37,45 @@ Table fields:
 
 ## ✏️ Editing a Data Center
 
-\
 1\. Click the ⋮ button next to the desired data center.
 
-2\. Select Edit.
+2\. Select **Edit**.
 
-3\. Enter the new name in the Name field.
+3\. Enter the new name in the **Name** field.
 
-4\. Click Update.
+4\. Click **Update**.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.23.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 🗑️ Deleting a Data Center
 
 \
-1\. Click the ⋮ button next to the desired data center.
+1\. Click the **⋮** button next to the desired data center.
 
-2\. Select Delete.
+2\. Select **Delete**.
 
-3\. In the pop-up window, confirm the action by clicking Confirm.
+3\. In the pop-up window, confirm the action by clicking **Confirm**.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.01.44.png" alt="" width="375"><figcaption></figcaption></figure>
 
-🔹 Charts
+**🔹 Charts**
 
-• Hashrate: total device hashrate (TH/s).
+• **Hashrate:** total device hashrate (TH/s).
 
-• Asic Hashrate: data from the device.
+• **Asic Hashrate:** data from the device.
 
-• Nominal Hashrate: manufacturer-specified value.
+• **Nominal Hashrate:** manufacturer-specified value.
 
-• Power Consumption: total power consumption of devices (W).
+• **Power Consumption**: total power consumption of devices (W).
 
-• Asic Power: data from the device.
+• **Asic Power**: data from the device.
 
-• Nominal Power: manufacturer-specified value.
+• **Nominal Power**: manufacturer-specified value.
 
-🔹 Devices
+**🔹 Devices**
 
-• Active Asic: operating devices.
+• **Active Asic**: operating devices.
 
-• Total Asic: total number of devices.
+• **Total Asic**: total number of devices.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.04.38.png" alt=""><figcaption></figcaption></figure>
