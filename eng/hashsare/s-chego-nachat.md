@@ -1,4 +1,4 @@
-# Getting Started
+# 🌟 Getting Started
 
 An **agent** is a service for collecting device status data and transmitting it to the monitoring system. It helps track performance, operability, and infrastructure status for timely issue detection.
 
@@ -8,32 +8,29 @@ The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads thei
 
 ## 🔍 Agent in HashCare:
 
-📍 Installed on the server at the site where the devices are located.
+* Installed on the server at the site where the devices are located.
+* Reads metrics from devices within the same network via IP addresses and transmits them to monitoring.
 
-📊 Reads metrics from devices within the same network via IP addresses and transmits them to monitoring.
-
-✨ **How to Create an Agent:**
+**How to Create an Agent:**
 
 1. Go to the **Agent** menu.
 2. Click the **Create New Agent** button.
 
-## 📊 Agent Statuses:
+## Agent Statuses:
 
-• 🟢 **Green** — the agent is active.\
-• 🔴 **Red** — the agent is inactive.\
-• 🟡 **Yellow** — both active and inactive agents are present.
+🟢 **Green** — the agent is active.\
+🔴 **Red** — the agent is inactive.\
+🟡 **Yellow** — both active and inactive agents are present.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
 
 ## 🚀 Steps to Create an Agent:
 
-
-
 1. Click the **Create New Agent** button.
 2. In the **Mode** field, select **Internal**.
-3. 📥 Download the agent from the link.
+3. Download the agent from the link.
 
-🔗 Installation instructions can be accessed via the link.
+_Installation instructions can be accessed via the link._
 
 4. Fill in the **Name** field (mandatory).
 
@@ -54,10 +51,10 @@ The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads thei
 * **Host Range:** `10.4.21.33 – 10.4.21.62`
 * **Broadcast:** `10.4.21.63`
 
-➕ **To Add Subnets:**
+### ➕ **To Add Subnets:**
 
 • Click **Add** to add up to 5 fields.\
-• 🔺 **Limit:** A maximum of 125,000 IP addresses in subnets.
+• **Limit:** A maximum of 125,000 IP addresses in subnets.
 
 ## ⚙️ Installing the Agent:
 
@@ -69,13 +66,14 @@ The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads thei
 
 ## 🔍 Agent Activation:
 
-• The **internal agent** activates after successfully launching on the server.\
-• The following information is displayed:
+The **internal agent** activates after successfully launching on the server.
+
+**The following information is displayed:**
 
 * 🖥️ **Agent IP**
 * 📜 **Version**
 * 📊 **Number of devices** (updated every 1–5 minutes).
 
-• Devices from subnets are automatically added with their data filled in.
+— Devices from subnets are automatically added with their data filled in.
 
 You can explore the **personal account functionality** in the **"Hashcare"** section.

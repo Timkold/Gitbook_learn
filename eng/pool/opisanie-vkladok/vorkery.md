@@ -14,7 +14,7 @@ Each worker:
 
 • 📊 Monitors performance — the pool records the results of its work.
 
-• ⚡ Optimizes cryptocurrency mining efficiency. &#x20;
+• ⚡ Optimizes cryptocurrency mining efficiency.
 
 ## Miner List
 
@@ -22,15 +22,15 @@ Each worker:
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.50.png" alt="" width="176"><figcaption><p>List of created pools</p></figcaption></figure>
 
-### Worker Table: Key Information and Parameters
+## Worker Table: Key Information and Parameters
 
 The worker table provides complete information about each device connected to the pool. Here are the main columns and their values:
 
-## 1. Miner
+### 1. Miner
 
 Worker identifier (ID Worker) in the pool. It allows quick identification of the device and its connection to the pool.
 
-## 2. Average Hashrate
+### 2. Average Hashrate
 
 Device hashrate over different time intervals:
 
@@ -42,7 +42,7 @@ Device hashrate over different time intervals:
 
 These data help analyze mining efficiency and identify deviations.
 
-## 3. Rejected Shares Percentage (Reject Rate)
+### 3. Rejected Shares Percentage (Reject Rate)
 
 This metric shows the proportion of shares (task solutions) sent by the device but not accepted by the pool.
 
@@ -52,13 +52,13 @@ This metric shows the proportion of shares (task solutions) sent by the device b
 
 • A high Reject Rate may indicate network issues or device misconfiguration.
 
-## 4. Last Submission Time
+### 4. Last Submission Time
 
 The time of the last share submission to the pool.
 
 • Data updates every 5 minutes.
 
-## 5. Status
+### 5. Status
 
 Current device state:
 
@@ -66,7 +66,7 @@ Current device state:
 
 • Inactive — no data is being received from the device (possible connection or device issues).
 
-## 6. Actions
+### 6. Actions
 
 An interactive button that allows:
 

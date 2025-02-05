@@ -57,8 +57,8 @@ To connect a device, follow these steps:
 
 • Worker, which consists of:
 
-* Pool name — the name of the pool in the Pool Bullpool system.
-* Device ID — set by you (can be unique or the same for multiple devices).
+* **Pool name** — the name of the pool in the Pool Bullpool system.
+* **Device ID** — set by you (can be unique or the same for multiple devices).
 
 \
 ❕ _If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
@@ -76,10 +76,11 @@ To connect a device, follow these steps:
 
 4\. Click the “Save” button.
 
-Automatic withdrawals:
 
-• When the minimum amount of 0.001 BTC is reached, the amount is sent to the specified wallet daily before 12:00 UTC.
 
-• If you need to change the minimum withdrawal amount, contact support.
+**Automatic withdrawals:**
+
+* When the minimum amount of 0.001 BTC is reached, the amount is sent to the specified wallet daily before 12:00 UTC.
+* If you need to change the minimum withdrawal amount, contact support.
 
 Next, you can explore the functionality of the personal account in the "Pool" section.

@@ -11,9 +11,9 @@ The “Profit” page provides information about daily profitability at the clos
 \
 Total profit is calculated using the following formula:
 
-(TH \* BTC price per TH \* number of days)&#x20;
+(TH \* BTC price per TH \* number of days)
 
-• 🗓️ Number of days:
+🗓️ Number of days:
 
 • Week — 7 days.
 
