@@ -78,7 +78,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
+## Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
 
 1. Go to the **Devices** menu.
 2. Select the appropriate option from the dropdown menu.
