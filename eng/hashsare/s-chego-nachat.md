@@ -2,7 +2,7 @@
 
 An **agent** is a service for collecting device status data and transmitting it to the monitoring system. It helps track performance, operability, and infrastructure status for timely issue detection.
 
-🔗 **Connection:**
+### 🔗 **Connection:**
 
 The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads their status.
 
