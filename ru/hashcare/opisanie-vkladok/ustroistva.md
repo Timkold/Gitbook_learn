@@ -78,7 +78,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="449"><figcaption></figcaption></figure>
 
-### **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
+## **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
 1. Перейти в пункт меню **Устройства**
 2. Выбрать в выпадающем меню пункт
