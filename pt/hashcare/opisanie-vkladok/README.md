@@ -1,8 +1,8 @@
-# Описание вкладок
+# Descrição dos separadores
 
-Далее вы можете ознакомиться с различными разделами своего личного кабинета, чтобы полностью изучить все его возможности.
+Em seguida, pode explorar as diferentes secções da sua conta pessoal para explorar plenamente todas as suas funcionalidades.
 
-Вот статьи из этого раздела:
+Eis os artigos desta secção:
 
 {% content-ref url="data-centr.md" %}
 [data-centr.md](data-centr.md)
