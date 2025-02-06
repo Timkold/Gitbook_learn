@@ -1,20 +1,20 @@
-# 💸 Страница “Выводы”
+# 💸 Página “Retiradas”
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+Na página “Retiradas” é exibido o histórico de todas as transações relacionadas aos saques de fundos pelos clientes.
 
-• Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• **Valor mínimo de retirada**: as transações ocorrem automaticamente assim que o saldo do cliente atinge 0.001 BTC.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180659.png" alt=""><figcaption></figcaption></figure>
 
-## 📋 Состав таблицы “Выводы”
+## 📋 Estrutura da tabela “Retiradas”
 
 \
-Таблица включает следующие колонки:
+A tabela inclui as seguintes colunas:
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 **Data e hora** — momento da retirada.
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 **Quantia** — quantidade de BTC transferida na transação.
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 **Endereço** — número da carteira para onde os fundos foram enviados.
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
+• 🔗 **Número da transação** — identificador único da operação no blockchain.
