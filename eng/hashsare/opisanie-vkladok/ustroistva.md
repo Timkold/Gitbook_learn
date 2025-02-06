@@ -32,7 +32,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 • Edit — button for parameter settings.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.30.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating a Device via Form
 
@@ -76,7 +76,7 @@ To collect data with an external agent, it is necessary to create devices with s
 
 4\. Click **Create**.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.32.50.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
 
@@ -85,11 +85,11 @@ To collect data with an external agent, it is necessary to create devices with s
 3. Select a **.csv** file from the hard drive.
 4. If successfully uploaded, a message will appear: **"File successfully uploaded"**.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.33.32.png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.33.32.png" alt="" width="279"><figcaption></figcaption></figure>
 
 **Example of a CSV Table**
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
 ## **Editing a Device**
 
@@ -137,7 +137,7 @@ _**Editable parameters:**_
 
 • **Change Room** — reassign the rack to another room.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.34.09.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.34.09.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3\. Click **Update** to save changes.
 
@@ -154,7 +154,7 @@ You can edit multiple devices using a CSV file. Upload a CSV file containing dev
 2. Select **Delete**.
 3. In the confirmation window, click **Confirm**.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.08.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Device Details:
 

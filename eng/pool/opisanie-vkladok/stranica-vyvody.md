@@ -4,7 +4,7 @@ The "Withdrawals" page displays the history of all transactions related to clien
 
 • Minimum withdrawal amount: transactions occur automatically as soon as the client's balance reaches 0.001 BTC.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.12.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.12.03.png" alt=""><figcaption></figcaption></figure>
 
 ## 📋 "Withdrawals" Table Structure
 

@@ -30,7 +30,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 • Editing — configure parameters.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.20.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating a Rack
 
@@ -50,7 +50,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 4\. Click the "Create" button.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.39.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.08.39.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Editing a Rack
 
@@ -67,7 +67,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 4\. Click "Update"
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.05.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## **Deleting a Rack:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -75,7 +75,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 2. Select "Delete" from the menu.
 3. In the pop-up window, click "Confirm"
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.09.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Navigating to the Rack Page
 
@@ -94,7 +94,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 * Total — inactive + online.
 * Online — devices actively sending data.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.09.png" alt=""><figcaption></figcaption></figure>
 
 ### Charts:
 
@@ -113,7 +113,7 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 * Active Asic — working devices.
 * Total Asic — all devices, including inactive ones.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.15.png" alt=""><figcaption></figcaption></figure>
 
 ### Rack Map
 
@@ -129,7 +129,7 @@ Displays a 2D layout with the specified number of slots and placed devices.
 * If hashrate or temperature = 0 or exceeds the normal range, the text turns red.
 * To view current issues, switch the displayed characteristic in the top right corner.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.10.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### List of Devices on the Rack
 
@@ -149,4 +149,4 @@ Lists devices linked to the rack.
 * Worker name — consists of the pool name and device, detected by the agent or set manually.
 * IP address — automatically detected by the agent or set manually.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>

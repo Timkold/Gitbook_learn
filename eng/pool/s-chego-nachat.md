@@ -1,8 +1,8 @@
 # Getting Started
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.37.39.png" alt=""><figcaption><p>When you first log into the Personal Account, no pools are connected</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 14.37.39.png" alt=""><figcaption><p>When you first log into the Personal Account, no pools are connected</p></figcaption></figure>
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.38.48.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 14.38.48.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## 🚀 Creating a pool
 
@@ -63,7 +63,7 @@ To connect a device, follow these steps:
 \
 ❕ _If the ID is the same for multiple devices, the system will display the total metrics of all devices with this ID._
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.39.13.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 14.39.13.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 💰 Withdrawal Settings
 

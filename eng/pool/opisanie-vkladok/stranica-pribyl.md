@@ -4,7 +4,7 @@ The “Profit” page provides information about daily profitability at the clos
 
 • 🔽 Pool selection: switch between pools using the dropdown menu in the upper right corner.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.53.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.53.08.png" alt=""><figcaption></figcaption></figure>
 
 ## 💰 How is total profit calculated?
 

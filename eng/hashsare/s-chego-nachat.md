@@ -22,7 +22,7 @@ The agent connects to devices via protocols (SSH, HTTP API, SNMP) and reads thei
 🔴 **Red** — the agent is inactive.\
 🟡 **Yellow** — both active and inactive agents are present.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.15.40.png" alt="" width="230"><figcaption></figcaption></figure>
 
 ## 🚀 Steps to Create an Agent:
 
@@ -36,7 +36,7 @@ _Installation instructions can be accessed via the link._
 
 ⚠️ If the field is empty, the **Create** button will be inactive.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 🌐 Adding Subnets:
 
@@ -60,7 +60,7 @@ _Installation instructions can be accessed via the link._
 
 1. Run the command: \<file\_path>/hashcare-agent -Dapi-key=\<key>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
 
 2. **API Key:** Copy it from the corresponding field.
 

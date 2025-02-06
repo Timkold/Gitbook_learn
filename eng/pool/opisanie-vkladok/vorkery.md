@@ -18,9 +18,9 @@ Each worker:
 
 ## Miner List
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.31.png" alt=""><figcaption><p>Data collected from the pool is displayed on the Miner List page. This page shows workers within a single pool. To select another pool, expand the dropdown menu of created pools.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.31.png" alt=""><figcaption><p>Data collected from the pool is displayed on the Miner List page. This page shows workers within a single pool. To select another pool, expand the dropdown menu of created pools.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.50.png" alt="" width="176"><figcaption><p>List of created pools</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.43.50.png" alt="" width="176"><figcaption><p>List of created pools</p></figcaption></figure>
 
 ## Worker Table: Key Information and Parameters
 
@@ -74,4 +74,4 @@ An interactive button that allows:
 
 • Analyzing the rejection rate (rejected shares).
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.48.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 14.48.40.png" alt=""><figcaption></figcaption></figure>
