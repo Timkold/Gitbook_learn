@@ -87,8 +87,6 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
 **Exemplo de tabela CSV**
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
@@ -103,7 +101,7 @@ _**Parâmetros disponíveis para edição:**_
 
 • **Tipo de dispositivo** — modelo. O campo funciona como um menu suspenso com função de pesquisa. _Obrigatório._
 
-• **Tag do ativo** — nome único do dispositivo no sistema Hashcare. _Obrigatório._
+• **Etiqueta de ativo** — nome único do dispositivo no sistema Hashcare. _Obrigatório._
 
 • **Número de série** — _Obrigatório._
 
@@ -127,7 +125,7 @@ _**Parâmetros disponíveis para edição:**_
 
 • **Nome do trabalhador do pool** — nome do dispositivo no pool. _Obrigatório._
 
-• **Nome do pool** — nome do pool. _Obrigatório._
+• **Nome da conta do pool** — nome do pool. _Obrigatório._
 
 • **Rack** — seleção entre racks existentes. _Obrigatório._
 
@@ -139,7 +137,7 @@ _**Parâmetros disponíveis para edição:**_
 
 • **Alterar o quarto** ao qual o rack está vinculado.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="448"><figcaption></figcaption></figure>
 
 3\. Clique em **Atualizar** para salvar as alterações.
 
@@ -153,10 +151,10 @@ _**Parâmetros disponíveis para edição:**_
 ## **Exclusão de dispositivo**
 
 1. Clique no botão (_três pontos_) ao lado do dispositivo desejado.
-2. Selecione a opção **Excluir**.
+2. Selecione a opção **Suprimir**.
 3. Na janela aberta, clique em **Confirmar**.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## **Detalhes do Dispositivo:**
 
@@ -184,13 +182,13 @@ Valor estático definido para cada modelo de dispositivo.
 
 * W/TH - valor relativo calculado como a relação entre o consumo nominal e o hashrate nominal do modelo.
 
-• **Hashrate Nominal**
+• **Taxa de hash nominal**
 
 Valor do hashrate de fábrica, obtido pelo agente interno do ASIC.
 
 ### **Informações Adicionais**
 
-• **Nome do Trabalhador**
+• **Nome do Worker**
 
 Consiste no nome do pool e no nome do dispositivo no pool. Determinado automaticamente pelo agente interno ou definido manualmente nas configurações do dispositivo.
 
@@ -198,7 +196,7 @@ Consiste no nome do pool e no nome do dispositivo no pool. Determinado automatic
 
 Determinado automaticamente pelo agente interno ao consultar o dispositivo ou definido manualmente nas configurações do dispositivo.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ### **Métricas:**
 
@@ -229,7 +227,7 @@ Baseado na potência do dispositivo e na tarifa:\\
 
 • **Nominal Hashrate** — hashrate declarado pelo fabricante.
 
-### **Gráfico de Hashrate das Placas**
+### **Gráfico de Hashrate da placa**
 
 Mostra o desempenho das placas individuais do ASIC minerador.
 
@@ -246,16 +244,16 @@ Mostra o desempenho das placas individuais do ASIC minerador.
 * **In** — temperatura do ar frio de entrada.
 * **Out** — temperatura do ar quente de saída.
 
-### **Gráfico da Velocidade dos Ventiladores**
+### **Gráfico da Velocidade do ventilador**
 
 Mostra as rotações por minuto (RPM) dos ventiladores de resfriamento.
 
 * **In** — ventiladores na entrada do fluxo de ar.
 * **Out** — ventiladores na saída.
 
-### **Gráfico de Consumo de Energia**
+### **Gráfico de Consumo de energia**
 
 * **Asic Power** — consumo atual transmitido pelo dispositivo.
 * **Nominal Power** — consumo declarado pelo fabricante.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
