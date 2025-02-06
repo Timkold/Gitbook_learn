@@ -1,12 +1,12 @@
 # Trabalhadores
 
-No sistema Bullpool, os dispositivos são chamados de trabalhadores (Worker). Esses são elementos-chave que:
+No sistema Bullpool, os dispositivos são chamados de trabalhadores. Esses são elementos-chave que:
 
 • Representam um ou mais dispositivos agrupados, conectados ao pool de mineração.
 
 • Executam tarefas de mineração de criptomoedas.
 
-## O que faz um Worker?
+## O que faz um Trabalhadores?
 
 Cada trabalhador:
 
@@ -16,17 +16,17 @@ Cada trabalhador:
 
 • ⚡ Otimiza a eficiência da mineração de criptomoedas.
 
-## Lista de mineradores
+## Lista de Mineiros
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Os dados coletados do pool são exibidos na página Lista de Mineradores. A página exibe os trabalhadores de um único pool. Para selecionar outro pool, é necessário expandir o menu suspenso com a lista de pools criados.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Os dados coletados do pool são exibidos na página Lista de Mineiros. A página exibe os trabalhadores de um único pool. Para selecionar outro pool, é necessário expandir o menu suspenso com a lista de pools criados.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Lista de pools criados</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Lista de pools criados</p></figcaption></figure>
 
 ## **Tabela de trabalhadores: informações e parâmetros principais**
 
 A tabela de trabalhadores apresenta informações completas sobre cada dispositivo conectado ao pool. Aqui estão as colunas principais e seus significados:
 
-### **1. Minerador**
+### **1.** Mineiro
 
 Identificador do trabalhador (ID Worker) no pool. Ele permite identificar rapidamente o dispositivo e sua relação com o pool.
 
@@ -34,15 +34,15 @@ Identificador do trabalhador (ID Worker) no pool. Ele permite identificar rapida
 
 O hashrate do dispositivo em diferentes períodos de tempo:
 
-• Média de 10 minutos — indicador de desempenho em curto prazo.
+• Média de 10 min — indicador de desempenho em curto prazo.
 
-• Média de 1 hora — valor médio da última hora.
+• Média por hora — valor médio da última hora.
 
-• Média de 24 horas — indicador de estabilidade do dispositivo a longo prazo.
+• Méd. taxa de hash por 24 h. — indicador de estabilidade do dispositivo a longo prazo.
 
 Esses dados ajudam a analisar a eficiência da mineração e identificar desvios.
 
-### **3. Taxa de rejeição de shares (Reject Rate)**
+### **3.** Percentual de compartilhamentos rejeitados **(Reject Rate)**
 
 Esse indicador mostra a porcentagem de shares (soluções de tarefas) enviadas pelo dispositivo, mas não aceitas pelo pool.
 
@@ -52,7 +52,7 @@ Esse indicador mostra a porcentagem de shares (soluções de tarefas) enviadas p
 
 • Uma alta taxa de rejeição pode indicar problemas na rede ou nas configurações do dispositivo.
 
-### **4. Horário do último envio**
+### **4.** Hora da última submissão
 
 Horário do último envio de shares para o pool.
 
@@ -74,4 +74,4 @@ Botão interativo que permite:
 
 • Analisar a taxa de rejeição (shares recusados).
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180337.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
