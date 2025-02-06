@@ -8,90 +8,84 @@ Um **Rack** é uma entidade vinculada a uma sala específica e inclui um determi
 
 ## **Tabela "Racks"**
 
-• **Pesquisa** — busca pelo nome.
+• **Procurar** — busca pelo nome.
 
 • **Centro de Dados** — seleção de racks em um centro de dados específico.
 
-• **Salas** — seleção de racks dentro de uma sala.
+• **Instalações** — seleção de racks dentro de uma sala.
 
-• **Adicionar novo rack** — botão para criação.
+• **Adicionar uma nova estante** — botão para criação.
 
 ## Campos da tabela:
 
 • **ID** — identificador no banco de dados.
 
-• **Nome** — nome do rack.
+• **Designação** — nome do rack.
 
 • **Centro de Dados** — nome do centro de dados.
 
-• **Sala** — sala à qual o rack está vinculado.
+• **Quatro** — sala à qual o rack está vinculado.
 
 • **Edição** — configuração dos parâmetros.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ## **Criar um Rack**
 
 1. Acesse o menu **Racks**.
-
-2. Clique no botão **Adicionar novo rack**.
-
+2. Clique no botão **Adicionar uma nova estante**.
 3. Na janela que aparece:
 
 * Insira um nome no campo **Nome**.
 * Defina o número de prateleiras (Altura) de 1 a 10.
 * Defina o número de espaços por prateleira (Largura) de 1 a 10.
-* Selecione uma sala no menu suspenso.
+* Selecione uma **Instalações** no menu suspenso.
 
 4. Clique no botão **Criar**.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## **Editar um Rack**
 
 1. Clique no botão de _três pontos_ ao lado do rack desejado.
-
-2. Selecione **Editar**.
-
+2. Selecione **Alteração**.
 3. Faça as alterações necessárias:
 
 * Novo nome.
 * Número de prateleiras (Altura) de 1 a 10.
 * Número de espaços por prateleira (Largura) de 1 a 10.
-* Sala à qual o rack será vinculado.
+* **Instalações** à qual o rack será vinculado.
 
 4. Clique em **Atualizar**.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## **Excluir um Rack:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
 1. Clique no botão de _três pontos_ ao lado do rack desejado.
-
-2. Selecione **Excluir**.
-
+2. Selecione **Suprimir**.
 3. Na janela que aparece, clique em **Confirmar**.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **Acessar a página do Rack**
 
-* No menu **Racks**, clique no **Nome** do rack desejado.
+* No menu **Racks**, clique no **Designação** do rack desejado.
 
 ## **Conteúdo da página do Rack**
 
-### **Detalhes:**
+### Detail&#x73;**:**
 
 • **Tamanho**: largura × altura (por exemplo, 10×10).
 
-• **Número de espaços**: total (largura × altura).
+• **Número de assentos**: total (largura × altura).
 
 • **Número de dispositivos**:
 
 * **Total** — inativos + online.
 * **Online** — dispositivos que enviam dados.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ### **Gráficos:**
 
@@ -110,7 +104,7 @@ Um **Rack** é uma entidade vinculada a uma sala específica e inclui um determi
 * **Active Asic** — dispositivos operacionais.
 * **Total Asic** — todos os dispositivos, incluindo os inativos.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 ### **Mapa do Rack**
 
@@ -126,7 +120,7 @@ Exibe um esquema 2D com o número de espaços definidos e os dispositivos posici
 * Se o hashrate ou a temperatura = 0 ou excederem o limite, o texto fica vermelho.
 * Para visualizar problemas atuais, é possível alternar a característica exibida no canto superior direito.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 ### **Lista de dispositivos no Rack**
 
@@ -138,11 +132,11 @@ Exibe os dispositivos vinculados ao rack.
 * **Modelo** — definido pelo agente ou manualmente; exibe o firmware.
 * **Hashrate** — desempenho atual do dispositivo:
 
-&#x20;     🟢 Hashrate > 0
+🟢 Hashrate > 0
 
-&#x20;     🔴 Hashrate = 0 ou não definido
+🔴 Hashrate = 0 ou não definido
 
-* **Nome do trabalhador** — composto pelo nome do pool e do dispositivo, definido pelo agente ou manualmente.
+* **Worker Name** — composto pelo nome do pool e do dispositivo, definido pelo agente ou manualmente.
 * **Endereço IP** — detectado automaticamente pelo agente ou definido manualmente.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
