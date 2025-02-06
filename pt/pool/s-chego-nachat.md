@@ -1,16 +1,13 @@
 # Por onde começar?
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Ao acessar o Painel pela primeira vez, nenhum pool está conectado</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Ao acessar o Painel pela primeira vez, nenhum pool está conectado</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175330.png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## 🚀 Criar um Pool
 
-\
-1. Acesse o menu “Configuração de Pools”.
-
+1. Acesse o menu “Configurações de Pools”.
 2. Clique no botão “Criar Pool”.
-
 3. Na janela que abrir, informe:
 
 • Nome do pool (obrigatório, sem espaços, formato: ^\[a-zA-Z0-9]+$).
@@ -25,7 +22,6 @@
 
 4. Clique no botão “Criar”.
 
-\
 Restrições:
 
 • ❗ _Não é possível editar um pool após sua criação._
@@ -47,10 +43,8 @@ Todos os pools criados são exibidos na tabela:
 \
 Para conectar um dispositivo, siga estas etapas:
 
-1. Acesse o menu “Configuração de Pools”.
-
+1. Acesse o menu “Configurações de Pools”.
 2. Ao lado do pool desejado, clique no botão “Conectar dispositivo”.
-
 3. Na janela que abrir, copie:
 
 • 3 URLs e insira-os nas configurações do dispositivo.
@@ -62,20 +56,14 @@ Para conectar um dispositivo, siga estas etapas:
 
 ❕ _Se o ID for o mesmo para vários dispositivos, o sistema exibirá os indicadores totais de todos os dispositivos com esse ID._
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175753.png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## 💰 Configurar retirada de fundos
 
-\
 1. Acesse o menu “Configuração de Pools”.
-
 2. Ao lado do pool desejado, clique no botão “Retirada”.
-
 3. Na janela que abrir, informe o número da carteira para onde os fundos serão enviados.
-
 4. Clique no botão “Salvar”.
-
-
 
 **Retirada automática de fundos:**
 
