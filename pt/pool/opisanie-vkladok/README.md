@@ -1,12 +1,12 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами своего личного кабинета,
-  чтобы полностью изучить все его возможности.
+A seguir, você pode conhecer as diferentes seções do seu painel pessoal  
+para explorar todas as suas funcionalidades.  
 ---
 
-# Описание вкладок
+# Descrição das Abas
 
-Вот статьи из этого раздела:
+Aqui estão os artigos desta seção:
 
 {% content-ref url="vorkery.md" %}
 [vorkery.md](vorkery.md)
