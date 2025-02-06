@@ -4,11 +4,11 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 ### **Tabela Dispositivos**
 
-• Pesquisa — entrada de caracteres para filtragem por tag do ativo.
+• Procurar — entrada de caracteres para filtragem por tag do ativo.
 
-• Centro de Dados, Quarto, Rack — filtros para seleção de dispositivos em zonas específicas.
+• Centro de Dados, Instalações, Rack — filtros para seleção de dispositivos em zonas específicas.
 
-• Adicionar dispositivo — botão para criação.
+• Criar novo dispositivo — botão para criação.
 
 ### **Campos da tabela**
 
@@ -22,7 +22,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 🔴 Círculo vermelho — hashrate igual a 0 ou não definido.
 
-• Nome do trabalhador — nome do pool e do dispositivo (determinado pelo agente ou manualmente).
+• Worker Name — nome do pool e do dispositivo (determinado pelo agente ou manualmente).
 
 • Endereço IP — determinado automaticamente ou definido manualmente.
 
@@ -30,21 +30,21 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 • Localização — Centro de Dados / Quarto / Rack (links para os objetos).
 
-• Edição — botão de configuração de parâmetros.
+• Alteração — botão de configuração de parâmetros.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Criação de dispositivo via formulário**
 
 1\. Acesse o menu **Dispositivos**.
 
-2\. Clique no botão **Adicionar novo dispositivo**.
+2\. Clique no botão **Criar novo dispositivo**.
 
 3\. Na janela aberta, insira os seguintes dados:
 
 • **Tipo de dispositivo** — modelo (menu suspenso com função de pesquisa). _Obrigatório._
 
-• **Tag do ativo** — nome único do dispositivo no sistema Hashcare. _Obrigatório._
+• **Etiqueta de ativo** — nome único do dispositivo no sistema Hashcare. _Obrigatório._
 
 • **Número de série** — _Obrigatório._
 
@@ -58,7 +58,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 * Não pode ser maior que o número máximo de prateleiras do rack. _Erro: “error.codes.rack\_exceed\_max\_size”._
 * Deve ser apenas numérico. _Erro: “Formato incorreto”._
 
-• **Número do espaço** — número do espaço disponível na prateleira.
+• **Número do local** — número do espaço disponível na prateleira.
 
 * Não pode ser igual a 0. _Erro: “Deve ser maior ou igual a 1”._
 * Não pode ser maior que o número de espaços na prateleira.
@@ -68,7 +68,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 • **Nome do trabalhador do pool** — nome do dispositivo no pool. _Obrigatório._
 
-• **Nome do pool** — nome do pool. _Obrigatório._
+• **Nome da conta do pool** — nome do pool. _Obrigatório._
 
 • **Rack** — seleção entre racks existentes. _Obrigatório._
 
@@ -76,16 +76,18 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 4\. Clique em **Criar**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Importação de dispositivos via lista** <a href="#importacao-de-dispositivos-via-lista" id="importacao-de-dispositivos-via-lista"></a>
 
 1. Acesse o menu **Dispositivos**.
-2. Escolha a opção no menu suspenso.
+2. Escolha a opção no menu suspenso **Importar dispositivos (.csv)**.
 3. Selecione um arquivo .csv no disco rígido.
 4. Após o upload bem-sucedido, a mensagem “Arquivo carregado com sucesso” será exibida.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Exemplo de tabela CSV**
 
@@ -95,7 +97,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 1\. Clique no botão (três pontos) ao lado do dispositivo desejado.
 
-2\. Selecione a opção **Editar**.
+2\. Selecione a opção **Alteração**.
 
 _**Parâmetros disponíveis para edição:**_
 

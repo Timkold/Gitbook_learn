@@ -4,7 +4,7 @@ Na página “Lucro”, são apresentadas informações sobre a rentabilidade di
 
 • 🔽 **Seleção de pool**: alterne entre os pools usando o menu suspenso no canto superior direito.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## **💰 Como o lucro total é calculado?**
 
