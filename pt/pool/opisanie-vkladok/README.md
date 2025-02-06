@@ -1,7 +1,7 @@
 ---
 description: >-
-A seguir, você pode conhecer as diferentes seções do seu painel pessoal  
-para explorar todas as suas funcionalidades.  
+  A seguir, você pode conhecer as diferentes seções do seu painel pessoal  
+  para explorar todas as suas funcionalidades.  
 ---
 
 # Descrição das Abas
