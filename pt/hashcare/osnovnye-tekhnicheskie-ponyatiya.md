@@ -6,7 +6,7 @@ description: >-
 
 # 📘 Principais conceitos técnicos
 
-## 💻 ASIC (Asic)
+## 💻 ASIC
 
 **🔹 O que é?**
 
