@@ -1,85 +1,85 @@
-# С чего начать?
+# Por onde começar?
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Ao acessar o Painel pela primeira vez, nenhum pool está conectado</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175330.png" alt="" width="344"><figcaption></figcaption></figure>
 
-## 🚀 Создание пула
+## 🚀 Criar um Pool
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1. Acesse o menu “Configuração de Pools”.
 
-2\. Нажмите кнопку “Создать пул”.
+2. Clique no botão “Criar Pool”.
 
-3\. В открывшемся окне укажите:
+3. Na janela que abrir, informe:
 
-• Имя пула (обязательно, без пробелов, шаблон: ^\[a-zA-Z0-9]+$).
+• Nome do pool (obrigatório, sem espaços, formato: ^\[a-zA-Z0-9]+$).
 
-• Имя будет автоматически дополнено префиксом "bp".
+• O nome será automaticamente complementado com o prefixo "bp".
 
-• ❗ _Если имя занято_, появится ошибка: “Имя пула зарезервировано”.
+• ❗ _Se o nome já estiver em uso_, aparecerá um erro: “O nome do pool está reservado”.
 
-• Комментарий (поле необязательное).
+• Comentário (campo opcional).
 
-• Монета (по умолчанию BTC).
+• Moeda (padrão BTC).
 
-4\. Нажмите кнопку “Создать”.
-
-\
-Ограничения:
-
-• ❗ _Редактировать пул после создания нельзя._
-
-• ❗ _Максимум 5 пулов на одного клиента._ Если лимит превышен, появится ошибка: “Вы не можете создавать больше пулов”.
-
-## 📋 Список пулов
-
-Все созданные пулы отображаются в таблице:
-
-• Имя пула — заданное при создании.
-
-• Комментарий — отображается, если заполнен.
-
-• Монета — по умолчанию BTC.
-
-## ⚙️ Подключение устройства к пулу
+4. Clique no botão “Criar”.
 
 \
-Чтобы подключить устройство, выполните следующие шаги:
+Restrições:
 
-1\. Перейдите в меню “Настройка пулов”.
+• ❗ _Não é possível editar um pool após sua criação._
 
-2\. Напротив нужного пула нажмите кнопку “Подключить устройство”.
+• ❗ _Máximo de 5 pools por cliente._ Se o limite for excedido, aparecerá um erro: “Você não pode criar mais pools”.
 
-3\. В открывшемся окне скопируйте:
+## 📋 Lista de Pools
 
-• 3 URL-адреса и укажите их в настройках устройства.
+Todos os pools criados são exibidos na tabela:
 
-• Worker, который состоит из:
+• Nome do pool — definido na criação.
 
-* **Имени пула** — название пула в системе Pool Bullpool.
-* **ID устройства** — задаётся вами (может быть уникальным или одинаковым для нескольких устройств).
+• Comentário — exibido se preenchido.
 
-❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
+• Moeda — padrão BTC.
+
+## ⚙️ Conectar um dispositivo ao Pool
+
+\
+Para conectar um dispositivo, siga estas etapas:
+
+1. Acesse o menu “Configuração de Pools”.
+
+2. Ao lado do pool desejado, clique no botão “Conectar dispositivo”.
+
+3. Na janela que abrir, copie:
+
+• 3 URLs e insira-os nas configurações do dispositivo.
+
+• Worker, que consiste em:
+
+* **Nome do pool** — nome do pool no sistema Pool Bullpool.
+* **ID do dispositivo** — definido por você (pode ser único ou igual para vários dispositivos).
+
+❕ _Se o ID for o mesmo para vários dispositivos, o sistema exibirá os indicadores totais de todos os dispositivos com esse ID._
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175753.png" alt="" width="342"><figcaption></figcaption></figure>
 
-## 💰 Настройка вывода средств
+## 💰 Configurar retirada de fundos
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1. Acesse o menu “Configuração de Pools”.
 
-2\. Напротив нужного пула нажмите кнопку “Вывод”.
+2. Ao lado do pool desejado, clique no botão “Retirada”.
 
-3\. В открывшемся окне укажите номер кошелька, на который будут выводиться средства.
+3. Na janela que abrir, informe o número da carteira para onde os fundos serão enviados.
 
-4\. Нажмите кнопку “Сохранить”.
+4. Clique no botão “Salvar”.
 
 
 
-**Автоматический вывод средств:**
+**Retirada automática de fundos:**
 
-* При достижении минимальной суммы 0.001 BTC, ежедневно до 12:00 UTC сумма отправляется на указанный кошелёк.
-* Если требуется изменить минимальную сумму вывода, свяжитесь с поддержкой
+* Ao atingir o valor mínimo de 0.001 BTC, diariamente até as 12:00 UTC, o valor será enviado para a carteira informada.
+* Se precisar alterar o valor mínimo de retirada, entre em contato com o suporte.
 
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Pool”
+Em seguida, você pode explorar as funcionalidades do painel na seção “Pool”.
