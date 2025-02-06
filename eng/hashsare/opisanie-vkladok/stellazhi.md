@@ -6,8 +6,6 @@ A rack is an entity linked to a specific room, containing a set number of slots 
 
 • By default, one rack is created and linked to the newly created room.
 
-
-
 ## "Racks" Table
 
 • Search — search by name.
@@ -136,17 +134,17 @@ Displays a 2D layout with the specified number of slots and placed devices.
 \
 Lists devices linked to the rack.
 
-•  The table includes:
+• The table includes:
 
 * Device ID — unique identifier assigned by the system.
 * Model — detected by the agent or set manually; displays firmware.
 * Hashrate — current device performance:
 
-&#x20;     🟢 Hashrate > 0
+🟢 Hashrate > 0
 
-&#x20;     🔴 Hashrate = 0 or undefined
+🔴 Hashrate = 0 or undefined
 
 * Worker name — consists of the pool name and device, detected by the agent or set manually.
 * IP address — automatically detected by the agent or set manually.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.11.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
