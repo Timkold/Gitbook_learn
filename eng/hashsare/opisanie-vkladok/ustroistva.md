@@ -196,7 +196,7 @@ Consists of the pool name and the device name in the pool. It is determined auto
 
 Automatically determined by the internal agent during device polling or set manually in the device settings.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.35.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Metrics:
 
@@ -254,4 +254,4 @@ Displays the cooling fan speed in revolutions per minute (RPM).
 • **Asic Power** — current power consumption reported by the device.\
 • **Nominal Power** — manufacturer-declared power consumption.
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-01-13 в 20.37.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
