@@ -1,74 +1,72 @@
 # 🏢 Centros de dados
 
-Дата-центр — это сущность, представляющая площадку, включающую связанные помещения и стеллажи. Отображаются только данные устройств, привязанных к стеллажам внутри конкретного дата-центра. По умолчанию при первом входе в ЛК создаётся один дата-центр.
+O Centro de Dados é uma entidade que representa uma instalação, incluindo salas e racks relacionados. Apenas os dados dos dispositivos vinculados aos racks dentro de um centro de dados específico são exibidos. Por padrão, ao primeiro acesso ao painel de controle, um centro de dados é criado automaticamente.
 
-## **📋 Таблица Дата-центры**
+## **📋 Tabela Centros de Dados**
 
-• Поиск: ищет по символам в названии.
+• Pesquisa: busca por caracteres no nome.
 
-• Добавить дата-центр: кнопка для создания нового ДЦ.
+• Adicionar centro de dados: botão para criar um novo centro de dados.
 
 
+**Campos da tabela:**
 
-**Поля таблицы:**
+• ID: número no banco de dados.
 
-• ID: номер в базе данных.
+• Nome: nome do centro de dados.
 
-• Имя: название ДЦ.
-
-• Редактирование: кнопка для изменений.
+• Edição: botão para modificar.
 
 IMAGE 16
 
-## ➕ Создание Дата-центра
+## ➕ Criando um Centro de Dados
 
-1\. Перейдите в раздел **Дата-центры**.
+1\. Acesse a seção **Centros de Dados**.
 
-2\. Нажмите кнопку **Добавить дата-центр**.
+2\. Clique no botão **Adicionar centro de dados**.
 
-3\. Введите название в поле **Имя**.
+3\. Insira o nome no campo **Nome**.
 
-4\. Нажмите **Создать**.
+4\. Clique em **Criar**.
 
-\
-💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
+💡 O primeiro centro de dados é criado com o ID 1. Um novo centro de dados recebe o próximo ID sequencial, mesmo que os anteriores tenham sido excluídos.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt="" width="345"><figcaption></figcaption></figure>
 
-## **✏️ Редактирование Дата-центра**
+## **✏️ Editando um Centro de Dados**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Clique no botão ⋮ ao lado do centro de dados desejado.
 
-2\. Выберите пункт **Изменить**.
+2\. Selecione a opção **Editar**.
 
-3\. Введите новое название в поле **Имя**.
+3\. Insira o novo nome no campo **Nome**.
 
-4\. Нажмите **Обновить**.
+4\. Clique em **Atualizar**.
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt="" width="344"><figcaption></figcaption></figure>
 
-## **🗑️ Удаление Дата-центра**
+## **🗑️ Excluindo um Centro de Dados**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Clique no botão ⋮ ao lado do centro de dados desejado.
 
-2\. Выберите пункт **Удалить**.
+2\. Selecione a opção **Excluir**.
 
-3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
+3\. Na janela aberta, confirme a ação clicando em **Confirmar**.
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="345"><figcaption></figcaption></figure>
 
-**🔹 Графики**
+**🔹 Gráficos**
 
-* **Хэшрейт**: суммарный хэшрейт устройств (TH/s).
-* **Asic Hashrate**: данные от устройства.
-* **Nominal Hashrate**: заявлено производителем.
-* **Потребление**: суммарное энергопотребление устройств (W).
-* **Asic Power**: данные от устройства.
-* **Nominal Power**: заявлено производителем.
+* **Hashrate**: hashrate total dos dispositivos (TH/s).
+* **Asic Hashrate**: dados do dispositivo.
+* **Nominal Hashrate**: especificado pelo fabricante.
+* **Consumo**: consumo total de energia dos dispositivos (W).
+* **Asic Power**: dados do dispositivo.
+* **Nominal Power**: especificado pelo fabricante.
 
-**🔹 Устройства**
+**🔹 Dispositivos**
 
-* **Active Asic**: работающие устройства.
-* **Total Asic**: общее количество устройств.
+* **Active Asic**: dispositivos em operação.
+* **Total Asic**: número total de dispositivos.
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
