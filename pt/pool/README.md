@@ -1,21 +1,18 @@
 # Pool
 
-Pool: Ваша точка управления майнингом и финансами
+Pool: Seu ponto de controle para mineração e finanças
 
 
+O Pool é um serviço conveniente e funcional, criado para o controle total dos seus pools. Com ele, você pode:
 
-Pool — это удобный и функциональный сервис, созданный для полного контроля над вашими пулами. С его помощью вы сможете:
+• Gerenciar pools com máxima facilidade.
 
-• Управлять пулами с максимальной простотой.
+• Visualizar informações detalhadas sobre os dispositivos conectados e seu funcionamento.
 
-• Просматривать подробную информацию о подключенных устройствах и их работе.
-
-• Контролировать и настраивать вывод средств быстро и без лишних действий.
-
+• Controlar e configurar retiradas de fundos de forma rápida e sem complicações.
 
 
-Этот инструмент объединяет все ключевые функции, необходимые для эффективного управления процессами, предоставляя вам мощный контроль и удобство в одном месте.
+Esta ferramenta reúne todas as funções essenciais para uma gestão eficiente dos processos, proporcionando a você controle poderoso e conveniência em um só lugar.
 
 
-
-_Ваши данные. Ваши устройства. Ваши решения._
+_Seus dados. Seus dispositivos. Suas decisões._
