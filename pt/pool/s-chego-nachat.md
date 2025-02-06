@@ -61,7 +61,7 @@ Para conectar um dispositivo, siga estas etapas:
 ## 💰 Configurar retirada de fundos
 
 1. Acesse o menu “Configuração de Pools”.
-2. Ao lado do pool desejado, clique no botão “Retirada”.
+2. Ao lado do pool desejado, clique no botão “Retirar”.
 3. Na janela que abrir, informe o número da carteira para onde os fundos serão enviados.
 4. Clique no botão “Salvar”.
 
