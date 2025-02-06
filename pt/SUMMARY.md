@@ -1,4 +1,4 @@
-# Índice
+# Table of contents
 
 * [BullPool](README.md)
 * [Pool](pool/README.md)
@@ -12,7 +12,7 @@
   * [🌟 Por onde começar?](hashcare/s-chego-nachat.md)
   * [Descrição das abas](hashcare/opisanie-vkladok/README.md)
     * [🏢 Centros de dados](hashcare/opisanie-vkladok/data-centr.md)
-    * [🏠 Quarto](hashcare/opisanie-vkladok/pomeshenie.md)
+    * [🏠 Quartos](hashcare/opisanie-vkladok/pomeshenie.md)
     * [Racks](hashcare/opisanie-vkladok/stellazhi.md)
     * [Dispositivo](hashcare/opisanie-vkladok/ustroistva.md)
   * [Lista de modelos](hashcare/spisok-modelei.md)
