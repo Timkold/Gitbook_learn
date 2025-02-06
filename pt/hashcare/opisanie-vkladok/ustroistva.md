@@ -1,4 +1,4 @@
-# Dispositivos
+# Dispositivo
 
 Para coletar dados por um agente externo, é necessário criar dispositivos com parâmetros definidos. Os dispositivos são vinculados a um rack, sendo impossível a criação sem essa vinculação. Por padrão, os dispositivos estão ausentes.
 
@@ -32,7 +32,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 • Edição — botão de configuração de parâmetros.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Criação de dispositivo via formulário**
 
@@ -76,7 +76,7 @@ Para coletar dados por um agente externo, é necessário criar dispositivos com 
 
 4\. Clique em **Criar**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="449"><figcaption></figcaption></figure>
 
 ## **Importação de dispositivos via lista** <a href="#importacao-de-dispositivos-via-lista" id="importacao-de-dispositivos-via-lista"></a>
 
@@ -257,4 +257,3 @@ Mostra as rotações por minuto (RPM) dos ventiladores de resfriamento.
 * **Nominal Power** — consumo declarado pelo fabricante.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
