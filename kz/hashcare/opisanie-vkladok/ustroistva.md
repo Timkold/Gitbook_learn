@@ -32,7 +32,7 @@
 
 • Өңдеу — параметрлерді орнату түймесі.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Құрылғыны форма арқылы жасау**
 
@@ -76,7 +76,7 @@
 
 4\. **Жасау** түймесін басыңыз.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Құрылғыларды тізім бойынша импорттау** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
@@ -85,7 +85,7 @@
 3. **.csv файлын** дискіден таңдаңыз.
 4. Жүктеу сәтті аяқталса, **"Файл сәтті жүктелді"** деген хабарлама пайда болады.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **CSV кестесінің үлгісі**
 
@@ -137,7 +137,7 @@ _**Өзгертуге болатын параметрлер:**_
 
 • **Құрылғы бекітілетін бөлмені өзгерту**.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 3\. Өзгерістерді сақтау үшін **Жаңарту** түймесін басыңыз.
 

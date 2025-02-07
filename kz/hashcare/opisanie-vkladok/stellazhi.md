@@ -50,7 +50,7 @@
 
 4\. **Жасау** түймесін басыңыз.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
 
 ## **✏️ Сөрені жаңарту**
 
@@ -67,7 +67,7 @@
 
 4\. **Жаңарту** түймесін басыңыз.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## 🗑️ Сөрені жою
 
