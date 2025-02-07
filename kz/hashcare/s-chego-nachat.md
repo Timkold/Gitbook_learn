@@ -25,7 +25,7 @@
 
 🟡 **Жёлтый** — есть как активные, так и неактивные агенты.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 182940.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ## **Шаги для создания:**
 
@@ -41,7 +41,7 @@ _Инструкцию по установке можно открыть чере
 
 ⚠️ Если поле пустое, кнопка **Создать** неактивна.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 184305.png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt="" width="449"><figcaption></figcaption></figure>
 
 ## **🌐 Добавление подсетей:**
 
