@@ -10,7 +10,7 @@
 * [HashCare](hashcare/README.md)
   * [📘 Основные технические понятия](hashcare/osnovnye-tekhnicheskie-ponyatiya.md)
   * [🌟 С чего начать?](hashcare/s-chego-nachat.md)
-  * [Описание вкладок](hashcare/opisanie-vkladok/README.md)
+  * [Қойынды сипаттамасы](hashcare/opisanie-vkladok/README.md)
     * [🏢 Дата-центр](hashcare/opisanie-vkladok/data-centr.md)
     * [🏠 Помещения](hashcare/opisanie-vkladok/pomeshenie.md)
     * [Стеллажи](hashcare/opisanie-vkladok/stellazhi.md)
