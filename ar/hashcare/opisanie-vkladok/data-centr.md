@@ -18,7 +18,7 @@
 
 • Редактирование: кнопка для изменений.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ## ➕ Создание Дата-центра
 
@@ -33,7 +33,7 @@
 \
 💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## **✏️ Редактирование Дата-центра**
 
@@ -45,7 +45,7 @@
 
 4\. Нажмите **Обновить**.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## **🗑️ Удаление Дата-центра**
 
@@ -55,7 +55,7 @@
 
 3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="343"><figcaption></figcaption></figure>
 
 **🔹 Графики**
 
@@ -71,4 +71,4 @@
 * **Active Asic**: работающие устройства.
 * **Total Asic**: общее количество устройств.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
