@@ -18,13 +18,9 @@ Bullpool жүйесінде құрылғылар **Жұмысшылар (Worker)
 
 ## Майнерлер тізімі
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>улдан жиналған деректер "Майнерлер тізімі" бетінде көрсетіледі. Бұл бетте бір пулдағы жұмысшылар көрсетіледі. Басқа пулды таңдау үшін жасалған пулдар тізімінің ашылмалы мәзірін ашу қажет.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Пулдан жиналған деректер "Майнерлер тізімі" бетінде көрсетіледі. Бұл бетте бір пулдағы жұмысшылар көрсетіледі. Басқа пулды таңдау үшін жасалған пулдар тізімінің ашылмалы мәзірін ашу қажет.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Жасалған пулдар тізімі</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Жасалған пулдар тізімі</p></figcaption></figure>
 
 ## **Жұмысшылар кестесі: негізгі ақпарат және параметрлер**
 
