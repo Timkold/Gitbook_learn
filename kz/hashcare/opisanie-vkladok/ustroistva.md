@@ -1,4 +1,4 @@
-# Устройства
+# Құрылғылар
 
 Сыртқы агент арқылы деректерді жинау үшін алдын ала параметрлері бар құрылғыларды жасау қажет. Құрылғылар сөреге бекітіледі, оларды бекітпей жасау мүмкін емес. Әдепкі бойынша, құрылғылар жоқ.
 
@@ -32,7 +32,7 @@
 
 • Өңдеу — параметрлерді орнату түймесі.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Құрылғыны форма арқылы жасау**
 
@@ -76,7 +76,7 @@
 
 4\. **Жасау** түймесін басыңыз.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Құрылғыларды тізім бойынша импорттау** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
