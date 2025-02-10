@@ -1,12 +1,12 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами своего личного кабинета,
-  чтобы полностью изучить все его возможности.
+  Seterusnya, anda boleh meneroka pelbagai bahagian dalam akaun peribadi anda 
+  untuk memahami semua fungsinya sepenuhnya.
 ---
 
-# Описание вкладок
+# Penerangan Tab
 
-Вот статьи из этого раздела:
+Berikut adalah artikel dalam bahagian ini:
 
 {% content-ref url="vorkery.md" %}
 [vorkery.md](vorkery.md)
