@@ -1,84 +1,84 @@
 # 🌟 Bagaimana untuk memulakan?
 
-**Агенты** — это сервис для сбора данных о состоянии устройств и передачи их в систему мониторинга. Он помогает отслеживать производительность, работоспособность и состояние инфраструктуры для своевременного обнаружения проблем.
+**Ejen** ialah perkhidmatan untuk mengumpulkan data tentang keadaan peranti dan menghantarnya ke dalam sistem pemantauan. Ia membantu menjejaki prestasi, kebolehoperasian, dan keadaan infrastruktur untuk mengesan masalah dengan segera.
 
-### **🔗 Подключение:**
+### **🔗 Sambungan:**
 
-Агент подключается к устройствам через протоколы (SSH, HTTP API, SNMP) и считывает их состояние.
+Ejen bersambung ke peranti melalui protokol (SSH, HTTP API, SNMP) dan membaca statusnya.
 
-### **Агент в HashCare:**
+### **Ejen dalam HashCare:**
 
-* &#x20;Устанавливается на сервер площадки, где размещены устройства.
-* Считывает метрики с устройств в одной сети через IP-адреса и передаёт их в мониторинг.
+* Dipasang pada pelayan lokasi di mana peranti ditempatkan.
+* Membaca metrik daripada peranti dalam satu rangkaian melalui alamat IP dan menghantarnya ke pemantauan.
 
-#### **Как создать агента:**
+#### **Cara mencipta ejen:**
 
-1\. Перейдите в меню **Агенты**.
+1\. Pergi ke menu **Ejen**.
 
-2\. Нажмите кнопку **Создать нового агента.**
+2\. Klik butang **Buat Ejen Baru**.
 
-### **Статусы агентов:**
+### **Status ejen:**
 
-🟢 **Зелёный** — агент активен.
+🟢 **Hijau** – ejen aktif.
 
-🔴 **Красный** — агент неактивен.
+🔴 **Merah** – ejen tidak aktif.
 
-🟡 **Жёлтый** — есть как активные, так и неактивные агенты.
+🟡 **Kuning** – terdapat ejen aktif dan tidak aktif.
 
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-## **Шаги для создания:**
+## **Langkah-langkah untuk mencipta:**
 
-1\. Нажмите кнопку **Создать нового агента**.
+1\. Klik butang **Buat Ejen Baru**.
 
-2\. В поле **Режим** выберите **Внутренний**.
+2\. Dalam medan **Mod**, pilih **Dalaman**.
 
-3\. Скачайте агент по ссылке.
+3\. Muat turun ejen melalui pautan.
 
-_Инструкцию по установке можно открыть через ссылку._
+_Anda boleh membuka arahan pemasangan melalui pautan._
 
-4\. Заполните поле **Имя** (обязательно).
+4\. Isikan medan **Nama** (wajib).
 
-⚠️ Если поле пустое, кнопка **Создать** неактивна.
+⚠️ Jika medan kosong, butang **Buat** tidak akan diaktifkan.
 
 <figure><img src="../.gitbook/assets/image (40).png" alt="" width="448"><figcaption></figcaption></figure>
 
-## **🌐 Добавление подсетей:**
+## **🌐 Menambah Subnet:**
 
-* Поле **Сети** необязательно для заполнения.
-* Формат ввода: `XX.XX.XX.XX/XX`
-* `XX.XX.XX.XX` — IP адрес устройства или подсети.
-* &#x20;`/XX` — маска подсети (от 0 до 32).
+* Medan **Rangkaian** tidak wajib diisi.
+* Format input: `XX.XX.XX.XX/XX`
+* `XX.XX.XX.XX` – alamat IP peranti atau subnet.
+* `/XX` – mask subnet (dari 0 hingga 32).
 
-Пример: `10.4.21.32/27`
+Contoh: `10.4.21.32/27`
 
-* &#x20;**Сетевой адрес**: `10.4.21.32`
-* &#x20;**Диапазон хостов**: `10.4.21.33 – 10.4.21.62`
-* &#x20;**Broadcast**: `10.4.21.63`
+* **Alamat Rangkaian**: `10.4.21.32`
+* **Julat Hos**: `10.4.21.33 – 10.4.21.62`
+* **Broadcast**: `10.4.21.63`
 
-### **➕ Чтобы добавить подсети:**
+### **➕ Untuk menambah subnet:**
 
-* Нажмите **Добавить** для добавления до 5 полей.
-* **Лимит**: максимум 125,000 IP-адресов в подсетях.
+* Klik **Tambah** untuk menambah sehingga 5 medan.
+* **Had**: maksimum 125,000 alamat IP dalam subnet.
 
-## **⚙️ Установка агента:**
+## **⚙️ Pemasangan Ejen:**
 
-1\. Выполните команду: <Путь к файлу>/hashcare-agent -Dapi-key=<ключ>
+1\. Jalankan perintah: `<Laluan ke fail>/hashcare-agent -Dapi-key=<kunci>`
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
 
-2\. **API Key**: скопируйте из соответствующего поля.
+2\. **Kunci API**: salin daripada medan yang sesuai.
 
-## 🔍 Активация агента:
+## 🔍 Pengaktifan Ejen:
 
-**Внутренний агент** активируется после успешного запуска на сервере.
+**Ejen Dalaman** akan diaktifkan selepas berjaya dijalankan pada pelayan.
 
-**Отображается:**
+**Maklumat yang dipaparkan:**
 
-* **🖥️ IP агента**
-* **📜 Версия**
-* **📊 Количество устройств** (обновляется через 1–5 минут).
+* **🖥️ IP ejen**
+* **📜 Versi**
+* **📊 Bilangan peranti** (dikemas kini dalam masa 1–5 minit).
 
-— Устройства из подсетей добавляются автоматически с заполнением их данных.
+— Peranti dari subnet akan ditambah secara automatik dengan data mereka diisi.
 
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Hashcare”
+Selepas itu, anda boleh meneroka fungsi dalam akaun peribadi anda di bahagian **"HashCare"**.
