@@ -1,4 +1,4 @@
-# Стеллажи
+# Rak
 
 Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
 
@@ -28,6 +28,8 @@
 
 • Редактирование — настройка параметров.
 
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## **Создание стеллажа**
@@ -45,7 +47,7 @@
 
 4\. Нажать кнопку **Создать**.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## Редактирование стеллажа
 
@@ -62,7 +64,7 @@
 
 4\. Нажать **Обновить**.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -70,7 +72,7 @@
 2. Выбрать пункт меню **Удалить**
 3. В открывшемся окне нажать кнопку **Подтвердить**.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## **Переход на страницу стеллажа**
 
@@ -89,7 +91,7 @@
 * Всего — неактивные + онлайн.
 * Онлайн — устройства передают данные.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ### **Графики:**
 
@@ -108,7 +110,7 @@
 * Active Asic — работающие устройства.
 * Total Asic — все устройства, включая нерабочие.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 ### **Карта стеллажа**
 
@@ -124,7 +126,7 @@
 * Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
 * Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ### **Список устройств на стеллаже**
 
@@ -143,4 +145,4 @@
 * Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
 * IP-адрес — автоматически определяется агентом или задаётся вручную.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
