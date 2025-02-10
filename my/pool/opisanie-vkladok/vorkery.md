@@ -18,13 +18,9 @@ Setiap Worker:
 
 ## Senarai Pelombong
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Data yang dikumpul dari kolam ditunjukkan pada halaman **Senarai Pelombong**. Halaman ini memaparkan pekerja dalam satu kolam perlombongan. Untuk memilih kolam lain, buka menu pilihan kolam yang telah dibuat.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Data yang dikumpul dari kolam ditunjukkan pada halaman **Senarai Pelombong**. Halaman ini memaparkan pekerja dalam satu kolam perlombongan. Untuk memilih kolam lain, buka menu pilihan kolam yang telah dibuat.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Senarai kolam yang telah dibuat.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Senarai kolam yang telah dibuat</p></figcaption></figure>
 
 ## **Jadual Pekerja: Maklumat Utama dan Parameter**
 
