@@ -201,62 +201,63 @@ Ditentukan secara automatik oleh ejen dalaman semasa pemantauan peranti atau dit
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### **Показатели:**
+### **Penunjuk:**
 
-**• Оценочный доход (PPS | FPPS):**
+**• Anggaran Pendapatan (PPS | FPPS):**
 
-* PPS (Pay Per Share): фиксированная оплата за доли.
-* FPPS (Full Pay Per Share): включает доход от комиссий, выше PPS.
+* **PPS (Pay Per Share)** – bayaran tetap untuk setiap saham.
+* **FPPS (Full Pay Per Share)** – termasuk pendapatan daripada yuran, lebih tinggi daripada PPS.
 
-**• Доход из пула:**
+**• Pendapatan daripada Kolam:**
 
-Реальный доход от пула за выбранный период.
+Pendapatan sebenar daripada kolam bagi tempoh yang dipilih.
 
-_Настройка пула: «Настройка пулов» → Создать пул._
+_Konfigurasi Kolam: **Tetapan Kolam** → **Buat Kolam**._
 
-**• Затраты на электричество:**
+**• Kos Elektrik:**
 
-Основаны на мощности устройства и тарифе:\\
+Berdasarkan kuasa peranti dan kadar tarif:\\
 
-(Потребляемая мощность (W) × 24) ÷ 1000 × Тариф\\
+(Kuasa Digunakan (W) × 24) ÷ 1000 × Tarif\\
 
-**• Прибыль:**
+**• Keuntungan:**
 
-{FPPS доход} - {Электричество}
+{Pendapatan FPPS} - {Elektrik}
 
-### **График хэшрейта**
+### **Carta Kadar Hash**
 
-• **Asic Hashrate** — текущий хэшрейт, переданный устройством.
+• **Asic Hashrate** – kadar hash semasa yang dihantar oleh peranti.
 
-• **Nominal Hashrate** — заявленный производителем хэшрейт.
+• **Nominal Hashrate** – kadar hash yang dinyatakan oleh pengeluar.
 
-### **График хэшрейта плат**
+### **Carta Kadar Hash Plat**
 
-Показывает производительность отдельных плат ASIC-майнера.
+Menunjukkan prestasi plat individu dalam ASIC miner.
 
-• Каждая плата обозначается, например, как SM 0, SM 1, SM 2.
+• Setiap plat ditunjukkan sebagai contoh SM 0, SM 1, SM 2.
 
-• Помогает выявить неисправности, снижающие общий хэшрейт.
+• Membantu mengenal pasti masalah yang mengurangkan kadar hash keseluruhan.
 
-### **Температура устройства**
+### **Suhu Peranti**
 
-• Температура плат (boards) и чипов (chip, PCB): отображает нагрев отдельных компонентов устройства.
+• Suhu plat (boards) dan cip (chip, PCB): menunjukkan pemanasan komponen individu peranti.
 
-• Температура воздуха (in/out):
+• Suhu udara (in/out):
 
-* **In** — температура входящего холодного воздуха.
-* **Out** — температура выходящего нагретого воздуха.
+* **In** – suhu udara sejuk masuk.
+* **Out** – suhu udara panas keluar.
 
-### **График скорости вентиляторов**
+### **Carta Kelajuan Kipas**
 
-Показывает обороты охлаждающих вентиляторов в минуту (RPM).
+Menunjukkan kelajuan putaran kipas penyejuk dalam RPM.
 
-* **In** — вентиляторы на входе воздушного потока.
-* **Out** — вентиляторы на выходе.
+* **In** – kipas masuk bagi aliran udara.
+* **Out** – kipas keluar.
 
-### **График потребления электроэнергии**
+### **Carta Penggunaan Tenaga**
 
-* **Asic Power** — текущее потребление, переданное устройством.
-* **Nominal Power** — заявленное производителем потребление.
+* **Asic Power** – penggunaan semasa yang dihantar oleh peranti.
+* **Nominal Power** – penggunaan yang dinyatakan oleh pengeluar.
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
