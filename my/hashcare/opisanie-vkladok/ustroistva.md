@@ -1,4 +1,4 @@
-# Устройства
+# Peranti
 
 Для сбора данных внешним агентом необходимо создать устройства с заданными параметрами. Устройства привязываются к стеллажу, без привязки создание невозможно. По умолчанию устройства отсутствуют.
 
@@ -32,7 +32,7 @@
 
 • Редактирование — кнопка настройки параметров.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ## **Создание устройства через форму**
 
@@ -76,7 +76,7 @@
 
 4\. Нажать **Создать**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
@@ -85,7 +85,7 @@
 3. Выбрать файл .csv на жёстком диске
 4. При успешной загрузке появится сообщение “Файл успешно загружен“
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 **Пример CSV таблицы**
 
