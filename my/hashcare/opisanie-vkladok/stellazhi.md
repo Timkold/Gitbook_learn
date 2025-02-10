@@ -30,8 +30,6 @@
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
 ## **Создание стеллажа**
 
 1\. Перейти в меню **Стеллажи**.
