@@ -140,7 +140,7 @@ _**Parameter yang boleh dikemas kini:**_
 
 • **Ubah bilik** yang dikaitkan dengan rak.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="446"><figcaption></figcaption></figure>
 
 3\. Klik **Kemas Kini** untuk menyimpan perubahan.
 
@@ -157,7 +157,7 @@ Anda boleh mengemas kini lebih daripada satu peranti menggunakan fail CSV. Untuk
 2. Pilih pilihan **Padam**.
 3. Dalam tetingkap yang muncul, klik butang **Sahkan**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **Butiran Peranti:**
 
@@ -260,4 +260,3 @@ Menunjukkan kelajuan putaran kipas penyejuk dalam RPM.
 * **Nominal Power** – penggunaan yang dinyatakan oleh pengeluar.
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
-
