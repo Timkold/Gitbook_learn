@@ -1,74 +1,72 @@
 # 🏢 Pusat Data
 
-Дата-центр — это сущность, представляющая площадку, включающую связанные помещения и стеллажи. Отображаются только данные устройств, привязанных к стеллажам внутри конкретного дата-центра. По умолчанию при первом входе в ЛК создаётся один дата-центр.
+Pusat Data ialah entiti yang mewakili tapak yang merangkumi bilik dan rak yang berkaitan. Hanya data peranti yang dikaitkan dengan rak dalam pusat data tertentu akan dipaparkan. Secara lalai, satu pusat data akan dibuat secara automatik semasa log masuk pertama ke akaun.
 
-## **📋 Таблица Дата-центры**
+## **📋 Jadual Pusat Data**
 
-• Поиск: ищет по символам в названии.
+• **Cari**: mencari berdasarkan aksara dalam nama.
 
-• Добавить дата-центр: кнопка для создания нового ДЦ.
+• **Buat Pusat Data**: butang untuk membuat pusat data baharu.
 
+**Medan jadual:**
 
+• **ID**: nombor dalam pangkalan data.
 
-**Поля таблицы:**
+• **Nama**: nama pusat data.
 
-• ID: номер в базе данных.
-
-• Имя: название ДЦ.
-
-• Редактирование: кнопка для изменений.
+• **Edit**: butang untuk mengubah suai.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-## ➕ Создание Дата-центра
+## ➕ Membuat Pusat Data
 
-1\. Перейдите в раздел **Дата-центры**.
+1\. Pergi ke bahagian **Pusat Data**.
 
-2\. Нажмите кнопку **Добавить дата-центр**.
+2\. Klik butang **Buat Pusat Data**.
 
-3\. Введите название в поле **Имя**.
+3\. Masukkan nama dalam medan **Nama**.
 
-4\. Нажмите **Создать**.
+4\. Klik **Buat**.
 
 \
-💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
+💡 Pusat data pertama akan dibuat dengan ID 1. Pusat data baharu akan menerima ID berturutan seterusnya, walaupun yang sebelumnya telah dipadam.
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## **✏️ Редактирование Дата-центра**
+## **✏️ Kemas Kini Pusat Data**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Klik butang ⋮ di sebelah pusat data yang ingin dikemas kini.
 
-2\. Выберите пункт **Изменить**.
+2\. Pilih pilihan **Kemas Kini**.
 
-3\. Введите новое название в поле **Имя**.
+3\. Masukkan nama baharu dalam medan **Nama**.
 
-4\. Нажмите **Обновить**.
+4\. Klik **Kemas kini**.
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## **🗑️ Удаление Дата-центра**
+## **🗑️ Padam Pusat Data**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Klik butang ⋮ di sebelah pusat data yang ingin dipadam.
 
-2\. Выберите пункт **Удалить**.
+2\. Pilih pilihan **Padam**.
 
-3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
+3\. Dalam tetingkap yang muncul, sahkan tindakan dengan mengklik butang **Sahkan**.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt="" width="342"><figcaption></figcaption></figure>
 
-**🔹 Графики**
+**🔹 Carta**
 
-* **Хэшрейт**: суммарный хэшрейт устройств (TH/s).
-* **Asic Hashrate**: данные от устройства.
-* **Nominal Hashrate**: заявлено производителем.
-* **Потребление**: суммарное энергопотребление устройств (W).
-* **Asic Power**: данные от устройства.
-* **Nominal Power**: заявлено производителем.
+* **Kadar Hash**: jumlah kadar hash peranti (TH/s).
+* **Asic Hashrate**: data daripada peranti.
+* **Nominal Hashrate**: seperti yang dinyatakan oleh pengeluar.
+* **Penggunaan Tenaga**: jumlah penggunaan tenaga peranti (W).
+* **Asic Power**: data daripada peranti.
+* **Nominal Power**: seperti yang dinyatakan oleh pengeluar.
 
-**🔹 Устройства**
+**🔹 Peranti**
 
-* **Active Asic**: работающие устройства.
-* **Total Asic**: общее количество устройств.
+* **Active Asic**: peranti yang sedang beroperasi.
+* **Total Asic**: jumlah keseluruhan peranti.
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
