@@ -1,8 +1,8 @@
-# Описание вкладок
+# Penerangan Tab
 
-Далее вы можете ознакомиться с различными разделами своего личного кабинета, чтобы полностью изучить все его возможности.
+Seterusnya, anda boleh mengenali pelbagai bahagian dalam akaun peribadi anda untuk memahami sepenuhnya semua kemudahannya.
 
-Вот статьи из этого раздела:
+Berikut adalah artikel dari bahagian ini:
 
 {% content-ref url="data-centr.md" %}
 [data-centr.md](data-centr.md)
