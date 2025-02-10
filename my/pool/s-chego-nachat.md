@@ -1,8 +1,6 @@
 # Bagaimana untuk memulakan?
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Pada kali pertama anda log masuk ke Akaun Peribadi, tiada kolam yang disambungkan</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Pada kali pertama anda log masuk ke Akaun Peribadi, tiada kolam yang disambungkan</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
