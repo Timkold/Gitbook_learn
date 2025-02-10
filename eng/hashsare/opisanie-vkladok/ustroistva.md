@@ -81,7 +81,7 @@ To collect data with an external agent, it is necessary to create devices with s
 ## Importing Devices via List <a href="#importing-devices-via-list" id="importing-devices-via-list"></a>
 
 1. Go to the **Devices** menu.
-2. Select the appropriate option from the dropdown menu.
+2. Select **Import devices (.csv)** from the drop-down menu
 3. Select a **.csv** file from the hard drive.
 4. If successfully uploaded, a message will appear: **"File successfully uploaded"**.
 
