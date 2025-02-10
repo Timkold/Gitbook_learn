@@ -1,146 +1,148 @@
 # Rak
 
-Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
+**Rak** ialah entiti yang dikaitkan dengan satu bilik dan merangkumi sejumlah ruang untuk peranti. Ia hanya memaparkan data peranti yang berada di dalamnya.
 
-• Можно создать неограниченное количество стеллажей в одном помещении.
+• Anda boleh mencipta bilangan rak yang tidak terhad dalam satu bilik.
 
-• По умолчанию создаётся один стеллаж, привязанный к созданному помещению.
+• Secara lalai, satu rak akan dibuat dan dikaitkan dengan bilik yang baru dibuat.
 
-## **Таблица “Стеллажи”**
+## **Jadual “Rak”**
 
-• Поиск — поиск по названию.
+• **Cari** – mencari mengikut nama.
 
-• Дата-центр — выбор стеллажей в конкретном дата-центре.
+• **Pusat Data** – pemilihan rak dalam pusat data tertentu.
 
-• Помещения — выбор стеллажей в помещении.
+• **Bilik** – pemilihan rak dalam bilik.
 
-• Добавить новый стеллаж — кнопка для создания.
+• **Buat Rak Baru** – butang untuk mencipta rak baharu.
 
-## Поля таблицы:
+## **Medan Jadual:**
 
-• ID — идентификатор в базе данных.
+• **ID** – pengecam dalam pangkalan data.
 
-• Имя — название стеллажа.
+• **Nama** – nama rak.
 
-• Дата-центр — название дата-центра.
+• **Pusat Data** – nama pusat data.
 
-• Помещение — помещение, к которому привязан стеллаж.
+• **Bilik** – bilik yang dikaitkan dengan rak.
 
-• Редактирование — настройка параметров.
+• **Edit** – konfigurasi parameter.
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-## **Создание стеллажа**
+## **Membuat Rak**
 
-1\. Перейти в меню **Стеллажи**.
+1\. Pergi ke menu **Rak**.
 
-2\. Нажать кнопку **Добавить новый стеллаж**.
+2\. Klik butang **Buat Rak Baru**.
 
-3\. В открывшемся окне:
+3\. Dalam tetingkap yang dibuka:
 
-* Ввести название в поле **Имя**.
-* Указать количество полок (Высота) от 1 до 10.
-* Указать количество мест на полке (Ширина) от 1 до 10.
-* Выбрать помещение из выпадающего списка.
+* Masukkan nama dalam medan **Nama**.
+* Tetapkan jumlah rak (**Tinggi**) dari 1 hingga 10.
+* Tetapkan jumlah tempat dalam satu rak (**Lebar**) dari 1 hingga 10.
+* Pilih bilik daripada senarai pilihan.
 
-4\. Нажать кнопку **Создать**.
+4\. Klik butang **Buat**.
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## Редактирование стеллажа
+## **Mengemas Kini Rak**
 
-1\. Нажать на кнопку _три точки_ рядом с нужным стеллажом.
+1\. Klik butang _tiga titik_ di sebelah rak yang diperlukan.
 
-2\. Выбрать пункт **Изменить**.
+2\. Pilih pilihan **Kemas Kini**.
 
-3\. Внести изменения:
+3\. Buat perubahan:
 
-* Новое имя.
-* Количество полок (Высота) от 1 до 10.
-* Количество мест на полке (Ширина) от 1 до 10.
-* Помещение, к которому будет привязан стеллаж.
+* Nama baharu.
+* Jumlah rak (**Tinggi**) dari 1 hingga 10.
+* Jumlah tempat dalam satu rak (**Lebar**) dari 1 hingga 10.
+* Bilik yang akan dikaitkan dengan rak.
 
-4\. Нажать **Обновить**.
+4\. Klik **Kemas kini**.
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
+## **Menghapus Rak:** <a href="#menghapus-rak" id="menghapus-rak"></a>
 
-1. Нажать на кнопку _три точки_ рядом с нужным стеллажом
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**.
+1\. Klik butang _tiga titik_ di sebelah rak yang ingin dipadam.
+
+2\. Pilih pilihan **Padam**.
+
+3\. Dalam tetingkap yang muncul, klik butang **Sahkan**.
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt="" width="343"><figcaption></figcaption></figure>
 
-## **Переход на страницу стеллажа**
+## **Pergi ke Halaman Rak**
 
-* В меню **Стеллажи** нажать на **Имя** нужного стеллажа.
+* Dalam menu **Rak**, klik pada **Nama** rak yang diperlukan.
 
-## **Содержимое страницы стеллажа**
+## **Kandungan Halaman Rak**
 
-### **Детали:**
+### **Butiran:**
 
-• Размер: ширина × высота (например, 10×10).
+• **Saiz**: lebar × tinggi (contohnya, 10×10).
 
-• Количество мест: общее число (ширина × высота).
+• **Bilangan Tempat**: jumlah keseluruhan (lebar × tinggi).
 
-• Количество устройств:
+• **Bilangan Peranti**:
 
-* Всего — неактивные + онлайн.
-* Онлайн — устройства передают данные.
+* **Semua** – peranti tidak aktif + dalam talian.
+* **Dalam Talian** – peranti yang menghantar data.
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-### **Графики:**
+### **Grafik:**
 
-**• Хэшрейт:**
+**• Kadar Hash:**
 
-* Asic Hashrate — переданный устройством.
-* Nominal Hashrate — заявленный производителем.
+* **Asic Hashrate** – data yang dihantar oleh peranti.
+* **Nominal Hashrate** – seperti yang dinyatakan oleh pengeluar.
 
-**• Потребление:**
+**• Penggunaan Tenaga:**
 
-* Asic Power — переданное устройством.
-* Nominal Power — заявленное производителем.
+* **Asic Power** – data yang dihantar oleh peranti.
+* **Nominal Power** – seperti yang dinyatakan oleh pengeluar.
 
-**• Устройства:**
+**• Peranti:**
 
-* Active Asic — работающие устройства.
-* Total Asic — все устройства, включая нерабочие.
+* **Active Asic** – peranti yang sedang beroperasi.
+* **Total Asic** – jumlah keseluruhan peranti, termasuk yang tidak berfungsi.
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-### **Карта стеллажа**
+### **Peta Rak**
 
-Отображает 2D-схему с заданным количеством мест и размещёнными устройствами.
+Memaparkan pelan 2D dengan jumlah tempat yang ditetapkan dan peranti yang diletakkan di dalamnya.
 
-• В каждой ячейке указаны:
+• Setiap sel menunjukkan:
 
-* Действительный хэшрейт.
-* Максимальная температура чипов.
+* Kadar hash sebenar.
+* Suhu maksimum cip.
 
-• Особенности отображения:
+• Ciri paparan:
 
-* Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
-* Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
+* Jika kadar hash atau suhu = 0 atau melebihi norma, teks akan berwarna merah.
+* Untuk melihat masalah semasa, tukar ciri paparan di sudut kanan atas.
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-### **Список устройств на стеллаже**
+### **Senarai Peranti dalam Rak**
 
-Перечисляет устройства, привязанные к стеллажу.
+Menyenaraikan peranti yang dikaitkan dengan rak.
 
-• Таблица включает:
+• Jadual termasuk:
 
-* ID устройства — уникальный идентификатор, заданный системой.
-* Модель — определяется агентом или задаётся вручную; отображается прошивка.
-* Хэшрейт — текущий показатель устройства:
+* **ID Peranti** – pengecam unik yang diberikan oleh sistem.
+* **Model** – ditentukan oleh ejen atau ditetapkan secara manual; firmware dipaparkan.
+* **Kadar Hash** – penunjuk semasa peranti:
 
-&#x20;     🟢 Хэшрейт > 0
+&#x20;     🟢 Kadar Hash > 0
 
-&#x20;     🔴 Хэшрейт = 0 или не определён
+&#x20;     🔴 Kadar Hash = 0 atau tidak ditentukan
 
-* Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
-* IP-адрес — автоматически определяется агентом или задаётся вручную.
+* **Nama Pekerja** – terdiri daripada nama kolam dan peranti, ditentukan oleh ejen atau secara manual.
+* **Alamat IP** – ditentukan secara automatik oleh ejen atau ditetapkan secara manual.
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
