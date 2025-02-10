@@ -1,20 +1,20 @@
 # 💸 Halaman “Pengeluaran”
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+Halaman **"Pengeluaran"** memaparkan sejarah semua transaksi yang berkaitan dengan pengeluaran dana oleh pelanggan.
 
-• Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• **Jumlah minimum pengeluaran:** Transaksi diproses secara automatik sebaik sahaja baki pelanggan mencapai **0.001 BTC**.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## 📋 Состав таблицы “Выводы”
+## 📋 Kandungan Jadual “Pengeluaran”
 
 \
-Таблица включает следующие колонки:
+Jadual ini mengandungi lajur berikut:
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 **Tarikh dan Masa** – waktu transaksi pengeluaran dilakukan.
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 **Jumlah** – jumlah BTC yang dipindahkan dalam transaksi.
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 **Alamat** – nombor dompet tempat dana dihantar.
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
+• 🔗 **Nombor Transaksi** – pengenal pasti unik operasi dalam blockchain.
