@@ -2,86 +2,84 @@
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Pada kali pertama anda log masuk ke Akaun Peribadi, tiada kolam yang disambungkan</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## 🚀 Создание пула
+## 🚀 Membuat Kolam
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Pergi ke menu **Tetapan Kolam**.
 
-2\. Нажмите кнопку “Создать пул”.
+2\. Klik butang **Buat Kolam**.
 
-3\. В открывшемся окне укажите:
+3\. Dalam tetingkap yang dibuka, masukkan:
 
-• Имя пула (обязательно, без пробелов, шаблон: ^\[a-zA-Z0-9]+$).
+• **Nama Kolam** (wajib, tanpa ruang, corak: `^[a-zA-Z0-9]+$`).
 
-• Имя будет автоматически дополнено префиксом "bp".
+• Nama akan ditambah secara automatik dengan awalan **"bp"**.
 
-• ❗ _Если имя занято_, появится ошибка: “Имя пула зарезервировано”.
+• ❗ _Jika nama sudah digunakan_, akan muncul ralat: **"Nama kolam telah ditempah"**.
 
-• Комментарий (поле необязательное).
+• **Komen** (medan pilihan).
 
-• Монета (по умолчанию BTC).
+• **Mata Wang** (lalai BTC).
 
-4\. Нажмите кнопку “Создать”.
-
-\
-Ограничения:
-
-• ❗ _Редактировать пул после создания нельзя._
-
-• ❗ _Максимум 5 пулов на одного клиента._ Если лимит превышен, появится ошибка: “Вы не можете создавать больше пулов”.
-
-## 📋 Список пулов
-
-Все созданные пулы отображаются в таблице:
-
-• Имя пула — заданное при создании.
-
-• Комментарий — отображается, если заполнен.
-
-• Монета — по умолчанию BTC.
-
-## ⚙️ Подключение устройства к пулу
+4\. Klik butang **Buat**.
 
 \
-Чтобы подключить устройство, выполните следующие шаги:
+**Had:**
 
-1\. Перейдите в меню “Настройка пулов”.
+• ❗ _Kolam tidak boleh diedit selepas ia dibuat._
 
-2\. Напротив нужного пула нажмите кнопку “Подключить устройство”.
+• ❗ _Maksimum 5 kolam bagi setiap pelanggan._ Jika had melebihi, akan muncul ralat: **"Anda tidak boleh mencipta lebih banyak kolam."**
 
-3\. В открывшемся окне скопируйте:
+## 📋 Senarai Kolam
 
-• 3 URL-адреса и укажите их в настройках устройства.
+Semua kolam yang dicipta akan dipaparkan dalam jadual:
 
-• Worker, который состоит из:
+• **Nama Kolam** – nama yang ditetapkan semasa penciptaan.
 
-* **Имени пула** — название пула в системе Pool Bullpool.
-* **ID устройства** — задаётся вами (может быть уникальным или одинаковым для нескольких устройств).
+• **Komen** – dipaparkan jika diisi.
 
-❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
+• **Mata Wang** – lalai BTC.
+
+## ⚙️ Menyambungkan Peranti ke Kolam
+
+\
+Untuk menyambungkan peranti, ikut langkah-langkah berikut:
+
+1\. Pergi ke menu **Tetapan Kolam**.
+
+2\. Klik butang **Sambungkan Peranti** di sebelah kolam yang diingini.
+
+3\. Dalam tetingkap yang dibuka, salin:
+
+• 3 URL dan masukkan dalam tetapan peranti anda.
+
+• **Nama Pekerja**, yang terdiri daripada:
+
+* **Nama Kolam** – nama kolam dalam sistem Pool Bullpool.
+* **ID Peranti** – ditetapkan oleh anda (boleh menjadi unik atau sama untuk beberapa peranti).
+
+❕ _Jika ID yang sama digunakan untuk beberapa peranti, sistem akan memaparkan metrik agregat untuk semua peranti dengan ID tersebut._
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## 💰 Настройка вывода средств
+## 💰 Tetapan Pengeluaran Dana
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Pergi ke menu **Tetapan Kolam**.
 
-2\. Напротив нужного пула нажмите кнопку “Вывод”.
+2\. Klik butang **Keluarkan** di sebelah kolam yang diingini.
 
-3\. В открывшемся окне укажите номер кошелька, на который будут выводиться средства.
+3\. Dalam tetingkap yang dibuka, masukkan alamat dompet di mana dana akan dikeluarkan.
 
-4\. Нажмите кнопку “Сохранить”.
+4\. Klik butang **Simpan**.
 
+**Pengeluaran Dana Automatik:**
 
+* Apabila jumlah minimum **0.001 BTC** dicapai, jumlah tersebut akan dihantar ke dompet yang ditetapkan setiap hari sebelum **12:00 UTC**.
+* Jika anda ingin menukar jumlah minimum pengeluaran, sila hubungi sokongan.
 
-**Автоматический вывод средств:**
-
-* При достижении минимальной суммы 0.001 BTC, ежедневно до 12:00 UTC сумма отправляется на указанный кошелёк.
-* Если требуется изменить минимальную сумму вывода, свяжитесь с поддержкой
-
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Pool”
+Selepas ini, anda boleh meneroka lebih lanjut fungsi akaun peribadi anda dalam bahagian **"Pool"**.
