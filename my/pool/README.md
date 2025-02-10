@@ -1,21 +1,17 @@
 # Pool
 
-Pool: Ваша точка управления майнингом и финансами
+**Pool: Titik Kawalan Anda untuk Perlombongan dan Kewangan**
+
+Pool ialah perkhidmatan yang mudah dan berfungsi, direka untuk memberikan kawalan penuh ke atas kolam perlombongan anda. Dengan Pool, anda boleh:
+
+• Menguruskan kolam perlombongan dengan mudah.
+
+• Melihat maklumat terperinci tentang peranti yang disambungkan dan prestasi mereka.
+
+• Mengawal dan menetapkan pengeluaran dana dengan pantas dan tanpa sebarang kerumitan.
 
 
-
-Pool — это удобный и функциональный сервис, созданный для полного контроля над вашими пулами. С его помощью вы сможете:
-
-• Управлять пулами с максимальной простотой.
-
-• Просматривать подробную информацию о подключенных устройствах и их работе.
-
-• Контролировать и настраивать вывод средств быстро и без лишних действий.
+Alat ini menggabungkan semua fungsi utama yang diperlukan untuk pengurusan perlombongan yang berkesan, memberikan anda kawalan yang kuat dan kemudahan dalam satu tempat.
 
 
-
-Этот инструмент объединяет все ключевые функции, необходимые для эффективного управления процессами, предоставляя вам мощный контроль и удобство в одном месте.
-
-
-
-_Ваши данные. Ваши устройства. Ваши решения._
+_**Data Anda. Peranti Anda. Keputusan Anda.**_
