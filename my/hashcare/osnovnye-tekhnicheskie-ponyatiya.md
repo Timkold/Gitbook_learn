@@ -1,90 +1,90 @@
 ---
 description: >-
-  В этом разделе представлены ключевые термины и определения, которые помогут
-  лучше понять содержание документации.
+  Bahagian ini mengandungi istilah dan definisi utama yang akan membantu anda
+  memahami kandungan dokumentasi dengan lebih baik.
 ---
 
-# 📘 Основные технические понятия
+# 📘 Konsep Teknikal Asas
 
-## 💻 ASIC (асик)
+## 💻 ASIC (Asik)
 
-**🔹 Что это?**
+**🔹 Apakah ini?**
 
-ASIC (Application-Specific Integrated Circuit) — это специализированное устройство, оптимизированное для вычисления хэш-функций, необходимых для добавления новых блоков в блокчейн.
+ASIC (**Application-Specific Integrated Circuit**) ialah peranti khusus yang dioptimumkan untuk pengiraan fungsi hash yang diperlukan bagi menambah blok baharu ke dalam blockchain.
 
-**🔹 Особенности:**
+**🔹 Ciri-ciri:**
 
-• Разработан исключительно для выполнения вычислений по алгоритмам майнинга, например, SHA-256 для Bitcoin.
+• Direka khas untuk menjalankan pengiraan menggunakan algoritma perlombongan, seperti **SHA-256** untuk Bitcoin.
 
-## ⚡ Hashrate (Хэшрейт)
+## ⚡ Hashrate (Kadar Hash)
 
-**🔹 Что это?**
+**🔹 Apakah ini?**
 
-Хэшрейт — это скорость, с которой майнинг-устройство выполняет криптографические вычисления для поиска новых блоков в блокчейне.
+Kadar hash ialah kelajuan di mana peranti perlombongan menjalankan pengiraan kriptografi bagi mencari blok baharu dalam blockchain.
 
-**🔹 Единицы измерения:**
+**🔹 Unit ukuran:**
 
-• H/s (хэши в секунду) — базовая единица.
+• **H/s** (hash sesaat) – unit asas.
 
-• KH/s (килохэши) = 1,000 H/s.
+• **KH/s** (kilohash) = **1,000 H/s**.
 
-• MH/s (мегахэши) = 1,000,000 H/s.
+• **MH/s** (megahash) = **1,000,000 H/s**.
 
-• GH/s (гигахэши) = 1,000,000,000 H/s.
+• **GH/s** (gigahash) = **1,000,000,000 H/s**.
 
-• TH/s (терахэши) = 1,000,000,000,000 H/s.
+• **TH/s** (terahash) = **1,000,000,000,000 H/s**.
 
-**🔹 Чем важен?**
+**🔹 Kenapa penting?**
 
-Чем выше хэшрейт, тем больше шансов устройства найти правильный хэш и получить вознаграждение за майнинг.
+Semakin tinggi kadar hash, semakin besar peluang peranti menemui hash yang betul dan menerima ganjaran perlombongan.
 
-## 🛠️ Хэшрейт плат
+## 🛠️ Kadar Hash Plat
 
-**🔹 Что это?**
+**🔹 Apakah ini?**
 
-Скорость вычислений на отдельных платах внутри ASIC-майнера.
+Kelajuan pengiraan pada plat individu dalam ASIC miner.
 
-**🔹 Особенности:**
+**🔹 Ciri-ciri:**
 
-• ASIC-майнеры состоят из нескольких плат, каждая из которых отвечает за часть вычислений.
+• ASIC miner terdiri daripada beberapa plat, setiap satu bertanggungjawab untuk sebahagian pengiraan.
 
-• Хэшрейт плат отображает производительность каждой платы и её вклад в общий хэшрейт устройства.
+• Kadar hash plat menunjukkan prestasi setiap plat dan sumbangannya kepada kadar hash keseluruhan peranti.
 
-**🔹 Единицы измерения:**
+**🔹 Unit ukuran:**
 
-Те же, что и для общего хэшрейта устройства: H/s, KH/s, MH/s, GH/s, TH/s, но в меньшем масштабе.
+Sama seperti kadar hash keseluruhan peranti: **H/s, KH/s, MH/s, GH/s, TH/s**, tetapi dalam skala yang lebih kecil.
 
-## 🌡️ Температура устройства
+## 🌡️ Suhu Peranti
 
-**🔹 Что это?**
+**🔹 Apakah ini?**
 
-Температура ключевых компонентов ASIC-майнера, таких как чипы и платы, в процессе работы.
+Suhu komponen utama ASIC miner, seperti cip dan plat, semasa operasi.
 
-**🔹 Почему это важно?**
+**🔹 Kenapa ini penting?**
 
-* Поддержание оптимальной температуры обеспечивает стабильность, долговечность и производительность устройства.
-* Перегрев может привести к сбоям в работе.
+* Mengekalkan suhu optimum memastikan kestabilan, ketahanan, dan prestasi peranti.
+* Pemanasan melampau boleh menyebabkan kegagalan operasi.
 
-**🔹 Единицы измерения:**
+**🔹 Unit ukuran:**
 
-* &#x20;°C (градусы Цельсия).
-* &#x20;°F (градусы Фаренгейта).
+* **°C** (darjah Celsius).
+* **°F** (darjah Fahrenheit).
 
-## 🔄 Скорость вентиляторов устройства
+## 🔄 Kelajuan Kipas Peranti
 
-**🔹 Что это?**
+**🔹 Apakah ini?**
 
-Частота вращения вентиляторов в устройстве, обеспечивающих его охлаждение.
+Kelajuan putaran kipas dalam peranti, yang bertanggungjawab untuk penyejukan.
 
-🔹 Единицы измерения:
+**🔹 Unit ukuran:**
 
-* &#x20;RPM (обороты в минуту).
+* **RPM** (putaran per minit).
 
-**🔹 Роль:**
+**🔹 Peranan:**
 
-* Ускоренное вращение вентиляторов улучшает охлаждение.
-* Поддерживает стабильную работу устройства при высокой нагрузке.
+* Kelajuan kipas yang lebih tinggi meningkatkan penyejukan.
+* Membantu mengekalkan operasi peranti yang stabil di bawah beban tinggi.
 
-**🎯 Примечание:**
+**🎯 Nota:**
 
-Эти термины являются ключевыми для понимания функциональности ASIC-майнеров и процессов майнинга в целом. Они помогут вам лучше ориентироваться в системе и её возможностях.
+Istilah ini adalah asas untuk memahami fungsi **ASIC miner** dan proses perlombongan secara keseluruhan. Ia akan membantu anda lebih memahami sistem dan keupayaannya.
