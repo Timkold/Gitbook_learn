@@ -1,41 +1,39 @@
 # HashCare
 
-HashCare — это инновационная система учета ресурсов для майнинга криптовалют, включающая функцию мониторинга вычислительных устройств в виде плагина.
+HashCare ialah sistem inovatif untuk pengurusan sumber perlombongan kriptowang, termasuk fungsi pemantauan peranti pengkomputeran dalam bentuk pemalam.
 
-## 🚀 Возможности HashCare
+## 🚀 Keupayaan HashCare
 
-• **📊 Мониторинг процесса майнинга:**
+• **📊 Pemantauan Proses Perlombongan:**
 
-Отслеживание статуса работников, хешрейта пула и других ключевых показателей.
+Menjejak status pekerja, kadar hash kolam, dan penunjuk utama lain.
 
-• **📋 Учет ресурсов:**&#x20;
+• **📋 Pengurusan Sumber:**&#x20;
 
-Управление и анализ ресурсов, задействованных в майнинге.&#x20;
+Pengurusan dan analisis sumber yang digunakan dalam perlombongan.&#x20;
 
-• **🔌 Гибкая настройка мониторинга устройств:**&#x20;
+• **🔌 Tetapan Pemantauan Peranti yang Fleksibel:**&#x20;
 
-Подключение устройств и настройка параметров мониторинга в соответствии с вашими потребностями.&#x20;
+Menyambungkan peranti dan menetapkan parameter pemantauan mengikut keperluan anda.&#x20;
 
-• **⏱️ Реальное время (RT):**
+• **⏱️ Masa Nyata (RT):**
 
-Получение актуальных данных о состоянии и производительности устройств в реальном времени.&#x20;
+Mendapatkan data terkini mengenai status dan prestasi peranti dalam masa nyata.&#x20;
 
-• **📈 Аналитика и уведомления:**&#x20;
+• **📈 Analitik dan Pemberitahuan:**&#x20;
 
-Использование встроенных инструментов аналитики и настроек уведомлений для контроля эффективности.
+Menggunakan alat analitik terbina dalam dan tetapan pemberitahuan untuk mengawal keberkesanan.
 
-## ❓Как работает HashCare?
+## ❓Bagaimana HashCare Berfungsi?
 
-Мониторинг осуществляется с использованием агента, который выполняет следующие задачи:&#x20;
+Pemantauan dijalankan menggunakan agen yang melaksanakan tugas berikut:&#x20;
 
-• Сбор метрик с подключенных устройств. \
-• Передача данных в централизованную систему для обработки и визуализации.&#x20;
+• Mengumpulkan metrik daripada peranti yang disambungkan. \
+• Menghantar data ke sistem berpusat untuk pemprosesan dan visualisasi.&#x20;
 
-HashCare предоставляет:&#x20;
+HashCare menyediakan:&#x20;
 
-• 🎛️ **Настраиваемый интерфейс отображения данных** — адаптируйте интерфейс для соответствия вашим аналитическим потребностям.\
-• 🚨 **Обнаружение проблем** — своевременное выявление и реагирование на сбои.&#x20;
+• 🎛️ **Antara muka paparan data yang boleh disesuaikan** – sesuaikan antara muka untuk memenuhi keperluan analitik anda.\
+• 🚨 **Pengesanan masalah** – mengenal pasti dan bertindak balas terhadap kegagalan dengan segera.&#x20;
 
-
-
-HashCare — это универсальный инструмент для мониторинга, учета и анализа всего процесса майнинга. С его легкой настройкой и глубокой функциональностью он является необходимой системой для майнеров всех уровней.
+HashCare ialah alat serba guna untuk pemantauan, pengurusan, dan analisis keseluruhan proses perlombongan. Dengan tetapan yang mudah dan fungsi mendalam, ia adalah sistem penting untuk pelombong di semua peringkat.
