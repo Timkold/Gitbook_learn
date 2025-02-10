@@ -1,45 +1,45 @@
 # 📈 Halaman “Keuntungan”
 
-На странице “Прибыль” представлена информация о ежедневной доходности на момент закрытия каждого дня для всех ваших пулов.
+Halaman **"Keuntungan"** memaparkan maklumat mengenai pendapatan harian pada penghujung setiap hari untuk semua kolam anda.
 
-• 🔽 Выбор пула: переключайтесь между пулами с помощью выпадающего меню в правом верхнем углу.
+• 🔽 **Pemilihan Kolam:** Tukar antara kolam menggunakan menu lungsur di sudut kanan atas.
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-## **💰 Как рассчитывается общая прибыль?**
+## **💰 Bagaimana keuntungan keseluruhan dikira?**
 
 \
-Общая прибыль вычисляется по следующей формуле:
+Keuntungan keseluruhan dikira menggunakan formula berikut:
 
-(TH \* стоимость BTC за TH \* количество дней)
+(TH \* harga BTC bagi setiap TH \* bilangan hari)
 
-🗓️ Количество дней:
+🗓️ **Bilangan hari:**
 
-• Неделя — 7 дней.
+• **Seminggu** — 7 hari.
 
-• Месяц — 30 дней.
+• **Sebulan** — 30 hari.
 
-Эта информация помогает вам быстро оценить эффективность каждого пула и спланировать доходность.
+Maklumat ini membantu anda menilai keberkesanan setiap kolam dengan cepat dan merancang pendapatan anda.
 
-_Совет:_ добавьте график или таблицу для наглядного отображения прибыли по каждому пулу за выбранный период.
+_**Petua:**_ Tambahkan carta atau jadual untuk memaparkan keuntungan setiap kolam bagi tempoh yang dipilih dengan lebih jelas.
 
-## 📊 Таблица подсчёта прибыли
+## 📊 Jadual Pengiraan Keuntungan
 
 \
-В таблице отображается информация о доходах для каждого дня, включая ключевые параметры:
+Jadual ini memaparkan maklumat pendapatan harian, termasuk parameter utama berikut:
 
-• 📅 День — дата, за которую рассчитывается прибыль.
+• 📅 **Hari** – tarikh di mana keuntungan dikira.
 
-• ⚡ Хэшрейт — суммарный хэшрейт всех устройств, подключённых к выбранному пулу.
+• ⚡ **Kadar Hash** – jumlah kadar hash semua peranti yang disambungkan ke kolam yang dipilih.
 
-• 💰 Общая прибыль — итоговая прибыль после вычета комиссии.
+• 💰 **Jumlah Keuntungan** – keuntungan keseluruhan selepas potongan komisen.
 
-• 📈 Прибыль на TH/s — средний доход, приходящийся на каждый терахэш в секунду (TH/s), зафиксированный в указанный день.
+• 📈 **Keuntungan Per TH/s** – purata pendapatan bagi setiap terahash sesaat (TH/s) yang direkodkan pada hari tersebut.
 
-• 🔄 PPLNS — прибыль за день, рассчитанная по методу Pay Per Last N Shares (распределение доходов на основе последних отправленных шар).
+• 🔄 **PPLNS** – keuntungan harian yang dikira menggunakan kaedah **Pay Per Last N Shares** (pengagihan pendapatan berdasarkan saham terakhir yang dihantar).
 
-• 💵 PPS — прибыль за день, рассчитанная по методу Pay Per Share (фиксированная выплата за каждую принятую шар).
+• 💵 **PPS** – keuntungan harian yang dikira menggunakan kaedah **Pay Per Share** (bayaran tetap bagi setiap saham yang diterima).
 
-• 🏆 SOLO — прибыль за день при использовании метода SOLO (получение награды за самостоятельное решение блока).
+• 🏆 **SOLO** – keuntungan harian jika menggunakan kaedah **SOLO** (menerima ganjaran sepenuhnya apabila menemui blok sendiri).
 
-Эта таблица помогает вам анализировать эффективность каждого метода распределения доходов и управлять вашими ресурсами максимально выгодно.
+Jadual ini membantu anda menganalisis keberkesanan setiap kaedah pengagihan pendapatan dan menguruskan sumber anda dengan lebih efisien.
