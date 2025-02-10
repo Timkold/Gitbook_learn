@@ -90,114 +90,114 @@ Untuk mengumpulkan data dengan ejen luaran, anda perlu mencipta peranti dengan p
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-**Пример CSV таблицы**
+## **Contoh Jadual CSV**
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
-## **Редактирование устройства**
+## **Kemas Kini Peranti**
 
-1\. Нажать на кнопку (три точки) рядом с нужным устройством.
+1\. Klik butang **(tiga titik)** di sebelah peranti yang ingin dikemas kini.
 
-2\. Выбрать пункт **Изменить**.
+2\. Pilih pilihan **Kemas Kini**.
 
-_**Доступные для изменения параметры:**_
+_**Parameter yang boleh dikemas kini:**_
 
-• **Тип устройства** — модель. Поле работает как выпадающее меню с функцией поиска по символам. _Обязательно для заполнения._
+• **Jenis Peranti** – model. Medan ini berfungsi sebagai menu lungsur dengan fungsi carian. _Wajib diisi._
 
-• **Тэг актива** — уникальное имя устройства в системе Hashcare. _Обязательно для заполнения._
+• **Tag Aset** – nama unik peranti dalam sistem Hashcare. _Wajib diisi._
 
-• **Серийный номер** — _Обязательно для заполнения._
+• **Nombor Siri** – _Wajib diisi._
 
-• **IP-адрес** — должен соответствовать шаблону: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Обязательно для заполнения._
+• **Alamat IP** – mesti mematuhi corak: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Wajib diisi._
 
-• **MAC-адрес** — должен соответствовать шаблону: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Обязательно для заполнения._
+• **Alamat MAC** – mesti mematuhi corak: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Wajib diisi._
 
-• **Номер полки** — номер свободной полки в зависимости от выбранного стеллажа.
+• **Nombor Rak** – nombor rak kosong bergantung pada rak yang dipilih.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество полок в стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size.”_
-* Может быть только цифрой. _Ошибка: “Некорректный формат.”_
+* Tidak boleh sama dengan 0. _Ralat: “Mesti lebih besar atau sama dengan 1.”_
+* Tidak boleh lebih besar daripada jumlah rak yang ditetapkan. _Ralat: “error.codes.rack\_exceed\_max\_size.”_
+* Hanya nombor dibenarkan. _Ralat: “Format tidak sah.”_
 
-• **Номер места** — номер свободного места на полке.
+• **Nombor Tempat** – nombor tempat kosong pada rak.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество мест на указанной полке. _Ошибка: “Некорректный формат.”_
-* Может быть только цифрой. _Обязательно для заполнения._
+* Tidak boleh sama dengan 0. _Ralat: “Mesti lebih besar atau sama dengan 1.”_
+* Tidak boleh lebih besar daripada jumlah tempat yang ditetapkan pada rak. _Ralat: “Format tidak sah.”_
+* Hanya nombor dibenarkan. _Wajib diisi._
 
-• **Пул Stratum URLs** — Стратум адреса. Может быть добавлено от 1 до 3 адресов. _Необязательно для заполнения._
+• **URL Stratum Kolam** – alamat Stratum. Sehingga 3 alamat boleh ditambah. _Pilihan._
 
-• **Имя воркера пула** — наименование устройства на пуле. _Обязательно для заполнения._
+• **Nama Pekerja Kolam** – nama peranti dalam kolam. _Wajib diisi._
 
-• **Имя пула** — название пула. _Обязательно для заполнения._
+• **Nama Kolam** – nama kolam. _Wajib diisi._
 
-• **Стеллаж** — выбор из существующих стеллажей. _Обязательно для заполнения._
+• **Rak** – pemilihan daripada rak sedia ada. _Wajib diisi._
 
-• **Тип прошивки** — _Обязательно для заполнения._
+• **Jenis Firmware** – _Wajib diisi._
 
-• **Изменить кол-во полок** (Высота) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Ubah bilangan rak** (**Tinggi**) – mesti lebih besar atau sama dengan 1 dan kurang atau sama dengan 10.
 
-• **Изменить кол-во мест на полках** (Ширина) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Ubah bilangan tempat dalam rak** (**Lebar**) – mesti lebih besar atau sama dengan 1 dan kurang atau sama dengan 10.
 
-• **Изменить помещение**, к которому будет привязан стеллаж.
+• **Ubah bilik** yang dikaitkan dengan rak.
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="446"><figcaption></figcaption></figure>
 
-3\. Нажать **Обновить** для сохранения изменений.
+3\. Klik **Kemas Kini** untuk menyimpan perubahan.
 
-## **Редактирование устройств через CSV файл** <a href="#redaktirovanie-ustrojstv-cherez-csv-fajl" id="redaktirovanie-ustrojstv-cherez-csv-fajl"></a>
+## **Kemas Kini Peranti melalui Fail CSV** <a href="#kemas-kini-peranti-melalui-fail-csv" id="kemas-kini-peranti-melalui-fail-csv"></a>
 
-Имеется возможность отредактировать больше одного устройства через csv файл. Для этого необходимо загрузить csv с списком устройств, которые уже есть в списке созданных.
+Anda boleh mengemas kini lebih daripada satu peranti menggunakan fail CSV. Untuk melakukannya, muat naik fail CSV dengan senarai peranti yang sudah wujud dalam sistem.
 
-1. Главным идентификатором будет **MAC адрес** - если MAC созданного устройства и устройства в csv файле, то остальные данные изменяются согласно информации в csv файле
-2. Если MAC адреса нет в системе Hashcare - создаётся новое устройство с заданными в csv файле параметрами
+1. **Alamat MAC** akan menjadi pengecam utama – jika MAC dalam fail CSV sepadan dengan yang sudah ada dalam sistem Hashcare, data lain akan dikemas kini berdasarkan fail CSV.
+2. Jika alamat MAC tidak wujud dalam sistem Hashcare, peranti baharu akan dibuat berdasarkan data dalam fail CSV.
 
-## **Удаление Устройства:**
+## **Padam Peranti:**
 
-1. Нажать на кнопку (_три точки_) рядом с нужным устройством
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**
+1. Klik butang **(tiga titik)** di sebelah peranti yang ingin dipadam.
+2. Pilih pilihan **Padam**.
+3. Dalam tetingkap yang muncul, klik butang **Sahkan**.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## **Детали устройства:**
+## **Butiran Peranti:**
 
-• **Модель**
+• **Model**
 
-Автоматически определяется внутренним агентом или задаётся вручную в настройках устройства. Включает заводской хэшрейт.
+Ditentukan secara automatik oleh ejen dalaman atau ditetapkan secara manual dalam tetapan peranti. Termasuk kadar hash kilang.
 
-• **IP-адрес**
+• **Alamat IP**
 
-Автоматически определяется внутренним агентом при опросе сети или задаётся вручную в настройках устройства.
+Ditentukan secara automatik oleh ejen dalaman semasa pemantauan rangkaian atau ditetapkan secara manual dalam tetapan peranti.
 
-• **Прошивка**
+• **Firmware**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Ditentukan secara automatik oleh ejen dalaman semasa pemantauan peranti atau ditetapkan secara manual dalam tetapan peranti.
 
-• **Серийный номер (S/N)**
+• **Nombor Siri (S/N)**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Ditentukan secara automatik oleh ejen dalaman semasa pemantauan peranti atau ditetapkan secara manual dalam tetapan peranti.
 
-### **Мощность**
+### **Kuasa**
 
-• **Номинальная мощность**
+• **Kuasa Nominal**
 
-Статичное значение, установленное для каждой модели устройства.
+Nilai statik yang ditetapkan untuk setiap model peranti.
 
-* W/TH - относительная величина, рассчитываемая как отношение номинального потребления к номинальному хэшрейту модели.
+* **W/TH** – nilai relatif yang dikira sebagai nisbah penggunaan kuasa nominal kepada kadar hash nominal model.
 
-• **Номинальный хэшрейт**
+• **Kadar Hash Nominal**
 
-Значение заводского хэшрейта, полученное внутренним агентом из ASIC.
+Nilai kadar hash kilang yang diperoleh oleh ejen dalaman daripada ASIC.
 
-### **Дополнительная информация**
+### **Maklumat Tambahan**
 
-• **Имя воркера**
+• **Nama Pekerja**
 
-Состоит из имени пула и имени устройства на пуле. Определяется автоматически внутренним агентом или задаётся вручную в настройках устройства.
+Terdiri daripada nama kolam dan nama peranti dalam kolam. Ditentukan secara automatik oleh ejen dalaman atau ditetapkan secara manual dalam tetapan peranti.
 
-• **MAC-адрес**
+• **Alamat MAC**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Ditentukan secara automatik oleh ejen dalaman semasa pemantauan peranti atau ditetapkan secara manual dalam tetapan peranti.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
