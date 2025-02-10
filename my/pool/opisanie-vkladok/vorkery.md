@@ -1,81 +1,81 @@
 # Pekerja
 
-В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
+Dalam sistem Bullpool, peranti dikenali sebagai **Pekerja** (Worker). Ini adalah elemen utama yang:
 
-• Представляют одно или несколько объединённых устройств, подключенных к майнинговому пулу.
+• Mewakili satu atau lebih peranti yang disambungkan ke kolam perlombongan.
 
-• Выполняют задачи по добыче криптовалюты.
+• Menjalankan tugas perlombongan mata wang kripto.
 
-## Что делает Worker?
+## Apakah fungsi Worker?
 
-Каждый воркер:
+Setiap Worker:
 
-• 🖥️ Выполняет вычислительные задачи для решения блоков.
+• 🖥️ Menjalankan pengiraan untuk menyelesaikan blok.
 
-• 📊 Отслеживает производительность — пул фиксирует результаты его работы.
+• 📊 Mengesan prestasi — kolam merekod hasil kerjanya.
 
-• ⚡ Оптимизирует эффективность добычи криптовалюты.
+• ⚡ Mengoptimumkan keberkesanan perlombongan mata wang kripto.
 
-## Список майнеров
+## Senarai Pelombong
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Собранные с пула данные отображаются на странице Список майнеров. На странице отображаются воркеры на одном пуле. Что бы выбрать другой пул необходимо раскрыть выпадающее меню списка созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Data yang dikumpul dari kolam ditunjukkan pada halaman **Senarai Pelombong**. Halaman ini memaparkan pekerja dalam satu kolam perlombongan. Untuk memilih kolam lain, buka menu pilihan kolam yang telah dibuat.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Список созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Senarai kolam yang telah dibuat.</p></figcaption></figure>
 
-## **Таблица воркеров: ключевая информация и параметры**
+## **Jadual Pekerja: Maklumat Utama dan Parameter**
 
-В таблице воркеров представлена полная информация о каждом устройстве, подключённом к пулу. Вот основные столбцы и их значения:
+Jadual pekerja mengandungi maklumat penuh mengenai setiap peranti yang disambungkan ke kolam. Berikut adalah lajur utama dan nilainya:
 
-### **1. Майнер**
+### **1. Pelombong**
 
-Идентификатор воркера (ID Worker) на пуле. Он позволяет быстро определить устройство и его связь с пулом.
+ID pekerja (ID Worker) dalam kolam. Ia membolehkan anda mengenal pasti peranti dengan cepat dan hubungannya dengan kolam.
 
-### **2. Средний хэшрейт**
+### **2. Purata Kadar Hash**
 
-Хэшрейт устройства за разные промежутки времени:
+Kadar hash peranti dalam pelbagai tempoh masa:
 
-• Средний за 10 минут — показатель производительности за короткий период.
+• **Purata 10 minit** — prestasi dalam jangka masa pendek.
 
-• Средний за час — усреднённое значение за последний час.
+• **Purata satu jam** — nilai purata dalam tempoh sejam terakhir.
 
-• Средний за 24 часа — долгосрочный показатель стабильности устройства.
+• **Purata 24 jam** — penunjuk kestabilan jangka panjang peranti.
 
-Эти данные помогают анализировать эффективность майнинга и выявлять отклонения.
+Data ini membantu menganalisis keberkesanan perlombongan dan mengenal pasti sebarang penyimpangan.
 
-### **3. Процент отклонённых шар (Reject Rate)**
+### **3. Kadar Saham Ditolak (Reject Rate)**
 
-Этот показатель демонстрирует долю шаров (решений задач), которые были отправлены устройством, но не приняты пулом.
+Menunjukkan peratusan saham (share) yang dihantar oleh peranti tetapi ditolak oleh kolam.
 
-• Выражается в процентах.
+• Dinyatakan dalam peratus.
 
-• Указывает на эффективность передачи данных между устройством и пулом.
+• Menunjukkan keberkesanan penghantaran data antara peranti dan kolam.
 
-• Высокий Reject Rate может свидетельствовать о проблемах с сетью или настройками устройства.
+• Kadar penolakan yang tinggi boleh menunjukkan masalah rangkaian atau tetapan peranti.
 
-### **4. Время последней отправки**
+### **4. Masa Penyerahan Terakhir**
 
-Время последней передачи шар на пул.
+Masa penghantaran saham terakhir ke kolam.
 
-• Данные обновляются каждые 5 минут.
+• Data dikemas kini setiap 5 minit.
 
-### **5. Статус**
+### **5. Status**
 
-Текущее состояние устройства:
+Status semasa peranti:
 
-• Активный — устройство работает и данные поступают на пул.
+• **Aktif** — peranti berfungsi dan data dihantar ke kolam.
 
-• Неактивный — данные с устройства не поступают на пул (возможные проблемы с подключением или устройством).
+• **Tidak Aktif** — data dari peranti tidak diterima oleh kolam (mungkin terdapat masalah sambungan atau peranti).
 
-### **6. Операции**
+### **6. Operasi**
 
-Интерактивная кнопка, которая позволяет:
+Butang interaktif yang membolehkan anda:
 
-• Просмотреть график изменения хэшрейта воркера.
+• Melihat carta perubahan kadar hash pekerja.
 
-• Проанализировать процент отказов (отклонённых шар).
+• Menganalisis kadar penolakan saham.
 
 <figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
