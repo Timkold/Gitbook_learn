@@ -4,7 +4,7 @@ Halaman **"Pengeluaran"** memaparkan sejarah semua transaksi yang berkaitan deng
 
 • **Jumlah minimum pengeluaran:** Transaksi diproses secara automatik sebaik sahaja baki pelanggan mencapai **0.001 BTC**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 📋 Kandungan Jadual “Pengeluaran”
 
