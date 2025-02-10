@@ -2,7 +2,7 @@
 
 * [BullPool](README.md)
 * [Pool](pool/README.md)
-* [Bagaimana untuk memulakan?](pool/s-chego-nachat.md)
+ * [Bagaimana untuk memulakan?](pool/s-chego-nachat.md)
   * [Penerangan tab](pool/opisanie-vkladok/README.md)
     * [Pekerja](pool/opisanie-vkladok/vorkery.md)
     * [📈 Halaman “Keuntungan”](pool/opisanie-vkladok/stranica-pribyl.md)
