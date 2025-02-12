@@ -18,13 +18,9 @@ Jeder Worker:
 
 ## Miner-Liste
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Die aus dem Pool gesammelten Daten werden auf der Seite „Miner-Liste“ angezeigt. Hier werden die Worker eines einzelnen Pools dargestellt. Um einen anderen Pool auszuwählen, öffne das Dropdown-Menü mit der Liste der erstellten Pools.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Die aus dem Pool gesammelten Daten werden auf der Seite „Miner-Liste“ angezeigt. Hier werden die Worker eines einzelnen Pools dargestellt. Um einen anderen Pool auszuwählen, öffne das Dropdown-Menü mit der Liste der erstellten Pools.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Liste der erstellten Pools</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Liste der erstellten Pools</p></figcaption></figure>
 
 ## **Worker-Tabelle: Wichtige Informationen und Parameter**
 
