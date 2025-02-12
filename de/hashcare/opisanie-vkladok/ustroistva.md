@@ -48,10 +48,10 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 
 • **Seriennummer** – _Pflichtfeld._
 
-• **IP-Adresse** – muss dem folgenden Muster entsprechen:  
+• **IP-Adresse** – muss dem folgenden Muster entsprechen:\
 ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Pflichtfeld._
 
-• **MAC-Adresse** – muss dem folgenden Muster entsprechen:  
+• **MAC-Adresse** – muss dem folgenden Muster entsprechen:\
 ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.
 
 • **Regalnummer** – Nummer eines freien Regals innerhalb des Racks.
@@ -107,13 +107,13 @@ _**Verfügbare Parameter zur Änderung:**_
 
 • **Seriennummer** – _Pflichtfeld._
 
-• **IP-Adresse** – muss folgendem Muster entsprechen:  
-^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.  
-_Pflichtfeld._
+• **IP-Adresse** – muss folgendem Muster entsprechen:\
+^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.\
+&#xNAN;_&#x50;flichtfeld._
 
-• **MAC-Adresse** – muss folgendem Muster entsprechen:  
-^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.  
-_Pflichtfeld._
+• **MAC-Adresse** – muss folgendem Muster entsprechen:\
+^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.\
+&#xNAN;_&#x50;flichtfeld._
 
 • **Regalnummer** – Nummer eines freien Regals innerhalb des gewählten Racks.
 
@@ -263,4 +263,3 @@ Zeigt die Drehzahl der Kühlventilatoren in Umdrehungen pro Minute (RPM).
 * **Nominal Power** – vom Hersteller angegebener Verbrauch.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
