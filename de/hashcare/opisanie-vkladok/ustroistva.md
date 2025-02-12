@@ -1,259 +1,266 @@
 # Geräte
 
-Для сбора данных внешним агентом необходимо создать устройства с заданными параметрами. Устройства привязываются к стеллажу, без привязки создание невозможно. По умолчанию устройства отсутствуют.
+Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen Parametern erstellt werden. Geräte werden einem Rack zugewiesen – eine Erstellung ohne Zuordnung ist nicht möglich. Standardmäßig sind keine Geräte vorhanden.
 
-### **Таблица Устройства**
+### **Tabelle „Geräte“**
 
-• Поиск — ввод символов для фильтрации по тегу актива.
+• Suchen – Eingabe von Zeichen zur Filterung nach Asset-Tag.
 
-• Дата-центр, помещение, стеллаж — фильтры для выбора устройств в конкретных зонах.
+• Rechenzentrum, Raum, Rack – Filter zur Auswahl von Geräten in bestimmten Bereichen.
 
-• Добавить устройство — кнопка для создания.
+• Neues Gerät erstellen – Schaltfläche zur Erstellung.
 
-### **Поля таблицы**
+### **Tabellenspalten**
 
-• ID устройства — уникальный номер системы.
+• Geräte-ID – eindeutige Nummer im System.
 
-• Модель — определяется агентом или задаётся вручную; указана прошивка.
+• Modell – wird vom Agenten erkannt oder manuell festgelegt; zeigt die Firmware-Version an.
 
-• Хэшрейт — текущая производительность (Th/s):
+• Hashrate – aktuelle Leistung (TH/s):
 
-🟢 Зелёный кружок — хэшрейт больше 0.
+🟢 Grüner Kreis – Hashrate größer als 0.
 
-🔴 Красный кружок — хэшрейт равен 0 или не определён.
+🔴 Roter Kreis – Hashrate gleich 0 oder nicht erkannt.
 
-• Имя воркера — имя пула и устройства (определяется агентом или вручную).
+• Worker-Name – Pool- und Gerätename (wird vom Agenten erkannt oder manuell festgelegt).
 
-• IP-адрес — автоматически определяется или задаётся вручную.
+• IP-Adresse – wird automatisch erkannt oder manuell festgelegt.
 
-• S/N — серийный номер, определяется агентом или вручную.
+• S/N – Seriennummer, wird vom Agenten erkannt oder manuell festgelegt.
 
-• Расположение — ДЦ / помещение / стеллаж (ссылки на объекты).
+• Standort – Rechenzentrum / Raum / Rack (Verknüpfungen zu den Objekten).
 
-• Редактирование — кнопка настройки параметров.
+• Bearbeiten – Schaltfläche zur Konfiguration der Parameter.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## **Создание устройства через форму**
+## **Erstellen eines Geräts über das Formular**
 
-1\. Перейти в пункт меню **Устройства**.
+1\. Zum Menüpunkt **Geräte** wechseln.
 
-2\. Нажать на кнопку **Добавить новое устройство**.
+2\. Auf die Schaltfläche **Neues Gerät erstellen** klicken.
 
-3\. В открывшемся окне ввести следующие данные:
+3\. Im geöffneten Fenster die folgenden Daten eingeben:
 
-• **Тип устройства** — модель (выпадающее меню с функцией поиска). _Обязательно для заполнения._
+• **Gerätetyp** – Modell (Dropdown-Menü mit Suchfunktion). _Pflichtfeld._
 
-• **Тэг актива** — уникальное имя устройства в системе Hashcare. _Обязательно для заполнения._
+• **Asset-Tag** – eindeutiger Gerätename im Hashcare-System. _Pflichtfeld._
 
-• **Серийный номер** — _Обязательно для заполнения._
+• **Seriennummer** – _Pflichtfeld._
 
-• **IP-адрес** — должен соответствовать шаблону: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Обязательно для заполнения._
+• **IP-Adresse** – muss dem folgenden Muster entsprechen:  
+^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Pflichtfeld._
 
-• **MAC-адрес** — должен соответствовать шаблону: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.
+• **MAC-Adresse** – muss dem folgenden Muster entsprechen:  
+^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.
 
-• **Номер полки** — номер свободной полки в зависимости от стеллажа.
+• **Regalnummer** – Nummer eines freien Regals innerhalb des Racks.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1”._
-* Не может быть больше, чем заданное количество полок на стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size”._
-* Может быть только цифрой. _Ошибка: “Некорректный формат”._
+* Darf nicht 0 sein. _Fehler: „Muss größer oder gleich 1 sein“._
+* Darf die maximale Anzahl an Regalen im Rack nicht überschreiten. _Fehler: „error.codes.rack\_exceed\_max\_size“._
+* Muss eine Zahl sein. _Fehler: „Ungültiges Format“._
 
-• **Номер места** — номер свободного места на полке.
+• **Platznummer** – Nummer eines freien Platzes auf dem Regal.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1”._
-* Не может быть больше, чем заданное количество мест на полке.
-* Может быть только цифрой. _Ошибка: “Некорректный формат”._
+* Darf nicht 0 sein. _Fehler: „Muss größer oder gleich 1 sein“._
+* Darf die maximale Anzahl an Plätzen auf dem Regal nicht überschreiten.
+* Muss eine Zahl sein. _Fehler: „Ungültiges Format“._
 
-• **Пул Stratum URLs** — до 3 адресов. _Необязательно для заполнения._
+• **Pool-Stratum-URLs** – bis zu 3 Adressen. _Optional._
 
-• **Имя воркера пула** — наименование устройства на пуле. _Обязательно для заполнения._
+• **Pool-Worker-Name** – Gerätename im Pool. _Pflichtfeld._
 
-• **Имя пула** — название пула. _Обязательно для заполнения._
+• **Pool-Name** – Name des Pools. _Pflichtfeld._
 
-• **Стеллаж** — выбор из существующих стеллажей. _Обязательно для заполнения._
+• **Rack** – Auswahl aus bestehenden Racks. _Pflichtfeld._
 
-• **Тип прошивки** — _Обязательно для заполнения._
+• **Firmware-Typ** – _Pflichtfeld._
 
-4\. Нажать **Создать**.
+4\. Auf **Erstellen** klicken.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
-## **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
+## **Importieren von Geräten per Liste** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
-1. Перейти в пункт меню **Устройства**
-2. Выбрать в выпадающем меню пункт **Импортировать устройства (.csv)**
-3. Выбрать файл .csv на жёстком диске
-4. При успешной загрузке появится сообщение “Файл успешно загружен“
+1. Zum Menüpunkt **Geräte** wechseln.
+2. In der Dropdown-Liste die Option **Geräte importieren (.csv)** auswählen.
+3. Eine **.csv**-Datei von der Festplatte auswählen.
+4. Nach erfolgreichem Upload erscheint die Meldung „Datei erfolgreich hochgeladen“.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-**Пример CSV таблицы**
+**Beispiel einer CSV-Tabelle**
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
-## **Редактирование устройства**
+## **Gerät bearbeiten**
 
-1\. Нажать на кнопку (три точки) рядом с нужным устройством.
+1\. Auf die Schaltfläche (drei Punkte) neben dem gewünschten Gerät klicken.
 
-2\. Выбрать пункт **Изменить**.
+2\. Die Option **Bearbeiten** auswählen.
 
-_**Доступные для изменения параметры:**_
+_**Verfügbare Parameter zur Änderung:**_
 
-• **Тип устройства** — модель. Поле работает как выпадающее меню с функцией поиска по символам. _Обязательно для заполнения._
+• **Gerätetyp** – Modell. Das Feld funktioniert als Dropdown-Menü mit einer Suchfunktion. _Pflichtfeld._
 
-• **Тэг актива** — уникальное имя устройства в системе Hashcare. _Обязательно для заполнения._
+• **Asset-Tag** – eindeutiger Gerätename im Hashcare-System. _Pflichtfeld._
 
-• **Серийный номер** — _Обязательно для заполнения._
+• **Seriennummer** – _Pflichtfeld._
 
-• **IP-адрес** — должен соответствовать шаблону: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Обязательно для заполнения._
+• **IP-Adresse** – muss folgendem Muster entsprechen:  
+^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.  
+_Pflichtfeld._
 
-• **MAC-адрес** — должен соответствовать шаблону: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Обязательно для заполнения._
+• **MAC-Adresse** – muss folgendem Muster entsprechen:  
+^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.  
+_Pflichtfeld._
 
-• **Номер полки** — номер свободной полки в зависимости от выбранного стеллажа.
+• **Regalnummer** – Nummer eines freien Regals innerhalb des gewählten Racks.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество полок в стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size.”_
-* Может быть только цифрой. _Ошибка: “Некорректный формат.”_&#x20;
+* Darf nicht 0 sein. _Fehler: „Muss größer oder gleich 1 sein.“_
+* Darf die maximale Anzahl an Regalen im Rack nicht überschreiten. _Fehler: „error.codes.rack\_exceed\_max\_size.“_
+* Muss eine Zahl sein. _Fehler: „Ungültiges Format.“_
 
-• **Номер места** — номер свободного места на полке.
+• **Platznummer** – Nummer eines freien Platzes im Regal.
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество мест на указанной полке. _Ошибка: “Некорректный формат.”_
-* Может быть только цифрой. _Обязательно для заполнения._
+* Darf nicht 0 sein. _Fehler: „Muss größer oder gleich 1 sein.“_
+* Darf die maximale Anzahl an Plätzen im angegebenen Regal nicht überschreiten. _Fehler: „Ungültiges Format.“_
+* Muss eine Zahl sein. _Pflichtfeld._
 
-• **Пул Stratum URLs** — Стратум адреса. Может быть добавлено от 1 до 3 адресов. _Необязательно для заполнения._
+• **Pool-Stratum-URLs** – Stratum-Adressen. Es können 1 bis 3 Adressen hinzugefügt werden. _Optional._
 
-• **Имя воркера пула** — наименование устройства на пуле. _Обязательно для заполнения._
+• **Pool-Worker-Name** – Gerätename im Pool. _Pflichtfeld._
 
-• **Имя пула** — название пула. _Обязательно для заполнения._
+• **Pool-Name** – Name des Pools. _Pflichtfeld._
 
-• **Стеллаж** — выбор из существующих стеллажей. _Обязательно для заполнения._
+• **Rack** – Auswahl aus bestehenden Racks. _Pflichtfeld._
 
-• **Тип прошивки** — _Обязательно для заполнения._
+• **Firmware-Typ** – _Pflichtfeld._
 
-• **Изменить кол-во полок** (Высота) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Anzahl der Regale ändern** (Höhe) – muss größer oder gleich 1 und kleiner oder gleich 10 sein.
 
-• **Изменить кол-во мест на полках** (Ширина) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Anzahl der Plätze pro Regal ändern** (Breite) – muss größer oder gleich 1 und kleiner oder gleich 10 sein.
 
-• **Изменить помещение**, к которому будет привязан стеллаж.
+• **Raum ändern**, dem das Rack zugeordnet wird.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="446"><figcaption></figcaption></figure>
 
-3\. Нажать **Обновить** для сохранения изменений.
+3\. Auf **Aktualisieren** klicken, um die Änderungen zu speichern.
 
-## **Редактирование устройств через CSV файл** <a href="#redaktirovanie-ustrojstv-cherez-csv-fajl" id="redaktirovanie-ustrojstv-cherez-csv-fajl"></a>
+## **Bearbeiten von Geräten über eine CSV-Datei** <a href="#redaktirovanie-ustrojstv-cherez-csv-fajl" id="redaktirovanie-ustrojstv-cherez-csv-fajl"></a>
 
-Имеется возможность отредактировать больше одного устройства через csv файл. Для этого необходимо загрузить csv с списком устройств, которые уже есть в списке созданных.
+Es besteht die Möglichkeit, mehrere Geräte gleichzeitig über eine CSV-Datei zu bearbeiten. Dazu muss eine CSV-Datei mit einer Liste der bereits erstellten Geräte hochgeladen werden.
 
-1. Главным идентификатором будет **MAC адрес** - если MAC созданного устройства и устройства в csv файле, то остальные данные изменяются согласно информации в csv файле
-2. Если MAC адреса нет в системе Hashcare - создаётся новое устройство с заданными в csv файле параметрами
+1. Das Hauptidentifikationsmerkmal ist die **MAC-Adresse** – wenn die MAC-Adresse eines bestehenden Geräts mit der MAC-Adresse in der CSV-Datei übereinstimmt, werden die übrigen Daten gemäß den Informationen in der CSV-Datei geändert.
+2. Falls die MAC-Adresse nicht im Hashcare-System existiert, wird ein neues Gerät mit den in der CSV-Datei angegebenen Parametern erstellt.
 
-## **Удаление Устройства:**
+## **Gerät löschen:**
 
-1. Нажать на кнопку (_три точки_) рядом с нужным устройством
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**
+1. Auf die Schaltfläche (_drei Punkte_) neben dem gewünschten Gerät klicken.
+2. Die Option **Löschen** auswählen.
+3. Im geöffneten Fenster auf die Schaltfläche **Bestätigen** klicken.
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="344"><figcaption></figcaption></figure>
 
-## **Детали устройства:**
+## **Gerätedetails:**
 
-• **Модель**
+• **Modell**
 
-Автоматически определяется внутренним агентом или задаётся вручную в настройках устройства. Включает заводской хэшрейт.
+Wird automatisch vom internen Agenten erkannt oder manuell in den Geräteeinstellungen festgelegt. Enthält die werkseitige Hashrate.
 
-• **IP-адрес**
+• **IP-Adresse**
 
-Автоматически определяется внутренним агентом при опросе сети или задаётся вручную в настройках устройства.
+Wird automatisch vom internen Agenten beim Netzwerk-Scan erkannt oder manuell in den Geräteeinstellungen festgelegt.
 
-• **Прошивка**
+• **Firmware**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Wird automatisch vom internen Agenten beim Gerät-Scan erkannt oder manuell in den Geräteeinstellungen festgelegt.
 
-• **Серийный номер (S/N)**
+• **Seriennummer (S/N)**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Wird automatisch vom internen Agenten beim Gerät-Scan erkannt oder manuell in den Geräteeinstellungen festgelegt.
 
-### **Мощность**
+### **Leistung**
 
-• **Номинальная мощность**
+• **Nominale Leistung**
 
-Статичное значение, установленное для каждой модели устройства.
+Ein statischer Wert, der für jedes Gerätemodell festgelegt ist.
 
-* W/TH - относительная величина, рассчитываемая как отношение номинального потребления к номинальному хэшрейту модели.
+* W/TH – eine relative Größe, die als Verhältnis des nominalen Verbrauchs zur nominalen Hashrate des Modells berechnet wird.
 
-• **Номинальный хэшрейт**
+• **Nominale Hashrate**
 
-Значение заводского хэшрейта, полученное внутренним агентом из ASIC.
+Der werkseitige Hashrate-Wert, den der interne Agent aus dem ASIC ausliest.
 
-### **Дополнительная информация**
+### **Zusätzliche Informationen**
 
-• **Имя воркера**
+• **Worker-Name**
 
-Состоит из имени пула и имени устройства на пуле. Определяется автоматически внутренним агентом или задаётся вручную в настройках устройства.
+Besteht aus dem Namen des Pools und dem Namen des Geräts im Pool. Wird automatisch vom internen Agenten erkannt oder manuell in den Geräteeinstellungen festgelegt.
 
-• **MAC-адрес**
+• **MAC-Adresse**
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Wird automatisch vom internen Agenten beim Gerät-Scan erkannt oder manuell in den Geräteeinstellungen festgelegt.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### **Показатели:**
+### **Kennzahlen:**
 
-**• Оценочный доход (PPS | FPPS):**
+**• Geschätzter Ertrag (PPS | FPPS):**
 
-* PPS (Pay Per Share): фиксированная оплата за доли.
-* FPPS (Full Pay Per Share): включает доход от комиссий, выше PPS.
+* PPS (Pay Per Share): Feste Zahlung pro Share.
+* FPPS (Full Pay Per Share): Enthält Gebühreneinnahmen, höher als PPS.
 
-**• Доход из пула:**
+**• Pool-Einnahmen:**
 
-Реальный доход от пула за выбранный период.
+Der tatsächliche Ertrag aus dem Pool für den gewählten Zeitraum.
 
-_Настройка пула: «Настройка пулов» → Создать пул._
+_Einstellung des Pools: „Pool-Einstellungen“ → Pool erstellen._
 
-**• Затраты на электричество:**
+**• Stromkosten:**
 
-Основаны на мощности устройства и тарифе:\\
+Basieren auf der Leistung des Geräts und dem Tarif:\\
 
-(Потребляемая мощность (W) × 24) ÷ 1000 × Тариф\\
+(Verbrauchte Leistung (W) × 24) ÷ 1000 × Tarif\\
 
-**• Прибыль:**
+**• Gewinn:**
 
-{FPPS доход} - {Электричество}
+{FPPS-Einnahmen} - {Stromkosten}
 
-### **График хэшрейта**
+### **Hashrate-Diagramm**
 
-• **Asic Hashrate** — текущий хэшрейт, переданный устройством.
+• **Asic Hashrate** – aktuelle Hashrate, die vom Gerät gesendet wird.
 
-• **Nominal Hashrate** — заявленный производителем хэшрейт.
+• **Nominal Hashrate** – die vom Hersteller angegebene Hashrate.
 
-### **График хэшрейта плат**
+### **Platten-Hashrate-Diagramm**
 
-Показывает производительность отдельных плат ASIC-майнера.
+Zeigt die Leistung einzelner Platinen des ASIC-Miners.
 
-• Каждая плата обозначается, например, как SM 0, SM 1, SM 2.
+• Jede Platine wird beispielsweise als SM 0, SM 1, SM 2 bezeichnet.
 
-• Помогает выявить неисправности, снижающие общий хэшрейт.
+• Hilft, Fehler zu erkennen, die die Gesamt-Hashrate verringern.
 
-### **Температура устройства**
+### **Gerätetemperatur**
 
-• Температура плат (boards) и чипов (chip, PCB): отображает нагрев отдельных компонентов устройства.
+• Temperatur der Platinen (Boards) und Chips (Chip, PCB): Zeigt die Erwärmung einzelner Komponenten des Geräts.
 
-• Температура воздуха (in/out):
+• Lufttemperatur (Ein/Aus):
 
-* **In** — температура входящего холодного воздуха.
-* **Out** — температура выходящего нагретого воздуха.
+* **In** – Temperatur der einströmenden kalten Luft.
+* **Out** – Temperatur der ausströmenden erwärmten Luft.
 
-### **График скорости вентиляторов**
+### **Lüftergeschwindigkeitsdiagramm**
 
-Показывает обороты охлаждающих вентиляторов в минуту (RPM).
+Zeigt die Drehzahl der Kühlventilatoren in Umdrehungen pro Minute (RPM).
 
-* **In** — вентиляторы на входе воздушного потока.
-* **Out** — вентиляторы на выходе.
+* **In** – Lüfter am Einlass des Luftstroms.
+* **Out** – Lüfter am Auslass.
 
-### **График потребления электроэнергии**
+### **Energieverbrauchsdiagramm**
 
-* **Asic Power** — текущее потребление, переданное устройством.
-* **Nominal Power** — заявленное производителем потребление.
+* **Asic Power** – aktueller Verbrauch, der vom Gerät gesendet wird.
+* **Nominal Power** – vom Hersteller angegebener Verbrauch.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
