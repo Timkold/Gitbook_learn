@@ -1,8 +1,8 @@
-# Описание вкладок
+# Beschreibung der Registerkarten
 
-Далее вы можете ознакомиться с различными разделами своего личного кабинета, чтобы полностью изучить все его возможности.
+Nachfolgend können Sie sich mit den verschiedenen Abschnitten Ihres persönlichen Kontos vertraut machen, um alle seine Funktionen vollständig zu erkunden.
 
-Вот статьи из этого раздела:
+Hier sind die Artikel aus diesem Abschnitt:
 
 {% content-ref url="data-centr.md" %}
 [data-centr.md](data-centr.md)
