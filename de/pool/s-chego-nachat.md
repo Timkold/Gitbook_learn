@@ -2,86 +2,85 @@
 
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Beim ersten Login ins Benutzerkonto ist kein Pool verbunden</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (40).png" alt="" width="344"><figcaption></figcaption></figure>
 
-## 🚀 Создание пула
+## 🚀 Pool erstellen
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Gehen Sie zum Menü **Pool-Einstellungen**.
 
-2\. Нажмите кнопку “Создать пул”.
+2\. Klicken Sie auf die Schaltfläche **Pool erstellen**.
 
-3\. В открывшемся окне укажите:
+3\. Geben Sie im sich öffnenden Fenster folgende Informationen ein:
 
-• Имя пула (обязательно, без пробелов, шаблон: ^\[a-zA-Z0-9]+$).
+• **Pool-Name** (erforderlich, keine Leerzeichen, Muster: ^\[a-zA-Z0-9]+$).
 
-• Имя будет автоматически дополнено префиксом "bp".
+• Der Name wird automatisch mit dem Präfix **"bp"** ergänzt.
 
-• ❗ _Если имя занято_, появится ошибка: “Имя пула зарезервировано”.
+• ❗ _Falls der Name bereits vergeben ist_, erscheint der Fehler: **“Pool-Name ist reserviert”**.
 
-• Комментарий (поле необязательное).
+• **Kommentar** (optional).
 
-• Монета (по умолчанию BTC).
+• **Coin** (standardmäßig BTC).
 
-4\. Нажмите кнопку “Создать”.
-
-\
-Ограничения:
-
-• ❗ _Редактировать пул после создания нельзя._
-
-• ❗ _Максимум 5 пулов на одного клиента._ Если лимит превышен, появится ошибка: “Вы не можете создавать больше пулов”.
-
-## 📋 Список пулов
-
-Все созданные пулы отображаются в таблице:
-
-• Имя пула — заданное при создании.
-
-• Комментарий — отображается, если заполнен.
-
-• Монета — по умолчанию BTC.
-
-## ⚙️ Подключение устройства к пулу
+4\. Klicken Sie auf **Erstellen**.
 
 \
-Чтобы подключить устройство, выполните следующие шаги:
+**Einschränkungen:**
 
-1\. Перейдите в меню “Настройка пулов”.
+• ❗ _Ein Pool kann nach der Erstellung nicht bearbeitet werden._
 
-2\. Напротив нужного пула нажмите кнопку “Подключить устройство”.
+• ❗ _Maximal 5 Pools pro Kunde._ Wenn das Limit überschritten wird, erscheint der Fehler: **“Sie können keine weiteren Pools erstellen”**.
 
-3\. В открывшемся окне скопируйте:
+## 📋 Pool-Liste
 
-• 3 URL-адреса и укажите их в настройках устройства.
+Alle erstellten Pools werden in der Tabelle angezeigt:
 
-• Worker, который состоит из:
+• **Pool-Name** – der Name, der bei der Erstellung festgelegt wurde.
 
-* **Имени пула** — название пула в системе Pool Bullpool.
-* **ID устройства** — задаётся вами (может быть уникальным или одинаковым для нескольких устройств).
+• **Kommentar** – wird angezeigt, wenn es ausgefüllt wurde.
 
-❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
+• **Coin** – standardmäßig BTC.
+
+## ⚙️ Gerät mit Pool verbinden
+
+\
+Um ein Gerät mit dem Pool zu verbinden, folgen Sie diesen Schritten:
+
+1\. Gehen Sie zum Menü **Pool-Einstellungen**.
+
+2\. Klicken Sie neben dem gewünschten Pool auf die Schaltfläche **Gerät verbinden**.
+
+3\. Kopieren Sie im sich öffnenden Fenster:
+
+• **Drei URL-Adressen** und geben Sie diese in die Geräteeinstellungen ein.
+
+• **Worker**, der aus folgenden Elementen besteht:
+
+* **Pool-Name** – Name des Pools im Bullpool-System.
+* **Geräte-ID** – wird von Ihnen festgelegt (kann entweder einzigartig oder für mehrere Geräte gleich sein).
+
+❕ _Falls die ID für mehrere Geräte identisch ist, zeigt das System die Gesamtleistung aller Geräte mit dieser ID an._
 
 <figure><img src="../.gitbook/assets/image (41).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## 💰 Настройка вывода средств
+## 💰 Auszahlungseinstellungen
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Gehen Sie zum Menü **Pool-Einstellungen**.
 
-2\. Напротив нужного пула нажмите кнопку “Вывод”.
+2\. Klicken Sie neben dem gewünschten Pool auf die Schaltfläche **Abheben**.
 
-3\. В открывшемся окне укажите номер кошелька, на который будут выводиться средства.
+3\. Geben Sie im sich öffnenden Fenster die **Wallet-Adresse** ein, auf die die Auszahlungen erfolgen sollen.
 
-4\. Нажмите кнопку “Сохранить”.
+4\. Klicken Sie auf **Speichern**.
 
+\
+**Automatische Auszahlungen:**
 
+* Sobald der Mindestbetrag von **0.001 BTC** erreicht ist, wird die Auszahlung täglich bis **12:00 UTC** auf die angegebene Wallet-Adresse überwiesen.
+* Falls eine Änderung des Mindestbetrags erforderlich ist, wenden Sie sich bitte an den Support.
 
-**Автоматический вывод средств:**
-
-* При достижении минимальной суммы 0.001 BTC, ежедневно до 12:00 UTC сумма отправляется на указанный кошелёк.
-* Если требуется изменить минимальную сумму вывода, свяжитесь с поддержкой
-
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Pool”
+Anschließend können Sie sich mit den Funktionen des Benutzerkontos im Abschnitt **“Pool”** vertraut machen.
