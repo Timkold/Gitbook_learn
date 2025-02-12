@@ -1,12 +1,12 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами своего личного кабинета,
-  чтобы полностью изучить все его возможности.
+  Im Folgenden kannst du dich mit den verschiedenen Bereichen deines persönlichen
+  Kontos vertraut machen, um alle seine Funktionen vollständig zu erkunden.
 ---
 
-# Описание вкладок
+# Beschreibung der Registerkarten
 
-Вот статьи из этого раздела:
+Hier sind die Artikel aus diesem Abschnitt:
 
 {% content-ref url="vorkery.md" %}
 [vorkery.md](vorkery.md)
