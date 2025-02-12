@@ -1,20 +1,20 @@
 # 💸 Seite „Auszahlungen“
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+Auf der Seite „Auszahlungen“ wird die Historie aller Transaktionen im Zusammenhang mit den Auszahlungen der Kunden angezeigt.
 
-• Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• **Mindestbetrag für Auszahlungen:** Transaktionen erfolgen automatisch, sobald das Guthaben des Kunden 0.001 BTC erreicht.
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-## 📋 Состав таблицы “Выводы”
+## 📋 Inhalt der Tabelle „Auszahlungen“
 
 \
-Таблица включает следующие колонки:
+Die Tabelle enthält die folgenden Spalten:
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 **Datum und Uhrzeit** – Zeitpunkt der Auszahlung.
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 **Betrag** – die in der Transaktion überwiesene BTC-Menge.
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 **Adresse** – die Wallet-Adresse, an die die Gelder gesendet wurden.
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
+• 🔗 **Transaktionsnummer** – die eindeutige Kennung der Transaktion in der Blockchain.
