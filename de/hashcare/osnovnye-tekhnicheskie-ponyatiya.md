@@ -1,90 +1,90 @@
 ---
 description: >-
-  В этом разделе представлены ключевые термины и определения, которые помогут
-  лучше понять содержание документации.
+  In diesem Abschnitt werden die wichtigsten Begriffe und Definitionen erläutert,
+  die das Verständnis der Dokumentation erleichtern.
 ---
 
-# 📘 Основные технические понятия
+# 📘 Grundlegende technische Begriffe
 
-## 💻 ASIC (асик)
+## 💻 ASIC (Asic)
 
-**🔹 Что это?**
+**🔹 Was ist das?**
 
-ASIC (Application-Specific Integrated Circuit) — это специализированное устройство, оптимизированное для вычисления хэш-функций, необходимых для добавления новых блоков в блокчейн.
+Ein ASIC (Application-Specific Integrated Circuit) ist ein spezialisiertes Gerät, das für die Berechnung von Hash-Funktionen optimiert ist und zur Aufnahme neuer Blöcke in die Blockchain verwendet wird.
 
-**🔹 Особенности:**
+**🔹 Merkmale:**
 
-• Разработан исключительно для выполнения вычислений по алгоритмам майнинга, например, SHA-256 для Bitcoin.
+• Entwickelt ausschließlich für Berechnungen mit Mining-Algorithmen, z. B. SHA-256 für Bitcoin.
 
-## ⚡ Hashrate (Хэшрейт)
+## ⚡ Hashrate (Hash-Rate)
 
-**🔹 Что это?**
+**🔹 Was ist das?**
 
-Хэшрейт — это скорость, с которой майнинг-устройство выполняет криптографические вычисления для поиска новых блоков в блокчейне.
+Die Hashrate ist die Geschwindigkeit, mit der ein Mining-Gerät kryptografische Berechnungen durchführt, um neue Blöcke in der Blockchain zu finden.
 
-**🔹 Единицы измерения:**
+**🔹 Maßeinheiten:**
 
-• H/s (хэши в секунду) — базовая единица.
+• H/s (Hashes pro Sekunde) – Basiseinheit.
 
-• KH/s (килохэши) = 1,000 H/s.
+• KH/s (Kilohashes) = 1.000 H/s.
 
-• MH/s (мегахэши) = 1,000,000 H/s.
+• MH/s (Megahashes) = 1.000.000 H/s.
 
-• GH/s (гигахэши) = 1,000,000,000 H/s.
+• GH/s (Gigahashes) = 1.000.000.000 H/s.
 
-• TH/s (терахэши) = 1,000,000,000,000 H/s.
+• TH/s (Terahashes) = 1.000.000.000.000 H/s.
 
-**🔹 Чем важен?**
+**🔹 Warum ist das wichtig?**
 
-Чем выше хэшрейт, тем больше шансов устройства найти правильный хэш и получить вознаграждение за майнинг.
+Je höher die Hashrate, desto größer ist die Wahrscheinlichkeit, den richtigen Hash zu finden und eine Belohnung für das Mining zu erhalten.
 
-## 🛠️ Хэшрейт плат
+## 🛠️ Hashrate der Platinen
 
-**🔹 Что это?**
+**🔹 Was ist das?**
 
-Скорость вычислений на отдельных платах внутри ASIC-майнера.
+Die Rechengeschwindigkeit der einzelnen Platinen innerhalb eines ASIC-Miningsystems.
 
-**🔹 Особенности:**
+**🔹 Merkmale:**
 
-• ASIC-майнеры состоят из нескольких плат, каждая из которых отвечает за часть вычислений.
+• ASIC-Miner bestehen aus mehreren Platinen, von denen jede für einen Teil der Berechnungen verantwortlich ist.
 
-• Хэшрейт плат отображает производительность каждой платы и её вклад в общий хэшрейт устройства.
+• Die Hashrate der Platinen zeigt die Leistung jeder Platine und ihren Beitrag zur gesamten Hashrate des Geräts.
 
-**🔹 Единицы измерения:**
+**🔹 Maßeinheiten:**
 
-Те же, что и для общего хэшрейта устройства: H/s, KH/s, MH/s, GH/s, TH/s, но в меньшем масштабе.
+Gleich wie für die allgemeine Hashrate des Geräts: H/s, KH/s, MH/s, GH/s, TH/s, aber in kleinerem Maßstab.
 
-## 🌡️ Температура устройства
+## 🌡️ Gerätetemperatur
 
-**🔹 Что это?**
+**🔹 Was ist das?**
 
-Температура ключевых компонентов ASIC-майнера, таких как чипы и платы, в процессе работы.
+Die Temperatur der wichtigsten Komponenten eines ASIC-Miningsystems, wie Chips und Platinen, während des Betriebs.
 
-**🔹 Почему это важно?**
+**🔹 Warum ist das wichtig?**
 
-* Поддержание оптимальной температуры обеспечивает стабильность, долговечность и производительность устройства.
-* Перегрев может привести к сбоям в работе.
+* Die Aufrechterhaltung einer optimalen Temperatur gewährleistet die Stabilität, Langlebigkeit und Leistung des Geräts.
+* Überhitzung kann zu Fehlfunktionen führen.
 
-**🔹 Единицы измерения:**
+**🔹 Maßeinheiten:**
 
-* &#x20;°C (градусы Цельсия).
-* &#x20;°F (градусы Фаренгейта).
+* &#x20;°C (Grad Celsius).
+* &#x20;°F (Grad Fahrenheit).
 
-## 🔄 Скорость вентиляторов устройства
+## 🔄 Lüftergeschwindigkeit des Geräts
 
-**🔹 Что это?**
+**🔹 Was ist das?**
 
-Частота вращения вентиляторов в устройстве, обеспечивающих его охлаждение.
+Die Drehzahl der Lüfter im Gerät, die für die Kühlung sorgen.
 
-🔹 Единицы измерения:
+🔹 Maßeinheiten:
 
-* &#x20;RPM (обороты в минуту).
+* &#x20;RPM (Umdrehungen pro Minute).
 
-**🔹 Роль:**
+**🔹 Rolle:**
 
-* Ускоренное вращение вентиляторов улучшает охлаждение.
-* Поддерживает стабильную работу устройства при высокой нагрузке.
+* Eine höhere Drehzahl verbessert die Kühlung.
+* Sorgt für einen stabilen Betrieb des Geräts unter hoher Last.
 
-**🎯 Примечание:**
+**🎯 Hinweis:**
 
-Эти термины являются ключевыми для понимания функциональности ASIC-майнеров и процессов майнинга в целом. Они помогут вам лучше ориентироваться в системе и её возможностях.
+Diese Begriffe sind entscheidend für das Verständnis der Funktionalität von ASIC-Minern und der Mining-Prozesse im Allgemeinen. Sie helfen Ihnen, sich besser im System und seinen Möglichkeiten zurechtzufinden.
