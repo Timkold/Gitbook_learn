@@ -1,8 +1,6 @@
 # Wie fange ich an?
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Beim ersten Login ins Benutzerkonto ist kein Pool verbunden</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Beim ersten Login ins Benutzerkonto ist kein Pool verbunden</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (40).png" alt="" width="344"><figcaption></figcaption></figure>
 
