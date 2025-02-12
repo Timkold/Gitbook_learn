@@ -1,74 +1,72 @@
-# 🏢 Дата-центр
+# 🏢 Rechenzentrum
 
-Дата-центр — это сущность, представляющая площадку, включающую связанные помещения и стеллажи. Отображаются только данные устройств, привязанных к стеллажам внутри конкретного дата-центра. По умолчанию при первом входе в ЛК создаётся один дата-центр.
+Ein Rechenzentrum ist eine Einheit, die einen Standort mit verbundenen Räumen und Racks repräsentiert. Es werden nur die Daten der Geräte angezeigt, die den Racks innerhalb eines bestimmten Rechenzentrums zugeordnet sind. Standardmäßig wird beim ersten Login automatisch ein Rechenzentrum erstellt.
 
-## **📋 Таблица Дата-центры**
+## **📋 Tabelle Rechenzentren**
 
-• Поиск: ищет по символам в названии.
+• Suchen: sucht nach Zeichen im Namen.
 
-• Добавить дата-центр: кнопка для создания нового ДЦ.
+• Rechenzentrum erstellen: Schaltfläche zum Erstellen eines neuen Rechenzentrums.
 
+**Tabellenspalten:**
 
+• ID: Nummer in der Datenbank.
 
-**Поля таблицы:**
+• Name: Name des Rechenzentrums.
 
-• ID: номер в базе данных.
-
-• Имя: название ДЦ.
-
-• Редактирование: кнопка для изменений.
+• Bearbeiten: Schaltfläche zum Ändern.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-## ➕ Создание Дата-центра
+## ➕ Rechenzentrum erstellen
 
-1\. Перейдите в раздел **Дата-центры**.
+1\. Gehen Sie zum Abschnitt **Rechenzentren**.
 
-2\. Нажмите кнопку **Добавить дата-центр**.
+2\. Klicken Sie auf die Schaltfläche **Rechenzentrum erstellen**.
 
-3\. Введите название в поле **Имя**.
+3\. Geben Sie den Namen in das Feld **Name** ein.
 
-4\. Нажмите **Создать**.
+4\. Klicken Sie auf **Erstellen**.
 
 \
-💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
+💡 Das erste Rechenzentrum wird mit der ID 1 erstellt. Ein neues Rechenzentrum erhält die nächste fortlaufende ID, selbst wenn vorherige gelöscht wurden.
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## **✏️ Редактирование Дата-центра**
+## **✏️ Rechenzentrum bearbeiten**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Klicken Sie auf die Schaltfläche ⋮ neben dem gewünschten Rechenzentrum.
 
-2\. Выберите пункт **Изменить**.
+2\. Wählen Sie die Option **Bearbeiten**.
 
-3\. Введите новое название в поле **Имя**.
+3\. Geben Sie den neuen Namen in das Feld **Name** ein.
 
-4\. Нажмите **Обновить**.
+4\. Klicken Sie auf **Aktualisieren**.
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt="" width="343"><figcaption></figcaption></figure>
 
-## **🗑️ Удаление Дата-центра**
+## **🗑️ Rechenzentrum löschen**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Klicken Sie auf die Schaltfläche ⋮ neben dem gewünschten Rechenzentrum.
 
-2\. Выберите пункт **Удалить**.
+2\. Wählen Sie die Option **Löschen**.
 
-3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
+3\. Bestätigen Sie die Aktion im angezeigten Fenster mit der Schaltfläche **Bestätigen**.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt="" width="344"><figcaption></figcaption></figure>
 
-**🔹 Графики**
+**🔹 Diagramme**
 
-* **Хэшрейт**: суммарный хэшрейт устройств (TH/s).
-* **Asic Hashrate**: данные от устройства.
-* **Nominal Hashrate**: заявлено производителем.
-* **Потребление**: суммарное энергопотребление устройств (W).
-* **Asic Power**: данные от устройства.
-* **Nominal Power**: заявлено производителем.
+* **Hashrate**: Gesamte Hashrate der Geräte (TH/s).
+* **Asic Hashrate**: Daten vom Gerät.
+* **Nominal Hashrate**: Vom Hersteller angegebene Leistung.
+* **Energieverbrauch**: Gesamtstromverbrauch der Geräte (W).
+* **Asic Power**: Daten vom Gerät.
+* **Nominal Power**: Vom Hersteller angegebener Verbrauch.
 
-**🔹 Устройства**
+**🔹 Geräte**
 
-* **Active Asic**: работающие устройства.
-* **Total Asic**: общее количество устройств.
+* **Active Asic**: Aktive Geräte.
+* **Total Asic**: Gesamtanzahl der Geräte.
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
