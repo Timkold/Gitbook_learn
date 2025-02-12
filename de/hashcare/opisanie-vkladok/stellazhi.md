@@ -1,146 +1,146 @@
 # Racks
 
-Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
+Ein Rack ist eine Einheit, die einem bestimmten Raum zugeordnet ist und eine bestimmte Anzahl von Plätzen für Geräte enthält. Es zeigt nur die Daten der darin befindlichen Geräte an.
 
-• Можно создать неограниченное количество стеллажей в одном помещении.
+• In einem Raum kann eine unbegrenzte Anzahl von Racks erstellt werden.
 
-• По умолчанию создаётся один стеллаж, привязанный к созданному помещению.
+• Standardmäßig wird ein Rack erstellt, das dem erstellten Raum zugeordnet ist.
 
-## **Таблица “Стеллажи”**
+## **Tabelle „Racks“**
 
-• Поиск — поиск по названию.
+• Suchen – Suche nach Namen.
 
-• Дата-центр — выбор стеллажей в конкретном дата-центре.
+• Rechenzentrum – Auswahl der Racks in einem bestimmten Rechenzentrum.
 
-• Помещения — выбор стеллажей в помещении.
+• Raum – Auswahl der Racks in einem bestimmten Raum.
 
-• Добавить новый стеллаж — кнопка для создания.
+• Neues Rack erstellen – Schaltfläche zur Erstellung.
 
-## Поля таблицы:
+## Tabellenspalten:
 
-• ID — идентификатор в базе данных.
+• ID – Identifikator in der Datenbank.
 
-• Имя — название стеллажа.
+• Name – Name des Racks.
 
-• Дата-центр — название дата-центра.
+• Rechenzentrum – Name des Rechenzentrums.
 
-• Помещение — помещение, к которому привязан стеллаж.
+• Raum – Der Raum, dem das Rack zugeordnet ist.
 
-• Редактирование — настройка параметров.
+• Bearbeiten – Konfiguration der Parameter.
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-## **Создание стеллажа**
+## **Erstellen eines Racks**
 
-1\. Перейти в меню **Стеллажи**.
+1\. Zum Menü **Racks** wechseln.
 
-2\. Нажать кнопку **Добавить новый стеллаж**.
+2\. Auf die Schaltfläche **Neues Rack erstellen** klicken.
 
-3\. В открывшемся окне:
+3\. Im geöffneten Fenster:
 
-* Ввести название в поле **Имя**.
-* Указать количество полок (Высота) от 1 до 10.
-* Указать количество мест на полке (Ширина) от 1 до 10.
-* Выбрать помещение из выпадающего списка.
+* Den Namen in das Feld **Name** eingeben.
+* Anzahl der Ebenen (Höhe) von 1 bis 10 festlegen.
+* Anzahl der Plätze pro Ebene (Breite) von 1 bis 10 festlegen.
+* Einen Raum aus der Dropdown-Liste auswählen.
 
-4\. Нажать кнопку **Создать**.
+4\. Auf die Schaltfläche **Erstellen** klicken.
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt="" width="344"><figcaption></figcaption></figure>
 
-## Редактирование стеллажа
+## **Bearbeiten eines Racks**
 
-1\. Нажать на кнопку _три точки_ рядом с нужным стеллажом.
+1\. Auf die Schaltfläche _drei Punkte_ neben dem gewünschten Rack klicken.
 
-2\. Выбрать пункт **Изменить**.
+2\. Die Option **Bearbeiten** auswählen.
 
-3\. Внести изменения:
+3\. Änderungen vornehmen:
 
-* Новое имя.
-* Количество полок (Высота) от 1 до 10.
-* Количество мест на полке (Ширина) от 1 до 10.
-* Помещение, к которому будет привязан стеллаж.
+* Neuer Name.
+* Anzahl der Ebenen (Höhe) von 1 bis 10.
+* Anzahl der Plätze pro Ebene (Breite) von 1 bis 10.
+* Der Raum, dem das Rack zugeordnet wird.
 
-4\. Нажать **Обновить**.
+4\. Auf **Aktualisieren** klicken.
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
+## **Löschen eines Racks** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
-1. Нажать на кнопку _три точки_ рядом с нужным стеллажом
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**.
+1. Auf die Schaltfläche _drei Punkte_ neben dem gewünschten Rack klicken.
+2. Die Option **Löschen** auswählen.
+3. Im geöffneten Fenster auf die Schaltfläche **Bestätigen** klicken.
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt="" width="343"><figcaption></figcaption></figure>
 
-## **Переход на страницу стеллажа**
+## **Navigation zur Rack-Seite**
 
-* В меню **Стеллажи** нажать на **Имя** нужного стеллажа.
+* Im Menü **Racks** auf den **Namen** des gewünschten Racks klicken.
 
-## **Содержимое страницы стеллажа**
+## **Inhalt der Rack-Seite**
 
-### **Детали:**
+### **Details:**
 
-• Размер: ширина × высота (например, 10×10).
+• Größe: Breite × Höhe (z. B. 10×10).
 
-• Количество мест: общее число (ширина × высота).
+• Anzahl der Plätze: Gesamtzahl (Breite × Höhe).
 
-• Количество устройств:
+• Anzahl der Geräte:
 
-* Всего — неактивные + онлайн.
-* Онлайн — устройства передают данные.
+* Gesamt – inaktive + Online-Geräte.
+* Online – Geräte, die Daten übertragen.
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-### **Графики:**
+### **Diagramme:**
 
-**• Хэшрейт:**
+**• Hashrate:**
 
-* Asic Hashrate — переданный устройством.
-* Nominal Hashrate — заявленный производителем.
+* Asic Hashrate – vom Gerät übermittelt.
+* Nominal Hashrate – vom Hersteller angegebene Leistung.
 
-**• Потребление:**
+**• Energieverbrauch:**
 
-* Asic Power — переданное устройством.
-* Nominal Power — заявленное производителем.
+* Asic Power – vom Gerät übermittelter Verbrauch.
+* Nominal Power – vom Hersteller angegebener Verbrauch.
 
-**• Устройства:**
+**• Geräte:**
 
-* Active Asic — работающие устройства.
-* Total Asic — все устройства, включая нерабочие.
+* Active Asic – aktive Geräte.
+* Total Asic – alle Geräte, einschließlich nicht funktionierender.
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-### **Карта стеллажа**
+### **Rack-Karte**
 
-Отображает 2D-схему с заданным количеством мест и размещёнными устройствами.
+Zeigt ein 2D-Schema mit der angegebenen Anzahl von Plätzen und den platzierten Geräten.
 
-• В каждой ячейке указаны:
+• Jede Zelle enthält:
 
-* Действительный хэшрейт.
-* Максимальная температура чипов.
+* Aktuelle Hashrate.
+* Maximale Chip-Temperatur.
 
-• Особенности отображения:
+• Besondere Anzeigeeigenschaften:
 
-* Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
-* Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
+* Wenn die Hashrate oder Temperatur = 0 ist oder die Norm überschreitet, wird die Schrift rot.
+* Zum Anzeigen aktueller Probleme kann die dargestellte Eigenschaft in der oberen rechten Ecke umgeschaltet werden.
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-### **Список устройств на стеллаже**
+### **Geräteliste im Rack**
 
-Перечисляет устройства, привязанные к стеллажу.
+Zeigt eine Liste der dem Rack zugewiesenen Geräte.
 
-• Таблица включает:
+• Die Tabelle enthält:
 
-* ID устройства — уникальный идентификатор, заданный системой.
-* Модель — определяется агентом или задаётся вручную; отображается прошивка.
-* Хэшрейт — текущий показатель устройства:
+* Geräte-ID – eindeutige Kennung, die vom System zugewiesen wird.
+* Modell – vom Agenten erkannt oder manuell festgelegt; zeigt die Firmware-Version.
+* Hashrate – aktueller Wert des Geräts:
 
-&#x20;     🟢 Хэшрейт > 0
+&#x20;     🟢 Hashrate > 0
 
-&#x20;     🔴 Хэшрейт = 0 или не определён
+&#x20;     🔴 Hashrate = 0 oder nicht erkannt
 
-* Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
-* IP-адрес — автоматически определяется агентом или задаётся вручную.
+* Worker-Name – besteht aus dem Pool-Namen und dem Gerätenamen, wird vom Agenten bestimmt oder manuell festgelegt.
+* IP-Adresse – wird automatisch vom Agenten erkannt oder manuell festgelegt.
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
