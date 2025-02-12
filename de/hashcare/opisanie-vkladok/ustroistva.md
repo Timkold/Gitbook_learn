@@ -32,7 +32,7 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 
 • Bearbeiten – Schaltfläche zur Konfiguration der Parameter.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Erstellen eines Geräts über das Formular**
 
@@ -78,7 +78,7 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 
 4\. Auf **Erstellen** klicken.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Importieren von Geräten per Liste** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
