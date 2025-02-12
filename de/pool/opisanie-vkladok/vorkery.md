@@ -1,81 +1,81 @@
 # Worker
 
-В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
+Im Bullpool-System werden Geräte als Worker bezeichnet. Dies sind die Schlüsselelemente, die:
 
-• Представляют одно или несколько объединённых устройств, подключенных к майнинговому пулу.
+• Ein einzelnes oder mehrere zusammengeführte Geräte darstellen, die mit einem Mining-Pool verbunden sind.
 
-• Выполняют задачи по добыче криптовалюты.
+• Aufgaben zum Schürfen von Kryptowährungen ausführen.
 
-## Что делает Worker?
+## Was macht ein Worker?
 
-Каждый воркер:
+Jeder Worker:
 
-• 🖥️ Выполняет вычислительные задачи для решения блоков.
+• 🖥️ Führt Berechnungen zur Lösung von Blöcken durch.
 
-• 📊 Отслеживает производительность — пул фиксирует результаты его работы.
+• 📊 Überwacht die Leistung – der Pool zeichnet die Ergebnisse seiner Arbeit auf.
 
-• ⚡ Оптимизирует эффективность добычи криптовалюты.
+• ⚡ Optimiert die Effizienz des Krypto-Minings.
 
-## Список майнеров
+## Miner-Liste
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Собранные с пула данные отображаются на странице Список майнеров. На странице отображаются воркеры на одном пуле. Что бы выбрать другой пул необходимо раскрыть выпадающее меню списка созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Die aus dem Pool gesammelten Daten werden auf der Seite „Miner-Liste“ angezeigt. Hier werden die Worker eines einzelnen Pools dargestellt. Um einen anderen Pool auszuwählen, öffne das Dropdown-Menü mit der Liste der erstellten Pools.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Список созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Liste der erstellten Pools</p></figcaption></figure>
 
-## **Таблица воркеров: ключевая информация и параметры**
+## **Worker-Tabelle: Wichtige Informationen und Parameter**
 
-В таблице воркеров представлена полная информация о каждом устройстве, подключённом к пулу. Вот основные столбцы и их значения:
+Die Worker-Tabelle enthält vollständige Informationen zu jedem Gerät, das mit dem Pool verbunden ist. Hier sind die wichtigsten Spalten und deren Bedeutung:
 
-### **1. Майнер**
+### **1. Miner**
 
-Идентификатор воркера (ID Worker) на пуле. Он позволяет быстро определить устройство и его связь с пулом.
+Die Worker-ID im Pool. Sie ermöglicht die schnelle Identifizierung eines Geräts und seiner Verbindung zum Pool.
 
-### **2. Средний хэшрейт**
+### **2. Durchschnittliche Hashrate**
 
-Хэшрейт устройства за разные промежутки времени:
+Die Hashrate des Geräts über verschiedene Zeiträume:
 
-• Средний за 10 минут — показатель производительности за короткий период.
+• Durchschnitt der letzten 10 Minuten – kurzfristige Leistungsbewertung.
 
-• Средний за час — усреднённое значение за последний час.
+• Durchschnitt der letzten Stunde – geglätteter Wert über die letzte Stunde.
 
-• Средний за 24 часа — долгосрочный показатель стабильности устройства.
+• Durchschnitt der letzten 24 Stunden – langfristiger Stabilitätsindikator des Geräts.
 
-Эти данные помогают анализировать эффективность майнинга и выявлять отклонения.
+Diese Daten helfen dabei, die Mining-Effizienz zu analysieren und Abweichungen zu erkennen.
 
-### **3. Процент отклонённых шар (Reject Rate)**
+### **3. Prozentsatz abgelehnter Shares (Reject Rate)**
 
-Этот показатель демонстрирует долю шаров (решений задач), которые были отправлены устройством, но не приняты пулом.
+Dieser Wert zeigt den Anteil der vom Gerät gesendeten Shares, die vom Pool nicht akzeptiert wurden.
 
-• Выражается в процентах.
+• Wird in Prozent angegeben.
 
-• Указывает на эффективность передачи данных между устройством и пулом.
+• Zeigt die Effizienz der Datenübertragung zwischen Gerät und Pool.
 
-• Высокий Reject Rate может свидетельствовать о проблемах с сетью или настройками устройства.
+• Eine hohe Reject Rate kann auf Netzwerkprobleme oder falsche Geräteeinstellungen hinweisen.
 
-### **4. Время последней отправки**
+### **4. Letzte Einreichungszeit**
 
-Время последней передачи шар на пул.
+Die Zeit der letzten Share-Übermittlung an den Pool.
 
-• Данные обновляются каждые 5 минут.
+• Die Daten werden alle 5 Minuten aktualisiert.
 
-### **5. Статус**
+### **5. Status**
 
-Текущее состояние устройства:
+Der aktuelle Zustand des Geräts:
 
-• Активный — устройство работает и данные поступают на пул.
+• **Aktiv** – Das Gerät funktioniert und sendet Daten an den Pool.
 
-• Неактивный — данные с устройства не поступают на пул (возможные проблемы с подключением или устройством).
+• **Inaktiv** – Das Gerät sendet keine Daten an den Pool (mögliche Verbindungs- oder Geräteprobleme).
 
-### **6. Операции**
+### **6. Aktionen**
 
-Интерактивная кнопка, которая позволяет:
+Eine interaktive Schaltfläche, die es ermöglicht:
 
-• Просмотреть график изменения хэшрейта воркера.
+• Das Diagramm der Hashrate-Änderungen des Workers anzuzeigen.
 
-• Проанализировать процент отказов (отклонённых шар).
+• Die Ablehnungsrate (abgelehnte Shares) zu analysieren.
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
