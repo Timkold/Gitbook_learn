@@ -4,7 +4,7 @@ Auf der Seite „Gewinn“ findest du Informationen zur täglichen Rentabilität
 
 • 🔽 **Pool-Auswahl:** Wechsle zwischen Pools über das Dropdown-Menü in der oberen rechten Ecke.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## **💰 Wie wird der Gesamtgewinn berechnet?**
 

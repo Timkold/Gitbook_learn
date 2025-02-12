@@ -32,7 +32,7 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 
 • Bearbeiten – Schaltfläche zur Konfiguration der Parameter.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Erstellen eines Geräts über das Formular**
 
@@ -78,7 +78,7 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 
 4\. Auf **Erstellen** klicken.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **Importieren von Geräten per Liste** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
@@ -87,7 +87,7 @@ Damit ein externer Agent Daten sammeln kann, müssen Geräte mit den angegebenen
 3. Eine **.csv**-Datei von der Festplatte auswählen.
 4. Nach erfolgreichem Upload erscheint die Meldung „Datei erfolgreich hochgeladen“.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Beispiel einer CSV-Tabelle**
 
@@ -143,7 +143,7 @@ _**Verfügbare Parameter zur Änderung:**_
 
 • **Raum ändern**, dem das Rack zugeordnet wird.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="446"><figcaption></figcaption></figure>
 
 3\. Auf **Aktualisieren** klicken, um die Änderungen zu speichern.
 
