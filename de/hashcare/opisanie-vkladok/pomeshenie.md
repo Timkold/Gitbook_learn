@@ -1,13 +1,12 @@
-# 🏠 Помещения
+# 🏠 Räume
 
-**Помещение** — это сущность уровня ниже дата-центра, которая:
+**Raum** — eine Einheit unterhalb des Rechenzentrums, die:
 
-• Привязана к одному дата-центру.
+• Mit einem bestimmten Rechenzentrum verbunden ist.
 
-• Включает один или несколько связанных стеллажей.
+• Ein oder mehrere zugehörige Racks enthält.
 
-• Отображает данные только тех устройств, которые находятся в стеллажах внутри данного помещения.
+• Nur die Daten der Geräte anzeigt, die sich in den Racks innerhalb dieses Raums befinden.
 
 
-
-Страница "Помещения" во многом схожа с интерфейсом "Дата-центра", но предоставляет информацию, относящуюся только к конкретному помещению.
+Die Seite „Räume“ ähnelt in vielerlei Hinsicht der Benutzeroberfläche des „Rechenzentrums“, stellt jedoch ausschließlich Informationen bereit, die sich auf einen bestimmten Raum beziehen.
