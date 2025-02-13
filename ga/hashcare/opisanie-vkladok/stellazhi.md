@@ -28,7 +28,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 • Nuashonrú — cumraíocht na bparaiméadar.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## **Cruthú Raca**
 
@@ -45,7 +45,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 4\. Cliceáil ar an gcnaipe **Cruthaigh**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Nuashonrú Raca**
 
@@ -62,7 +62,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 4\. Cliceáil **Nuashonraigh**.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **🗑️ Scriosadh Raca** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -70,7 +70,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 2. Roghnaigh **Scrios**.
 3. Sa fhuinneog a osclaítear, cliceáil ar an gcnaipe **Deimhnigh**.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Nascleanúint go Leathanach an Raca**
 
@@ -89,7 +89,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Всего — неактивные + онлайн.
 * Онлайн — устройства передают данные.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### **Графики:**
 
@@ -108,7 +108,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Active Asic — работающие устройства.
 * Total Asic — все устройства, включая нерабочие.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Карта стеллажа**
 
@@ -124,7 +124,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
 * Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Список устройств на стеллаже**
 
@@ -136,11 +136,11 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Модель — определяется агентом или задаётся вручную; отображается прошивка.
 * Хэшрейт — текущий показатель устройства:
 
-&#x20;     🟢 Хэшрейт > 0
+🟢 Хэшрейт > 0
 
-&#x20;     🔴 Хэшрейт = 0 или не определён
+🔴 Хэшрейт = 0 или не определён
 
 * Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
 * IP-адрес — автоматически определяется агентом или задаётся вручную.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
