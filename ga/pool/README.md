@@ -1,21 +1,15 @@
 # Pool
 
-Pool: Ваша точка управления майнингом и финансами
+Pool: Do phointe rialaithe do mhianadóireacht agus do chuid airgeadais
 
+Is seirbhís áisiúil agus feidhmiúil é Pool, cruthaithe chun smacht iomlán a thabhairt duit ar do linnte. Leis, beidh tú in ann:
 
+• Bainistiú a dhéanamh ar linnte leis an tsimplíocht is mó.
 
-Pool — это удобный и функциональный сервис, созданный для полного контроля над вашими пулами. С его помощью вы сможете:
+• Faisnéis mhionsonraithe a fheiceáil faoi na gléasanna ceangailte agus a bhfeidhmíocht.
 
-• Управлять пулами с максимальной простотой.
+• Rialú agus socrú a dhéanamh ar aistarraingtí airgid go tapa agus gan aon chéimeanna breise.
 
-• Просматривать подробную информацию о подключенных устройствах и их работе.
+Tugann an uirlis seo le chéile na príomhfheidhmeanna go léir atá riachtanach le haghaidh bainistíochta éifeachtach, ag tabhairt smachta agus áise chumhachtaí duit in aon áit amháin.
 
-• Контролировать и настраивать вывод средств быстро и без лишних действий.
-
-
-
-Этот инструмент объединяет все ключевые функции, необходимые для эффективного управления процессами, предоставляя вам мощный контроль и удобство в одном месте.
-
-
-
-_Ваши данные. Ваши устройства. Ваши решения._
+_Do shonraí. Do ghléasanna. Do chinntí._
