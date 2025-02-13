@@ -106,9 +106,9 @@ _**Paraiméadair in-athraithe:**_
 
 • **Uimhir Sraithe** — _Riachtanach._
 
-• **Seoladh IP** — caithfidh sé an patrún seo a leanúint:  
-^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.  
-_Riachtanach._
+• **Seoladh IP** — caithfidh sé an patrún seo a leanúint:\
+^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.\
+&#xNAN;_&#x52;iachtanach._
 
 • **Seoladh MAC** — caithfidh sé an patrún seo a leanúint: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Riachtanach._
 
@@ -121,8 +121,8 @@ _Riachtanach._
 • **Uimhir Áite** — uimhir shuíomh saor ar sceilf.
 
 * Ní féidir a bheith = 0. _Earráid: “Caithfidh sé a bheith ≥ 1.”_
-* Ní féidir a bheith níos mó ná líon na suíomhanna ar an sceilf.  
-* Ní mór gur uimhir í. _Earráid: “Formáid neamhbhailí.”_  
+* Ní féidir a bheith níos mó ná líon na suíomhanna ar an sceilf.
+* Ní mór gur uimhir í. _Earráid: “Formáid neamhbhailí.”_
 * _Riachtanach._
 
 • **URLanna Stratum an Linn** — suas le 3 sheoladh stratum is féidir a chur leis. _Neamhobligáideach._
@@ -162,41 +162,41 @@ Is féidir níos mó ná aon ghléas amháin a nuashonrú ag an am céanna trí 
 
 ## **Sonraí an Ghléis:**
 
-• **Múnla**  
+• **Múnla**
 
 Braitear go huathoibríoch é ag an ngníomhaire inmheánach nó socraítear de láimh é i socruithe an ghléis. Cuimsíonn sé an ráta haisia sonraithe ag an monaróir.
 
-• **Seoladh IP**  
+• **Seoladh IP**
 
 Braitear go huathoibríoch é ag an ngníomhaire inmheánach nó socraítear de láimh é i socruithe an ghléis.
 
-• **Firmware**  
+• **Firmware**
 
 Braitear go huathoibríoch é ag an ngníomhaire inmheánach nó socraítear de láimh é i socruithe an ghléis.
 
-• **Uimhir Sraithe (S/N)**  
+• **Uimhir Sraithe (S/N)**
 
 Braitear go huathoibríoch é ag an ngníomhaire inmheánach nó socraítear de láimh é i socruithe an ghléis.
 
 ### **Cumhacht**
 
-• **Cumhacht Ainmnithe**  
+• **Cumhacht Ainmnithe**
 
 Luach statach atá socraithe do gach múnla gléis.
 
 * W/TH - luach coibhneasta, á ríomh mar an cóimheas idir an tomhaltas ainmniúil agus an ráta haisia ainmniúil.
 
-• **Ráta Haisia Ainmnithe**  
+• **Ráta Haisia Ainmnithe**
 
 Luach an ráta haisia a shocraíonn an monaróir agus a bhraitear ón ASIC.
 
 ### **Eolas Breise**
 
-• **Ainm Oibrí**  
+• **Ainm Oibrí**
 
 Comhdhéanta d’ainm an linne agus ainm an ghléis ar an linn. Braitear go huathoibríoch é nó socraítear de láimh é i socruithe an ghléis.
 
-• **Seoladh MAC**  
+• **Seoladh MAC**
 
 Braitear go huathoibríoch é ag an ngníomhaire inmheánach nó socraítear de láimh é i socruithe an ghléis.
 
@@ -217,9 +217,9 @@ _Le haghaidh cumraíochta an linne: “Socruithe Linn” → Cruthaigh Linn._
 
 **• Costais Leictreachais:**
 
-Bunaithe ar chumhacht an ghléis agus an ráta:  
+Bunaithe ar chumhacht an ghléis agus an ráta:
 
-(Tomhaltas Cumhachta (W) × 24) ÷ 1000 × Ráta  
+(Tomhaltas Cumhachta (W) × 24) ÷ 1000 × Ráta
 
 **• Brabús:**
 
