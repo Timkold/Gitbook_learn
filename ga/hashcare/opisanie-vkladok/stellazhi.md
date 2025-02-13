@@ -45,7 +45,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 4\. Cliceáil ar an gcnaipe **Cruthaigh**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Nuashonrú Raca**
 
@@ -62,7 +62,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 4\. Cliceáil **Nuashonraigh**.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **🗑️ Scriosadh Raca** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -70,7 +70,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 2. Roghnaigh **Scrios**.
 3. Sa fhuinneog a osclaítear, cliceáil ar an gcnaipe **Deimhnigh**.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Nascleanúint go Leathanach an Raca**
 
@@ -89,7 +89,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Iomlán — gléasanna nach bhfuil gníomhach + ar líne.
 * Ar Líne — gléasanna atá ag seoladh sonraí.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### **Cairteacha:**
 
@@ -108,7 +108,7 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 * Active Asic — gléasanna atá ag obair.
 * Total Asic — líon iomlán na ngléasanna, lena n-áirítear cinn neamhghníomhacha.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Léarscáil an Raca**
 
@@ -124,7 +124,7 @@ Taispeánann sé léaráid 2D le líon sonraithe suíomhanna agus na gléasanna 
 * Má tá ráta haisia nó teocht = 0 nó má sháraíonn siad an norm, beidh an cló dearg.
 * Chun fadhbanna reatha a fheiceáil, is féidir an tréith taispeána a athrú sa chúinne uachtarach ar dheis.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Liosta Gléasanna sa Raca**
 
@@ -143,4 +143,4 @@ Taispeánann sé na gléasanna ceangailte leis an raca.
 * Ainm an Oibrí — comhdhéanta d’ainm an linne agus an ghléis, sainmhínítear é ag an ngníomhaire nó go láimhe.
 * Seoladh IP — braitear go huathoibríoch ag an ngníomhaire nó socraítear de láimh.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

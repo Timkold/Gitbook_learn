@@ -1,8 +1,8 @@
 # Conas Tús a Chur Leis?
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Nuair a théann tú isteach sa Chuntas Pearsanta den chéad uair, níl aon linn nasctha fós</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Nuair a théann tú isteach sa Chuntas Pearsanta den chéad uair, níl aon linn nasctha fós</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## 🚀 Cruthú Linn
 
@@ -62,7 +62,7 @@ Chun do ghléas a nascadh, déan na céimeanna seo a leanas:
 
 ❕ _Má tá an ID mar an gcéanna do ghléasanna iolracha, taispeánfaidh an córas sonraí comhiomlána na ngléasanna sin._
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## 💰 Socruithe Aistarraingthe
 
