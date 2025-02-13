@@ -1,81 +1,81 @@
 # Oibrithe
 
-В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
+Sa chóras Bullpool tugtar oibrithe (Worker) ar na gléasanna. Is iad seo na gnéithe lárnacha a:
 
-• Представляют одно или несколько объединённых устройств, подключенных к майнинговому пулу.
+• Léiríonn gléas amháin nó roinnt gléasanna nasctha le linn mianadóireachta.
 
-• Выполняют задачи по добыче криптовалюты.
+• Déanann siad tascanna chun airgeadra cripte a mhianadóireacht.
 
-## Что делает Worker?
+## Cad a dhéanann Worker?
 
-Каждый воркер:
+Gach oibrí:
 
-• 🖥️ Выполняет вычислительные задачи для решения блоков.
+• 🖥️ Déanann sé ríomhanna chun bloic a réiteach.
 
-• 📊 Отслеживает производительность — пул фиксирует результаты его работы.
+• 📊 Rianaíonn sé feidhmíocht - cláraíonn an linn na torthaí oibre.
 
-• ⚡ Оптимизирует эффективность добычи криптовалюты.
+• ⚡ Déanann sé mianadóireacht níos éifeachtaí a bharrfheabhsú.
 
-## Список майнеров
+## Liosta Mianadóirí
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Собранные с пула данные отображаются на странице Список майнеров. На странице отображаются воркеры на одном пуле. Что бы выбрать другой пул необходимо раскрыть выпадающее меню списка созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Bailítear sonraí ón linn agus léirítear iad ar an leathanach Liosta Mianadóirí. Taispeántar oibrithe ar linn amháin. Chun linn eile a roghnú, oscail an roghchlár anuas de na linnte atá ann.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Список созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Liosta na linnte atá cruthaithe</p></figcaption></figure>
 
-## **Таблица воркеров: ключевая информация и параметры**
+## **Tábla Oibrithe: príomhfhaisnéis agus paraiméadair**
 
-В таблице воркеров представлена полная информация о каждом устройстве, подключённом к пулу. Вот основные столбцы и их значения:
+Tugann an tábla oibrithe faisnéis iomlán faoi gach gléas ceangailte leis an linn. Seo na colúin is tábhachtaí agus a luachanna:
 
-### **1. Майнер**
+### **1. Mianadóir**
 
-Идентификатор воркера (ID Worker) на пуле. Он позволяет быстро определить устройство и его связь с пулом.
+Aitheantóir an oibrí (ID Worker) sa linn. Ligeann sé seo duit an gléas a aithint go tapa agus an chaoi a bhfuil sé ceangailte leis an linn.
 
-### **2. Средний хэшрейт**
+### **2. Meánráta Hash**
 
-Хэшрейт устройства за разные промежутки времени:
+Ráta hash an ghléis thar thréimhsí éagsúla ama:
 
-• Средний за 10 минут — показатель производительности за короткий период.
+• Meán do 10 nóiméad – feidhmíocht ar feadh tréimhse ghearr.
 
-• Средний за час — усреднённое значение за последний час.
+• Meán in aghaidh na huaire – meánluach le haghaidh na huaire deireanaí.
 
-• Средний за 24 часа — долгосрочный показатель стабильности устройства.
+• Meánráta Haisia ar feadh 24 uair – léiriú cobhsaíochta ar fheidhmíocht an ghléis.
 
-Эти данные помогают анализировать эффективность майнинга и выявлять отклонения.
+Cuidíonn na sonraí seo le mianadóireacht a anailísiú agus aon fhadhbanna a aithint.
 
-### **3. Процент отклонённых шар (Reject Rate)**
+### **3. Céatadán scaireanna diúltaithe (Reject Rate)**
 
-Этот показатель демонстрирует долю шаров (решений задач), которые были отправлены устройством, но не приняты пулом.
+Taispeánann sé an céatadán de scaireanna (réitigh ar thascanna) a cuireadh isteach ach nach nglactar leo ag an linn.
 
-• Выражается в процентах.
+• Léirítear i gcéatadáin.
 
-• Указывает на эффективность передачи данных между устройством и пулом.
+• Léiríonn sé éifeachtúlacht tarchurtha sonraí idir an gléas agus an linn.
 
-• Высокий Reject Rate может свидетельствовать о проблемах с сетью или настройками устройства.
+• Má tá an ráta ard, d’fhéadfadh fadhbanna líonra nó socruithe mícheart a bheith ann.
 
-### **4. Время последней отправки**
+### **4. Am seolta deireanach**
 
-Время последней передачи шар на пул.
+An uair dheireanach a cuireadh scaireanna chuig an linn.
 
-• Данные обновляются каждые 5 минут.
+• Nuashonraítear sonraí gach 5 nóiméad.
 
-### **5. Статус**
+### **5. Stádas**
 
-Текущее состояние устройства:
+An stádas reatha den ghléas:
 
-• Активный — устройство работает и данные поступают на пул.
+• Gníomhach – tá an gléas ag obair agus tá sonraí á dtaifeadadh ag an linn.
 
-• Неактивный — данные с устройства не поступают на пул (возможные проблемы с подключением или устройством).
+• Neamhghníomhach – níl sonraí ag teacht ón ngléas go dtí an linn (d’fhéadfadh fadhbanna ceangail nó teicniúla a bheith ann).
 
-### **6. Операции**
+### **6. Oibríochtaí**
 
-Интерактивная кнопка, которая позволяет:
+Cnaipe idirghníomhach a ligeann duit:
 
-• Просмотреть график изменения хэшрейта воркера.
+• Féachaint ar an ngraf d’athrú ar ráta hash an oibrí.
 
-• Проанализировать процент отказов (отклонённых шар).
+• Céatadán na scaireanna diúltaithe a anailísiú.
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
