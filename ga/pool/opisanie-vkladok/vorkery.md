@@ -18,13 +18,9 @@ Gach oibrí:
 
 ## Liosta Mianadóirí
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Bailítear sonraí ón linn agus léirítear iad ar an leathanach Liosta Mianadóirí. Taispeántar oibrithe ar linn amháin. Chun linn eile a roghnú, oscail an roghchlár anuas de na linnte atá ann.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Bailítear sonraí ón linn agus léirítear iad ar an leathanach Liosta Mianadóirí. Taispeántar oibrithe ar linn amháin. Chun linn eile a roghnú, oscail an roghchlár anuas de na linnte atá ann.</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Liosta na linnte atá cruthaithe</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Liosta na linnte atá cruthaithe</p></figcaption></figure>
 
 ## **Tábla Oibrithe: príomhfhaisnéis agus paraiméadair**
 
