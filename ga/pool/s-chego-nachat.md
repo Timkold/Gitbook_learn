@@ -1,87 +1,85 @@
-# С чего начать?
+# Conas Tús a Chur Leis?
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Nuair a théann tú isteach sa Chuntas Pearsanta den chéad uair, níl aon linn nasctha fós</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## 🚀 Создание пула
+## 🚀 Cruthú Linn
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Téigh go dtí an roghchlár “Socruithe Linn”.
 
-2\. Нажмите кнопку “Создать пул”.
+2\. Cliceáil ar an gcnaipe “Cruthaigh Linn”.
 
-3\. В открывшемся окне укажите:
+3\. Sa fhuinneog a osclaítear, sonraigh:
 
-• Имя пула (обязательно, без пробелов, шаблон: ^\[a-zA-Z0-9]+$).
+• Ainm an Linne (riachtanach, gan spásanna, patrún: ^\[a-zA-Z0-9]+$).
 
-• Имя будет автоматически дополнено префиксом "bp".
+• Cuirfear an réimír "bp" leis an ainm go huathoibríoch.
 
-• ❗ _Если имя занято_, появится ошибка: “Имя пула зарезервировано”.
+• ❗ _Má tá an t-ainm tógtha_, taispeánfar earráid: “Tá an t-ainm linn áirithinte”.
 
-• Комментарий (поле необязательное).
+• Trácht (réimse roghnach).
 
-• Монета (по умолчанию BTC).
+• Bonn (BTC de réir réamhshocraithe).
 
-4\. Нажмите кнопку “Создать”.
-
-\
-Ограничения:
-
-• ❗ _Редактировать пул после создания нельзя._
-
-• ❗ _Максимум 5 пулов на одного клиента._ Если лимит превышен, появится ошибка: “Вы не можете создавать больше пулов”.
-
-## 📋 Список пулов
-
-Все созданные пулы отображаются в таблице:
-
-• Имя пула — заданное при создании.
-
-• Комментарий — отображается, если заполнен.
-
-• Монета — по умолчанию BTC.
-
-## ⚙️ Подключение устройства к пулу
+4\. Cliceáil ar an gcnaipe “Cruthaigh”.
 
 \
-Чтобы подключить устройство, выполните следующие шаги:
+Srianta:
 
-1\. Перейдите в меню “Настройка пулов”.
+• ❗ _Ní féidir linn a chur in eagar tar éis a chruthaithe._
 
-2\. Напротив нужного пула нажмите кнопку “Подключить устройство”.
+• ❗ _Uasmhéid de 5 linnte in aghaidh an chliaint._ Má sháraítear an teorainn, taispeánfar earráid: “Ní féidir leat níos mó linnte a chruthú”.
 
-3\. В открывшемся окне скопируйте:
+## 📋 Liosta Linnte
 
-• 3 URL-адреса и укажите их в настройках устройства.
+Taispeántar gach linn cruthaithe sa tábla:
 
-• Worker, который состоит из:
+• Ainm an Linne — mar a socraíodh le linn a chruthaithe.
 
-* **Имени пула** — название пула в системе Pool Bullpool.
-* **ID устройства** — задаётся вами (может быть уникальным или одинаковым для нескольких устройств).
+• Trácht — taispeántar é más líonadh isteach é.
 
-❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
+• Bonn — BTC de réir réamhshocraithe.
+
+## ⚙️ Ceangal Gléas le Linn
+
+\
+Chun do ghléas a nascadh, déan na céimeanna seo a leanas:
+
+1\. Téigh go dtí an roghchlár “Socruithe Linn”.
+
+2\. In aice leis an linn atá uait, cliceáil ar an gcnaipe “Ceangail Gléas”.
+
+3\. Sa fhuinneog a osclaítear, cóipeáil:
+
+• 3 URL agus cuir iad isteach i socruithe do ghléis.
+
+• An tOibrí, a chuimsíonn:
+
+* **Ainm an Linne** — ainm an linne sa chóras Pool Bullpool.
+* **ID an ghléis** — sainmhínítear é agat (féadtar é a bheith uathúil nó comhionann do ghléasanna iolracha).
+
+❕ _Má tá an ID mar an gcéanna do ghléasanna iolracha, taispeánfaidh an córas sonraí comhiomlána na ngléasanna sin._
 
 <figure><img src="../.gitbook/assets/image (3).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## 💰 Настройка вывода средств
+## 💰 Socruithe Aistarraingthe
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Téigh go dtí an roghchlár “Socruithe Linn”.
 
-2\. Напротив нужного пула нажмите кнопку “Вывод”.
+2\. In aice leis an linn atá uait, cliceáil ar an gcnaipe “Tarraing Siar”.
 
-3\. В открывшемся окне укажите номер кошелька, на который будут выводиться средства.
+3\. Sa fhuinneog a osclaítear, sonraigh an uimhir sparán ina n-aistreofar na cistí.
 
-4\. Нажмите кнопку “Сохранить”.
+4\. Cliceáil ar an gcnaipe “Sábháil”.
 
+**Aistarraingt Uathoibríoch:**
 
+* Nuair a shroichtear an t-íosmhéid de 0.001 BTC, aistreofar an t-airgead go dtí an sparán sonraithe gach lá roimh 12:00 UTC.
+* Más gá an t-íosmhéid aistarraingthe a athrú, déan teagmháil leis an tacaíocht.
 
-**Автоматический вывод средств:**
-
-* При достижении минимальной суммы 0.001 BTC, ежедневно до 12:00 UTC сумма отправляется на указанный кошелёк.
-* Если требуется изменить минимальную сумму вывода, свяжитесь с поддержкой
-
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Pool”
+Is féidir leat feidhmiúlacht an chuntais phearsanta a scrúdú tuilleadh sa rannán “Pool”.
