@@ -76,71 +76,71 @@ Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon ái
 
 * Sa roghchlár **Racaí**, cliceáil ar **Ainm** an raca atá uait.
 
-## **Содержимое страницы стеллажа**
+## **Ábhar an Raca**
 
-### **Детали:**
+### **Sonraí:**
 
-• Размер: ширина × высота (например, 10×10).
+• Méid: leithead × airde (m.sh. 10×10).
 
-• Количество мест: общее число (ширина × высота).
+• Líon na Suíochán: líon iomlán (leithead × airde).
 
-• Количество устройств:
+• Líon na nGléasanna:
 
-* Всего — неактивные + онлайн.
-* Онлайн — устройства передают данные.
+* Iomlán — gléasanna nach bhfuil gníomhach + ar líne.
+* Ar Líne — gléasanna atá ag seoladh sonraí.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### **Графики:**
+### **Cairteacha:**
 
-**• Хэшрейт:**
+**• Ráta Haisia:**
 
-* Asic Hashrate — переданный устройством.
-* Nominal Hashrate — заявленный производителем.
+* Asic Hashrate — sonraí a sheol an gléas.
+* Nominal Hashrate — sonraí sonraithe ag an monaróir.
 
-**• Потребление:**
+**• Tomhaltas Fuinnimh:**
 
-* Asic Power — переданное устройством.
-* Nominal Power — заявленное производителем.
+* Asic Power — sonraí a sheol an gléas.
+* Nominal Power — sonraí sonraithe ag an monaróir.
 
-**• Устройства:**
+**• Gléasanna:**
 
-* Active Asic — работающие устройства.
-* Total Asic — все устройства, включая нерабочие.
+* Active Asic — gléasanna atá ag obair.
+* Total Asic — líon iomlán na ngléasanna, lena n-áirítear cinn neamhghníomhacha.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### **Карта стеллажа**
+### **Léarscáil an Raca**
 
-Отображает 2D-схему с заданным количеством мест и размещёнными устройствами.
+Taispeánann sé léaráid 2D le líon sonraithe suíomhanna agus na gléasanna suite ann.
 
-• В каждой ячейке указаны:
+• I ngach cillán taispeántar:
 
-* Действительный хэшрейт.
-* Максимальная температура чипов.
+* Ráta haisia fíor.
+* Teocht uasta na sliseanna.
 
-• Особенности отображения:
+• Gnéithe taispeána:
 
-* Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
-* Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
+* Má tá ráta haisia nó teocht = 0 nó má sháraíonn siad an norm, beidh an cló dearg.
+* Chun fadhbanna reatha a fheiceáil, is féidir an tréith taispeána a athrú sa chúinne uachtarach ar dheis.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### **Список устройств на стеллаже**
+### **Liosta Gléasanna sa Raca**
 
-Перечисляет устройства, привязанные к стеллажу.
+Taispeánann sé na gléasanna ceangailte leis an raca.
 
-• Таблица включает:
+• Áirítear sa tábla:
 
-* ID устройства — уникальный идентификатор, заданный системой.
-* Модель — определяется агентом или задаётся вручную; отображается прошивка.
-* Хэшрейт — текущий показатель устройства:
+* ID an Ghléis — aitheantas uathúil a shannann an córas.
+* Múnla — sainmhínítear é ag an ngníomhaire nó go láimhe; taispeántar an firmware.
+* Ráta Haisia — an luach reatha ón ngléas:
 
-🟢 Хэшрейт > 0
+🟢 Ráta Haisia > 0
 
-🔴 Хэшрейт = 0 или не определён
+🔴 Ráta Haisia = 0 nó neamhshainithe
 
-* Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
-* IP-адрес — автоматически определяется агентом или задаётся вручную.
+* Ainm an Oibrí — comhdhéanta d’ainm an linne agus an ghléis, sainmhínítear é ag an ngníomhaire nó go láimhe.
+* Seoladh IP — braitear go huathoibríoch ag an ngníomhaire nó socraítear de láimh.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
