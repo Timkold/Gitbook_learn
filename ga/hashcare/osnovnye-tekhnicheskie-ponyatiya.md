@@ -1,11 +1,12 @@
 ---
 description: >-
-  Tá téarmaí agus sainmhínithe lárnacha sa chuid seo a chabhróidh leat ábhar an doiciméid a thuiscint níos fearr.
+  Tá téarmaí agus sainmhínithe lárnacha sa chuid seo a chabhróidh leat ábhar an
+  doiciméid a thuiscint níos fearr.
 ---
 
 # 📘 Príomhchoincheapa Teicniúla
 
-## 💻 ASIC (asac)
+## 💻 ASIC
 
 **🔹 Cad é seo?**
 
@@ -15,7 +16,7 @@ Is feiste speisialaithe é ASIC (Application-Specific Integrated Circuit) atá o
 
 • Déantar é a dhearadh go heisiach chun ríomhanna a dhéanamh bunaithe ar algartaim mhianadóireachta, mar shampla SHA-256 do Bitcoin.
 
-## ⚡ Hashrate (Ráta Haischóid)
+## ⚡ Hashrate
 
 **🔹 Cad é seo?**
 
@@ -66,8 +67,8 @@ Is é seo an teocht a bhíonn ar phríomhchodanna mianadóra ASIC, mar shampla s
 
 **🔹 Aonaid Tomhais:**
 
-* &#x20;°C (céimeanna Celsius).
-* &#x20;°F (céimeanna Fahrenheit).
+* °C (céimeanna Celsius).
+* °F (céimeanna Fahrenheit).
 
 ## 🔄 Luas na bhFánaithe sa Ghléas
 
@@ -77,7 +78,7 @@ Is é seo an mhinicíocht a rothlaíonn na fánaithe sa ghléas chun fuarú a sh
 
 **🔹 Aonaid Tomhais:**
 
-* &#x20;RPM (réabhlóidí in aghaidh an nóiméid).
+* RPM (réabhlóidí in aghaidh an nóiméid).
 
 **🔹 Ról:**
 
