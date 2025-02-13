@@ -1,80 +1,80 @@
 # Racaí
 
-Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
+Is eintiteas é raca atá ceangailte le seomra amháin agus ina bhfuil líon áirithe suíomhanna do ghléasanna. Taispeántar sonraí na ngléasanna laistigh de.
 
-• Можно создать неограниченное количество стеллажей в одном помещении.
+• Is féidir líon neamhtheoranta racaí a chruthú i seomra amháin.
 
-• По умолчанию создаётся один стеллаж, привязанный к созданному помещению.
+• Cruthaítear raca amháin de réir réamhshocraithe agus é ceangailte leis an seomra cruthaithe.
 
-## **Таблица “Стеллажи”**
+## **Tábla “Racaí”**
 
-• Поиск — поиск по названию.
+• Cuardach — cuardach de réir ainm.
 
-• Дата-центр — выбор стеллажей в конкретном дата-центре.
+• Ionad Sonraí — rogha racaí in ionad sonraí ar leith.
 
-• Помещения — выбор стеллажей в помещении.
+• Seomraí — rogha racaí i seomra áirithe.
 
-• Добавить новый стеллаж — кнопка для создания.
+• Cruthaigh Raca Nua — cnaipe chun raca nua a chruthú.
 
-## Поля таблицы:
+## Réimsí na Tábla:
 
-• ID — идентификатор в базе данных.
+• ID — aitheantas sa bhunachar sonraí.
 
-• Имя — название стеллажа.
+• Ainm — ainm an raca.
 
-• Дата-центр — название дата-центра.
+• Ionad Sonraí — ainm an ionaid sonraí.
 
-• Помещение — помещение, к которому привязан стеллаж.
+• Seomra — seomra a bhfuil an raca ceangailte leis.
 
-• Редактирование — настройка параметров.
+• Nuashonrú — cumraíocht na bparaiméadar.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## **Создание стеллажа**
+## **Cruthú Raca**
 
-1\. Перейти в меню **Стеллажи**.
+1\. Téigh go dtí an roghchlár **Racaí**.
 
-2\. Нажать кнопку **Добавить новый стеллаж**.
+2\. Cliceáil ar an gcnaipe **Cruthaigh Raca Nua**.
 
-3\. В открывшемся окне:
+3\. Sa fhuinneog a osclaítear:
 
-* Ввести название в поле **Имя**.
-* Указать количество полок (Высота) от 1 до 10.
-* Указать количество мест на полке (Ширина) от 1 до 10.
-* Выбрать помещение из выпадающего списка.
+* Iontráil ainm sa réimse **Ainm**.
+* Sonraigh líon na seilfeanna (**Airde**) ó 1 go 10.
+* Sonraigh líon na suíomhanna in aghaidh na seilfe (**Leithead**) ó 1 go 10.
+* Roghnaigh an seomra ón roghchlár anuas.
 
-4\. Нажать кнопку **Создать**.
+4\. Cliceáil ar an gcnaipe **Cruthaigh**.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## Редактирование стеллажа
+## **Nuashonrú Raca**
 
-1\. Нажать на кнопку _три точки_ рядом с нужным стеллажом.
+1\. Cliceáil ar an gcnaipe _trí phonc_ in aice leis an raca atá uait.
 
-2\. Выбрать пункт **Изменить**.
+2\. Roghnaigh **Nuashonraigh**.
 
-3\. Внести изменения:
+3\. Déan na hathruithe seo a leanas:
 
-* Новое имя.
-* Количество полок (Высота) от 1 до 10.
-* Количество мест на полке (Ширина) от 1 до 10.
-* Помещение, к которому будет привязан стеллаж.
+* Ainm nua.
+* Líon na seilfeanna (**Airde**) ó 1 go 10.
+* Líon na suíomhanna in aghaidh na seilfe (**Leithead**) ó 1 go 10.
+* Seomra a mbeidh an raca ceangailte leis.
 
-4\. Нажать **Обновить**.
+4\. Cliceáil **Nuashonraigh**.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="342"><figcaption></figcaption></figure>
 
-## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
+## **🗑️ Scriosadh Raca** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
-1. Нажать на кнопку _три точки_ рядом с нужным стеллажом
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**.
+1. Cliceáil ar an gcnaipe _trí phonc_ in aice leis an raca atá uait.
+2. Roghnaigh **Scrios**.
+3. Sa fhuinneog a osclaítear, cliceáil ar an gcnaipe **Deimhnigh**.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## **Переход на страницу стеллажа**
+## **Nascleanúint go Leathanach an Raca**
 
-* В меню **Стеллажи** нажать на **Имя** нужного стеллажа.
+* Sa roghchlár **Racaí**, cliceáil ar **Ainm** an raca atá uait.
 
 ## **Содержимое страницы стеллажа**
 
