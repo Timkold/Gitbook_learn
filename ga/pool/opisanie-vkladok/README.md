@@ -1,12 +1,12 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами своего личного кабинета,
-  чтобы полностью изучить все его возможности.
+  Ansin is féidir leat eolas a chur ar chodanna éagsúla de do chuntas pearsanta,
+  chun gach feidhm atá aige a thuiscint go hiomlán.
 ---
 
-# Описание вкладок
+# Cur Síos ar na Cluaisíní
 
-Вот статьи из этого раздела:
+Seo iad na hailt ón rannán seo:
 
 {% content-ref url="vorkery.md" %}
 [vorkery.md](vorkery.md)
