@@ -1,4 +1,4 @@
-# Список моделей
+# Liosta na Samhlacha
 
 #### **Bitmain (Antminer)** <a href="#bitmain-antminer" id="bitmain-antminer"></a>
 
@@ -50,4 +50,5 @@
 
 1. Innosilicon T2TZ
 
-Это список моделей, по которым мы отображаем данные в мониторинге. Если ваша модель не указана в списке, пожалуйста, свяжитесь с нами по электронной почте support@bullpool.io или через Телеграм-канал @bullpool\_support.”
+Seo liosta de na samhlacha a léirímid sonraí monatóireachta dóibh. 
+Má tá do shamhail in easnamh ón liosta, déan teagmháil linn le do thoil trí ríomhphost ag support@bullpool.io nó tríd an gcainéal Telegram @bullpool\_support.
