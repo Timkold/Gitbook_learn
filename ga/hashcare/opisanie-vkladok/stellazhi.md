@@ -1,4 +1,4 @@
-# Стеллажи
+# Racaí
 
 Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
 
@@ -28,7 +28,7 @@
 
 • Редактирование — настройка параметров.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Создание стеллажа**
 
@@ -45,7 +45,7 @@
 
 4\. Нажать кнопку **Создать**.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## Редактирование стеллажа
 
@@ -62,7 +62,7 @@
 
 4\. Нажать **Обновить**.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -70,7 +70,7 @@
 2. Выбрать пункт меню **Удалить**
 3. В открывшемся окне нажать кнопку **Подтвердить**.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Переход на страницу стеллажа**
 
