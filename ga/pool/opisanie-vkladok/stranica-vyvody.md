@@ -1,20 +1,20 @@
 # 💸 Leathanach “Aistrithe”
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+Taispeántar stair na n-idirbheart go léir a bhaineann le haistrithe cistí ar an leathanach **Aistrithe**.
 
-• Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• **An t-íosmhéid aistarraingthe**: déantar idirbhearta go huathoibríoch nuair a shroicheann iarmhéid an chliaint **0.001 BTC**.
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-## 📋 Состав таблицы “Выводы”
+## 📋 **Comhdhéanamh na Tábla “Aistrithe”**
 
 \
-Таблица включает следующие колонки:
+Tá na colúin seo a leanas sa tábla:
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 **Dáta & Am** — an t-am a rinneadh an t-aistriú.
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 **Méid** — an méid BTC a aistríodh laistigh den idirbheart.
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 **Seoladh** — uimhir an sparán a bhfuarthas na cistí chuige.
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
+• 🔗 **Uimhir Idirbhearta** — aitheantóir uathúil na hoibríochta ar an blockchain.
