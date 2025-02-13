@@ -1,74 +1,72 @@
 # 🏢 Ionad Sonraí
 
-Дата-центр — это сущность, представляющая площадку, включающую связанные помещения и стеллажи. Отображаются только данные устройств, привязанных к стеллажам внутри конкретного дата-центра. По умолчанию при первом входе в ЛК создаётся один дата-центр.
+Is eintiteas é Ionad Sonraí a chuireann suíomh ar fáil ina bhfuil seomraí agus racaí nasctha. Taispeántar sonraí na ngléasanna atá ceangailte le racaí laistigh d'ionad sonraí ar leith. De réir réamhshocraithe, cruthaítear ionad sonraí amháin nuair a logálann tú isteach sa Chuntas Pearsanta den chéad uair.
 
-## **📋 Таблица Дата-центры**
+## **📋 Tábla Ionaid Sonraí**
 
-• Поиск: ищет по символам в названии.
+• Cuardach: déanann cuardach ar shiombailí san ainm.
 
-• Добавить дата-центр: кнопка для создания нового ДЦ.
+• Cruthaigh Ionad Sonraí: cnaipe chun ionad sonraí nua a chruthú.
 
+**Réimsí na Tábla:**
 
+• ID: uimhir sa bhunachar sonraí.
 
-**Поля таблицы:**
+• Ainm: ainm an Ionaid Sonraí.
 
-• ID: номер в базе данных.
-
-• Имя: название ДЦ.
-
-• Редактирование: кнопка для изменений.
+• Nuashonrú: cnaipe le haghaidh eagarthóireachta.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-## ➕ Создание Дата-центра
+## ➕ Cruthú Ionaid Sonraí
 
-1\. Перейдите в раздел **Дата-центры**.
+1\. Téigh go dtí an rannán **Ionaid Sonraí**.
 
-2\. Нажмите кнопку **Добавить дата-центр**.
+2\. Cliceáil ar an gcnaipe **Cruthaigh Ionad Sonraí**.
 
-3\. Введите название в поле **Имя**.
+3\. Iontráil ainm san fhillteán **Ainm**.
 
-4\. Нажмите **Создать**.
+4\. Cliceáil **Cruthaigh**.
 
 \
-💡 Первый дата-центр создаётся с ID 1. Новый дата-центр получает следующий порядковый ID, даже если предыдущие были удалены.
+💡 Cruthaítear an chéad ionad sonraí le **ID 1**. Faigheann aon ionad sonraí nua an chéad ID ar fáil, fiú má scriosadh na cinn roimhe seo.
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="343"><figcaption></figcaption></figure>
 
-## **✏️ Редактирование Дата-центра**
+## **✏️ Nuashonrú Ionaid Sonraí**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Cliceáil ar an gcnaipe ⋮ in aice leis an Ionad Sonraí atá uait.
 
-2\. Выберите пункт **Изменить**.
+2\. Roghnaigh **Nuashonraigh**.
 
-3\. Введите новое название в поле **Имя**.
+3\. Iontráil an t-ainm nua sa réimse **Ainm**.
 
-4\. Нажмите **Обновить**.
+4\. Cliceáil **Nuashonraigh**.
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt="" width="344"><figcaption></figcaption></figure>
 
-## **🗑️ Удаление Дата-центра**
+## **🗑️ Scriosadh Ionaid Sonraí**
 
-1\. Нажмите на кнопку ⋮ рядом с нужным Дата-центром.
+1\. Cliceáil ar an gcnaipe ⋮ in aice leis an Ionad Sonraí atá uait.
 
-2\. Выберите пункт **Удалить**.
+2\. Roghnaigh **Scrios**.
 
-3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
+3\. Sa fhuinneog a osclaítear, dearbhaigh an gníomh trí chliceáil ar **Deimhnigh**.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt="" width="342"><figcaption></figcaption></figure>
 
-**🔹 Графики**
+**🔹 Cairteacha**
 
-* **Хэшрейт**: суммарный хэшрейт устройств (TH/s).
-* **Asic Hashrate**: данные от устройства.
-* **Nominal Hashrate**: заявлено производителем.
-* **Потребление**: суммарное энергопотребление устройств (W).
-* **Asic Power**: данные от устройства.
-* **Nominal Power**: заявлено производителем.
+* **Ráta Haisia**: ráta haisia iomlán na ngléasanna (TH/s).
+* **Asic Hashrate**: sonraí ón ngléas.
+* **Nominal Hashrate**: sonraí sonraithe ag an monaróir.
+* **Tomhaltas Fuinnimh**: tomhaltas fuinnimh iomlán na ngléasanna (W).
+* **Asic Power**: sonraí ón ngléas.
+* **Nominal Power**: sonraí sonraithe ag an monaróir.
 
-**🔹 Устройства**
+**🔹 Gléasanna**
 
-* **Active Asic**: работающие устройства.
-* **Total Asic**: общее количество устройств.
+* **Active Asic**: gléasanna atá ag obair.
+* **Total Asic**: líon iomlán na ngléasanna.
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
