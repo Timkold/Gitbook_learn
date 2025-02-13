@@ -1,8 +1,6 @@
-# Conas Tús a Chur Leis?
+# С чего начать?
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Nuair a théann tú isteach sa Chuntas Pearsanta den chéad uair, níl aon linn nasctha fós</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Nuair a théann tú isteach sa Chuntas Pearsanta den chéad uair, níl aon linn nasctha fós</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="341"><figcaption></figcaption></figure>
 
