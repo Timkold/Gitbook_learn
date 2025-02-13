@@ -1,8 +1,8 @@
-# Описание вкладок
+# Cur Síos ar na Cluaisíní
 
-Далее вы можете ознакомиться с различными разделами своего личного кабинета, чтобы полностью изучить все его возможности.
+Anseo is féidir leat eolas a chur ar na rannóga éagsúla de do chuntas pearsanta chun staidéar iomlán a dhéanamh ar a ghnéithe uile.
 
-Вот статьи из этого раздела:
+Seo na hailt ón rannóg seo:
 
 {% content-ref url="data-centr.md" %}
 [data-centr.md](data-centr.md)
