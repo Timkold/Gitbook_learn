@@ -1,41 +1,39 @@
-# HashCare
+# HashCare  
 
-HashCare — это инновационная система учета ресурсов для майнинга криптовалют, включающая функцию мониторинга вычислительных устройств в виде плагина.
+HashCare es un sistema innovador de gestión de recursos para la minería de criptomonedas, que incluye una función de monitoreo de dispositivos de cómputo en forma de un plugin.  
 
-## 🚀 Возможности HashCare
+## 🚀 Funcionalidades de HashCare  
 
-• **📊 Мониторинг процесса майнинга:**
+• **📊 Monitoreo del proceso de minería:**  
 
-Отслеживание статуса работников, хешрейта пула и других ключевых показателей.
+Seguimiento del estado de los trabajadores, el hashrate del pool y otros indicadores clave.  
 
-• **📋 Учет ресурсов:**&#x20;
+• **📋 Gestión de recursos:**  
 
-Управление и анализ ресурсов, задействованных в майнинге.&#x20;
+Administración y análisis de los recursos utilizados en la minería.  
 
-• **🔌 Гибкая настройка мониторинга устройств:**&#x20;
+• **🔌 Configuración flexible del monitoreo de dispositivos:**  
 
-Подключение устройств и настройка параметров мониторинга в соответствии с вашими потребностями.&#x20;
+Conexión de dispositivos y configuración de los parámetros de monitoreo según tus necesidades.  
 
-• **⏱️ Реальное время (RT):**
+• **⏱️ Tiempo real (RT):**  
 
-Получение актуальных данных о состоянии и производительности устройств в реальном времени.&#x20;
+Obtención de datos actualizados sobre el estado y rendimiento de los dispositivos en tiempo real.  
 
-• **📈 Аналитика и уведомления:**&#x20;
+• **📈 Analítica y notificaciones:**  
 
-Использование встроенных инструментов аналитики и настроек уведомлений для контроля эффективности.
+Uso de herramientas integradas de análisis y configuraciones de notificaciones para controlar la eficiencia.  
 
-## ❓Как работает HashCare?
+## ❓¿Cómo funciona HashCare?  
 
-Мониторинг осуществляется с использованием агента, который выполняет следующие задачи:&#x20;
+El monitoreo se realiza mediante un agente que lleva a cabo las siguientes tareas:  
 
-• Сбор метрик с подключенных устройств. \
-• Передача данных в централизованную систему для обработки и визуализации.&#x20;
+• Recopilación de métricas de los dispositivos conectados.  
+• Transmisión de datos a un sistema centralizado para su procesamiento y visualización.  
 
-HashCare предоставляет:&#x20;
+HashCare proporciona:  
 
-• 🎛️ **Настраиваемый интерфейс отображения данных** — адаптируйте интерфейс для соответствия вашим аналитическим потребностям.\
-• 🚨 **Обнаружение проблем** — своевременное выявление и реагирование на сбои.&#x20;
+• 🎛️ **Interfaz de visualización de datos personalizable** — adapta la interfaz a tus necesidades analíticas.  
+• 🚨 **Detección de problemas** — identificación y respuesta oportuna ante fallos.  
 
-
-
-HashCare — это универсальный инструмент для мониторинга, учета и анализа всего процесса майнинга. С его легкой настройкой и глубокой функциональностью он является необходимой системой для майнеров всех уровней.
+HashCare es una herramienta integral para el monitoreo, gestión y análisis de todo el proceso de minería. Con su fácil configuración y su amplia funcionalidad, es un sistema esencial para mineros de todos los niveles.  
