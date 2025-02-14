@@ -2,86 +2,86 @@
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Al iniciar sesión en el Panel de Control por primera vez, no hay ningún pool conectado</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (48).png" alt="" width="338"><figcaption></figcaption></figure>
 
-## 🚀 Создание пула
+## 🚀 Creación de un pool
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Ir al menú “Configuración del grupo”.
 
-2\. Нажмите кнопку “Создать пул”.
+2\. Hacer clic en el botón “Crear grupo”.
 
-3\. В открывшемся окне укажите:
+3\. En la ventana emergente, ingresar:
 
-• Имя пула (обязательно, без пробелов, шаблон: ^\[a-zA-Z0-9]+$).
+• Nombre del grupo (obligatorio, sin espacios, formato: ^\[a-zA-Z0-9]+$).
 
-• Имя будет автоматически дополнено префиксом "bp".
+• El nombre se complementará automáticamente con el prefijo "bp".
 
-• ❗ _Если имя занято_, появится ошибка: “Имя пула зарезервировано”.
+• ❗ _Si el nombre está ocupado_, aparecerá el error: “El nombre del grupo está reservado”.
 
-• Комментарий (поле необязательное).
+• Comentario (opcional).
 
-• Монета (по умолчанию BTC).
+• Moneda (por defecto BTC).
 
-4\. Нажмите кнопку “Создать”.
-
-\
-Ограничения:
-
-• ❗ _Редактировать пул после создания нельзя._
-
-• ❗ _Максимум 5 пулов на одного клиента._ Если лимит превышен, появится ошибка: “Вы не можете создавать больше пулов”.
-
-## 📋 Список пулов
-
-Все созданные пулы отображаются в таблице:
-
-• Имя пула — заданное при создании.
-
-• Комментарий — отображается, если заполнен.
-
-• Монета — по умолчанию BTC.
-
-## ⚙️ Подключение устройства к пулу
+4\. Hacer clic en el botón “Crear”.
 
 \
-Чтобы подключить устройство, выполните следующие шаги:
+Restricciones:
 
-1\. Перейдите в меню “Настройка пулов”.
+• ❗ _No se puede editar el grupo después de crearlo._
 
-2\. Напротив нужного пула нажмите кнопку “Подключить устройство”.
+• ❗ _Máximo 5 grupos por cliente._ Si se supera el límite, aparecerá el error: “No puede crear más grupos”.
 
-3\. В открывшемся окне скопируйте:
+## 📋 Lista de grupos
 
-• 3 URL-адреса и укажите их в настройках устройства.
+Todos los grupos creados se muestran en la tabla:
 
-• Worker, который состоит из:
+• Nombre del grupo — asignado durante la creación.
 
-* **Имени пула** — название пула в системе Pool Bullpool.
-* **ID устройства** — задаётся вами (может быть уникальным или одинаковым для нескольких устройств).
+• Comentario — se muestra si ha sido ingresado.
 
-❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
+• Moneda — por defecto BTC.
+
+## ⚙️ Conectar un dispositivo al grupo
+
+\
+Para conectar un dispositivo, sigue estos pasos:
+
+1\. Ir al menú “Configuración del grupo”.
+
+2\. Al lado del grupo deseado, hacer clic en el botón “Conectar dispositivo”.
+
+3\. En la ventana emergente, copiar:
+
+• 3 URLs e ingresarlas en la configuración del dispositivo.
+
+• Worker, que consta de:
+
+* **Nombre del grupo** — nombre del grupo en el sistema Pool Bullpool.
+* **ID del dispositivo** — definido por el usuario (puede ser único o el mismo para varios dispositivos).
+
+❕ _Si el ID es el mismo para varios dispositivos, el sistema mostrará los valores acumulados de todos los dispositivos con ese ID._
 
 <figure><img src="../.gitbook/assets/image (49).png" alt="" width="339"><figcaption></figcaption></figure>
 
-## 💰 Настройка вывода средств
+## 💰 Configuración de retiros
 
 \
-1\. Перейдите в меню “Настройка пулов”.
+1\. Ir al menú “Configuración del grupo”.
 
-2\. Напротив нужного пула нажмите кнопку “Вывод”.
+2\. Al lado del grupo deseado, hacer clic en el botón “Retirar”.
 
-3\. В открывшемся окне укажите номер кошелька, на который будут выводиться средства.
+3\. En la ventana emergente, ingresar la dirección de la billetera donde se enviarán los fondos.
 
-4\. Нажмите кнопку “Сохранить”.
+4\. Hacer clic en el botón “Guardar”.
 
 
 
-**Автоматический вывод средств:**
+**Retiros automáticos:**
 
-* При достижении минимальной суммы 0.001 BTC, ежедневно до 12:00 UTC сумма отправляется на указанный кошелёк.
-* Если требуется изменить минимальную сумму вывода, свяжитесь с поддержкой
+* Cuando el saldo alcanza el mínimo de 0.001 BTC, la cantidad se envía automáticamente a la billetera indicada antes de las 12:00 UTC.
+* Si es necesario cambiar el monto mínimo de retiro, contacta con el soporte.
 
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Pool”
+A continuación, puedes explorar más funciones del panel en la sección “Pool”.
