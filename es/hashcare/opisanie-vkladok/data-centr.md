@@ -55,7 +55,7 @@
 
 3\. В открывшемся окне подтвердите действие кнопкой **Подтвердить**.
 
-
+<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="341"><figcaption></figcaption></figure>
 
 **🔹 Графики**
 
@@ -71,4 +71,4 @@
 * **Active Asic**: работающие устройства.
 * **Total Asic**: общее количество устройств.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
