@@ -1,45 +1,44 @@
-# 📈 Página “Ganancia”
+# 📈 Página “Ganancia”  
 
-На странице “Прибыль” представлена информация о ежедневной доходности на момент закрытия каждого дня для всех ваших пулов.
+La página “Ganancia” muestra información sobre la rentabilidad diaria al cierre de cada día para todos tus pools.  
 
-• 🔽 Выбор пула: переключайтесь между пулами с помощью выпадающего меню в правом верхнем углу.
+• 🔽 **Selección de pool**: cambia entre pools usando el menú desplegable en la esquina superior derecha.  
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>  
 
-## **💰 Как рассчитывается общая прибыль?**
-
-\
-Общая прибыль вычисляется по следующей формуле:
-
-(TH \* стоимость BTC за TH \* количество дней)
-
-🗓️ Количество дней:
-
-• Неделя — 7 дней.
-
-• Месяц — 30 дней.
-
-Эта информация помогает вам быстро оценить эффективность каждого пула и спланировать доходность.
-
-_Совет:_ добавьте график или таблицу для наглядного отображения прибыли по каждому пулу за выбранный период.
-
-## 📊 Таблица подсчёта прибыли
+## **💰 ¿Cómo se calcula la ganancia total?**  
 
 \
-В таблице отображается информация о доходах для каждого дня, включая ключевые параметры:
+La ganancia total se calcula con la siguiente fórmula:  
 
-• 📅 День — дата, за которую рассчитывается прибыль.
+(TH \* precio de BTC por TH \* número de días)  
 
-• ⚡ Хэшрейт — суммарный хэшрейт всех устройств, подключённых к выбранному пулу.
+🗓️ **Número de días:**  
 
-• 💰 Общая прибыль — итоговая прибыль после вычета комиссии.
+• Semana — 7 días.  
+• Mes — 30 días.  
 
-• 📈 Прибыль на TH/s — средний доход, приходящийся на каждый терахэш в секунду (TH/s), зафиксированный в указанный день.
+Esta información te ayuda a evaluar rápidamente la eficiencia de cada pool y a planificar la rentabilidad.  
 
-• 🔄 PPLNS — прибыль за день, рассчитанная по методу Pay Per Last N Shares (распределение доходов на основе последних отправленных шар).
+_Consejo:_ agrega un gráfico o tabla para visualizar la ganancia de cada pool en un período seleccionado.  
 
-• 💵 PPS — прибыль за день, рассчитанная по методу Pay Per Share (фиксированная выплата за каждую принятую шар).
+## 📊 **Tabla de cálculo de ganancias**  
 
-• 🏆 SOLO — прибыль за день при использовании метода SOLO (получение награды за самостоятельное решение блока).
+\
+La tabla muestra información sobre las ganancias diarias, incluyendo los parámetros clave:  
 
-Эта таблица помогает вам анализировать эффективность каждого метода распределения доходов и управлять вашими ресурсами максимально выгодно.
+• 📅 **Día** — fecha para la que se calcula la ganancia.  
+
+• ⚡ **Tasa de hash** — tasa de hash total de todos los dispositivos conectados al pool seleccionado.  
+
+• 💰 **Ganancia total** — ganancia final después de deducir la comisión.  
+
+• 📈 **Ganancia por TH/s** — ingreso promedio por cada terahash por segundo (TH/s) registrado en ese día.  
+
+• 🔄 **PPLNS** — ganancia diaria calculada con el método Pay Per Last N Shares (reparto de ingresos basado en los últimos shares enviados).  
+
+• 💵 **PPS** — ganancia diaria calculada con el método Pay Per Share (pago fijo por cada share aceptado).  
+
+• 🏆 **SOLO** — ganancia diaria usando el método SOLO (recompensa por resolver un bloque de forma independiente).  
+
+Esta tabla te ayuda a analizar la eficiencia de cada método de distribución de ingresos y a gestionar tus recursos de la manera más rentable.  
