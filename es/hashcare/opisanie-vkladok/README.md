@@ -1,8 +1,8 @@
-# Описание вкладок
+# Descripción de las pestañas
 
-Далее вы можете ознакомиться с различными разделами своего личного кабинета, чтобы полностью изучить все его возможности.
+A continuación, puedes familiarizarte con las diferentes secciones de tu panel personal para conocer completamente todas sus funcionalidades.
 
-Вот статьи из этого раздела:
+Aquí están los artículos de esta sección:
 
 {% content-ref url="data-centr.md" %}
 [data-centr.md](data-centr.md)
