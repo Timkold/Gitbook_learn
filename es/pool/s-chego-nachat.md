@@ -1,8 +1,6 @@
 # ¿Por dónde empezar?
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>Al iniciar sesión en el Panel de Control por primera vez, no hay ningún pool conectado</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Al iniciar sesión en el Panel de Control por primera vez, no hay ningún pool conectado</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (48).png" alt="" width="338"><figcaption></figcaption></figure>
 
@@ -76,8 +74,6 @@ Para conectar un dispositivo, sigue estos pasos:
 3\. En la ventana emergente, ingresar la dirección de la billetera donde se enviarán los fondos.
 
 4\. Hacer clic en el botón “Guardar”.
-
-
 
 **Retiros automáticos:**
 
