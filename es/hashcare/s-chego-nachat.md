@@ -1,84 +1,84 @@
 # 🌟 ¿Por dónde empezar?
 
-**Агенты** — это сервис для сбора данных о состоянии устройств и передачи их в систему мониторинга. Он помогает отслеживать производительность, работоспособность и состояние инфраструктуры для своевременного обнаружения проблем.
+**Agentes** es un servicio para recopilar datos sobre el estado de los dispositivos y transmitirlos al sistema de monitoreo. Ayuda a rastrear el rendimiento, la operatividad y el estado de la infraestructura para detectar problemas a tiempo.
 
-### **🔗 Подключение:**
+### **🔗 Conexión:**
 
-Агент подключается к устройствам через протоколы (SSH, HTTP API, SNMP) и считывает их состояние.
+El agente se conecta a los dispositivos a través de protocolos (SSH, HTTP API, SNMP) y lee su estado.
 
-### **Агент в HashCare:**
+### **Agente en HashCare:**
 
-* &#x20;Устанавливается на сервер площадки, где размещены устройства.
-* Считывает метрики с устройств в одной сети через IP-адреса и передаёт их в мониторинг.
+* Se instala en el servidor de la plataforma donde están ubicados los dispositivos.  
+* Recoge métricas de los dispositivos en una misma red a través de direcciones IP y las envía al monitoreo.  
 
-#### **Как создать агента:**
+#### **Cómo crear un agente:**
 
-1\. Перейдите в меню **Агенты**.
+1\. Ir al menú **Agentes**.  
 
-2\. Нажмите кнопку **Создать нового агента.**
+2\. Hacer clic en el botón **Crear nuevo agente**.  
 
-### **Статусы агентов:**
+### **Estados de los agentes:**  
 
-🟢 **Зелёный** — агент активен.
+🟢 **Verde** — el agente está activo.  
 
-🔴 **Красный** — агент неактивен.
+🔴 **Rojo** — el agente está inactivo.  
 
-🟡 **Жёлтый** — есть как активные, так и неактивные агенты.
+🟡 **Amarillo** — hay agentes activos e inactivos.  
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-## **Шаги для создания:**
+## **Pasos para la creación:**  
 
-1\. Нажмите кнопку **Создать нового агента**.
+1\. Hacer clic en **Crear nuevo agente**.  
 
-2\. В поле **Режим** выберите **Внутренний**.
+2\. En el campo **Modo**, seleccionar **Interno**.  
 
-3\. Скачайте агент по ссылке.
+3\. Descargar el agente a través del enlace.  
 
-_Инструкцию по установке можно открыть через ссылку._
+_La guía de instalación se puede abrir desde el enlace._  
 
-4\. Заполните поле **Имя** (обязательно).
+4\. Completar el campo **Nombre** (obligatorio).  
 
-⚠️ Если поле пустое, кнопка **Создать** неактивна.
+⚠️ Si el campo está vacío, el botón **Crear** no estará activo.  
 
 <figure><img src="../.gitbook/assets/image (41).png" alt="" width="446"><figcaption></figcaption></figure>
 
-## **🌐 Добавление подсетей:**
+## **🌐 Adición de subredes:**  
 
-* Поле **Сети** необязательно для заполнения.
-* Формат ввода: `XX.XX.XX.XX/XX`
-* `XX.XX.XX.XX` — IP адрес устройства или подсети.
-* &#x20;`/XX` — маска подсети (от 0 до 32).
+* El campo **Redes** no es obligatorio.  
+* Formato de entrada: `XX.XX.XX.XX/XX`  
+* `XX.XX.XX.XX` — dirección IP del dispositivo o subred.  
+* `/XX` — máscara de subred (de 0 a 32).  
 
-Пример: `10.4.21.32/27`
+Ejemplo: `10.4.21.32/27`  
 
-* &#x20;**Сетевой адрес**: `10.4.21.32`
-* &#x20;**Диапазон хостов**: `10.4.21.33 – 10.4.21.62`
-* &#x20;**Broadcast**: `10.4.21.63`
+* **Dirección de red**: `10.4.21.32`  
+* **Rango de hosts**: `10.4.21.33 – 10.4.21.62`  
+* **Broadcast**: `10.4.21.63`  
 
-### **➕ Чтобы добавить подсети:**
+### **➕ Para agregar subredes:**  
 
-* Нажмите **Добавить** для добавления до 5 полей.
-* **Лимит**: максимум 125,000 IP-адресов в подсетях.
+* Hacer clic en **Agregar** para añadir hasta 5 campos.  
+* **Límite**: máximo 125,000 direcciones IP en subredes.  
 
-## **⚙️ Установка агента:**
+## **⚙️ Instalación del agente:**  
 
-1\. Выполните команду: <Путь к файлу>/hashcare-agent -Dapi-key=<ключ>
+1\. Ejecutar el comando: `<Ruta al archivo>/hashcare-agent -Dapi-key=<clave>`  
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2025-01-13 в 15.17.22.png" alt=""><figcaption></figcaption></figure>
 
-2\. **API Key**: скопируйте из соответствующего поля.
+2\. **API Key**: copiar desde el campo correspondiente.  
 
-## 🔍 Активация агента:
+## 🔍 Activación del agente:  
 
-**Внутренний агент** активируется после успешного запуска на сервере.
+El **agente interno** se activa tras su ejecución exitosa en el servidor.  
 
-**Отображается:**
+**Se mostrará:**  
 
-* **🖥️ IP агента**
-* **📜 Версия**
-* **📊 Количество устройств** (обновляется через 1–5 минут).
+* **🖥️ IP del agente**  
+* **📜 Versión**  
+* **📊 Número de dispositivos** (se actualiza cada 1–5 minutos).  
 
-— Устройства из подсетей добавляются автоматически с заполнением их данных.
+— Los dispositivos en las subredes se agregan automáticamente con sus datos completados.  
 
-Далее вы можете ознакомиться с функционалом личного кабинета в разделе “Hashcare”
+Después, puedes explorar las funcionalidades del panel de control en la sección “Hashcare”.  
