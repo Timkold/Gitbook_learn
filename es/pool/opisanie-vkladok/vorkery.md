@@ -1,4 +1,4 @@
-# Воркеры
+# Trabajadores
 
 В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
 
@@ -18,9 +18,9 @@
 
 ## Список майнеров
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 175943.png" alt=""><figcaption><p>Собранные с пула данные отображаются на странице Список майнеров. На странице отображаются воркеры на одном пуле. Что бы выбрать другой пул необходимо раскрыть выпадающее меню списка созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180214.png" alt=""><figcaption><p>Список созданных пулов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 ## **Таблица воркеров: ключевая информация и параметры**
 
@@ -74,4 +74,4 @@
 
 • Проанализировать процент отказов (отклонённых шар).
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-05 180337.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
