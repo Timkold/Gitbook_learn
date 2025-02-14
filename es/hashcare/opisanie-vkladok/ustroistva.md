@@ -2,95 +2,95 @@
 
 Para la recopilación de datos por un agente externo, es necesario crear dispositivos con parámetros definidos. Los dispositivos se vinculan a un rack, y sin esta asociación, no es posible crearlos. Por defecto, no hay dispositivos.
 
-### **Tabla "Dispositivos"**  
+### **Tabla "Dispositivos"**
 
-• **Buscar**: ingresar caracteres para filtrar por etiqueta de activo.  
+• **Buscar**: ingresar caracteres para filtrar por etiqueta de activo.
 
-• **Centro de datos, sala, rack**: filtros para seleccionar dispositivos en zonas específicas.  
+• **Centro de datos, sala, rack**: filtros para seleccionar dispositivos en zonas específicas.
 
-• **Crear nuevo dispositivo**: botón para la creación de un dispositivo.  
+• **Crear nuevo dispositivo**: botón para la creación de un dispositivo.
 
-### **Campos de la tabla**  
+### **Campos de la tabla**
 
-• **ID del dispositivo**: número único del sistema.  
+• **ID del dispositivo**: número único del sistema.
 
-• **Modelo**: determinado por el agente o ingresado manualmente; se muestra el firmware.  
+• **Modelo**: determinado por el agente o ingresado manualmente; se muestra el firmware.
 
-• **Tasa de hash**: rendimiento actual (TH/s):  
+• **Tasa de hash**: rendimiento actual (TH/s):
 
-🟢 Círculo verde: tasa de hash mayor a 0.  
+🟢 Círculo verde: tasa de hash mayor a 0.
 
-🔴 Círculo rojo: tasa de hash igual a 0 o no determinada.  
+🔴 Círculo rojo: tasa de hash igual a 0 o no determinada.
 
-• **Nombre del trabajador**: nombre del pool y del dispositivo (definido por el agente o manualmente).  
+• **Nombre del trabajador**: nombre del pool y del dispositivo (definido por el agente o manualmente).
 
-• **Dirección IP**: detectada automáticamente o ingresada manualmente.  
+• **Dirección IP**: detectada automáticamente o ingresada manualmente.
 
-• **S/N**: número de serie, determinado por el agente o ingresado manualmente.  
+• **S/N**: número de serie, determinado por el agente o ingresado manualmente.
 
-• **Ubicación**: Centro de datos / Sala / Rack (enlaces a las entidades).  
+• **Ubicación**: Centro de datos / Sala / Rack (enlaces a las entidades).
 
-• **Edición**: botón para configurar los parámetros.  
+• **Edición**: botón para configurar los parámetros.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-## **Creación de un dispositivo a través del formulario**  
+## **Creación de un dispositivo a través del formulario**
 
-1\. Ir al menú **Dispositivos**.  
+1\. Ir al menú **Dispositivos**.
 
-2\. Hacer clic en el botón **Crear nuevo dispositivo**.  
+2\. Hacer clic en el botón **Crear nuevo dispositivo**.
 
-3\. En la ventana emergente, ingresar los siguientes datos:  
+3\. En la ventana emergente, ingresar los siguientes datos:
 
-• **Tipo de dispositivo**: modelo (menú desplegable con función de búsqueda). _Campo obligatorio._  
+• **Tipo de dispositivo**: modelo (menú desplegable con función de búsqueda). _Campo obligatorio._
 
-• **Etiqueta de activo**: nombre único del dispositivo en el sistema Hashcare. _Campo obligatorio._  
+• **Etiqueta de activo**: nombre único del dispositivo en el sistema Hashcare. _Campo obligatorio._
 
-• **Número de serie**: _Campo obligatorio._  
+• **Número de serie**: _Campo obligatorio._
 
-• **Dirección IP**: debe cumplir con el formato: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Campo obligatorio._  
+• **Dirección IP**: debe cumplir con el formato: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Campo obligatorio._
 
-• **Dirección MAC**: debe cumplir con el formato: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.  
+• **Dirección MAC**: debe cumplir con el formato: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.
 
-• **Número de estante**: número del estante libre en función del rack.  
+• **Número de estante**: número del estante libre en función del rack.
 
-  * No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._  
-  * No puede ser mayor que el número total de estantes en el rack. _Error: "error.codes.rack\_exceed\_max\_size"._  
-  * Debe ser un número. _Error: "Formato incorrecto"._  
+* No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._
+* No puede ser mayor que el número total de estantes en el rack. _Error: "error.codes.rack\_exceed\_max\_size"._
+* Debe ser un número. _Error: "Formato incorrecto"._
 
-• **Número de lugar**: número del espacio libre en el estante.  
+• **Número de lugar**: número del espacio libre en el estante.
 
-  * No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._  
-  * No puede ser mayor que el número total de lugares en el estante.  
-  * Debe ser un número. _Error: "Formato incorrecto"._  
+* No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._
+* No puede ser mayor que el número total de lugares en el estante.
+* Debe ser un número. _Error: "Formato incorrecto"._
 
-• **URLs de Stratum del grupo**: hasta 3 direcciones. _Campo opcional._  
+• **URLs de Stratum del grupo**: hasta 3 direcciones. _Campo opcional._
 
-• **Nombre del trabajador del grupo**: nombre del dispositivo en el pool. _Campo obligatorio._  
+• **Nombre del trabajador del grupo**: nombre del dispositivo en el pool. _Campo obligatorio._
 
-• **Nombre del pool**: nombre del pool. _Campo obligatorio._  
+• **Nombre del pool**: nombre del pool. _Campo obligatorio._
 
-• **Rack**: selección de un rack existente. _Campo obligatorio._  
+• **Rack**: selección de un rack existente. _Campo obligatorio._
 
-• **Tipo de firmware**: _Campo obligatorio._  
+• **Tipo de firmware**: _Campo obligatorio._
 
-4\. Hacer clic en **Crear**.  
+4\. Hacer clic en **Crear**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="447"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="447"><figcaption></figcaption></figure>
 
-## **Importación de dispositivos en lista** <a href="#importacion-de-dispositivos-en-lista" id="importacion-de-dispositivos-en-lista"></a>  
+## **Importación de dispositivos en lista** <a href="#importacion-de-dispositivos-en-lista" id="importacion-de-dispositivos-en-lista"></a>
 
-1\. Ir al menú **Dispositivos**.  
+1\. Ir al menú **Dispositivos**.
 
-2\. Seleccionar la opción **Importar dispositivos (.csv)** en el menú desplegable.  
+2\. Seleccionar la opción **Importar dispositivos (.csv)** en el menú desplegable.
 
-3\. Seleccionar el archivo .csv en el disco duro.  
+3\. Seleccionar el archivo .csv en el disco duro.
 
-4\. Si la carga es exitosa, aparecerá el mensaje "Archivo cargado con éxito".  
+4\. Si la carga es exitosa, aparecerá el mensaje "Archivo cargado con éxito".
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Ejemplo de tabla CSV**  
+**Ejemplo de tabla CSV**
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
@@ -116,7 +116,7 @@ _**Доступные для изменения параметры:**_
 
 * Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
 * Не может быть больше, чем заданное количество полок в стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size.”_
-* Может быть только цифрой. _Ошибка: “Некорректный формат.”_&#x20;
+* Может быть только цифрой. _Ошибка: “Некорректный формат.”_
 
 • **Номер места** — номер свободного места на полке.
 
@@ -140,7 +140,7 @@ _**Доступные для изменения параметры:**_
 
 • **Изменить помещение**, к которому будет привязан стеллаж.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="446"><figcaption></figcaption></figure>
 
 3\. Нажать **Обновить** для сохранения изменений.
 
@@ -157,7 +157,7 @@ _**Доступные для изменения параметры:**_
 2. Выбрать пункт меню **Удалить**
 3. В открывшемся окне нажать кнопку **Подтвердить**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ## **Детали устройства:**
 
@@ -199,7 +199,7 @@ _**Доступные для изменения параметры:**_
 
 Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Показатели:**
 
@@ -259,4 +259,4 @@ _Настройка пула: «Настройка пулов» → Создат
 * **Asic Power** — текущее потребление, переданное устройством.
 * **Nominal Power** — заявленное производителем потребление.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
