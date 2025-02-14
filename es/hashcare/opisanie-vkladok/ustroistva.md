@@ -1,93 +1,96 @@
 # Dispositivos
 
-Для сбора данных внешним агентом необходимо создать устройства с заданными параметрами. Устройства привязываются к стеллажу, без привязки создание невозможно. По умолчанию устройства отсутствуют.
+Para la recopilación de datos por un agente externo, es necesario crear dispositivos con parámetros definidos. Los dispositivos se vinculan a un rack, y sin esta asociación, no es posible crearlos. Por defecto, no hay dispositivos.
 
-### **Таблица Устройства**
+### **Tabla "Dispositivos"**  
 
-• Поиск — ввод символов для фильтрации по тегу актива.
+• **Buscar**: ingresar caracteres para filtrar por etiqueta de activo.  
 
-• Дата-центр, помещение, стеллаж — фильтры для выбора устройств в конкретных зонах.
+• **Centro de datos, sala, rack**: filtros para seleccionar dispositivos en zonas específicas.  
 
-• Добавить устройство — кнопка для создания.
+• **Crear nuevo dispositivo**: botón para la creación de un dispositivo.  
 
-### **Поля таблицы**
+### **Campos de la tabla**  
 
-• ID устройства — уникальный номер системы.
+• **ID del dispositivo**: número único del sistema.  
 
-• Модель — определяется агентом или задаётся вручную; указана прошивка.
+• **Modelo**: determinado por el agente o ingresado manualmente; se muestra el firmware.  
 
-• Хэшрейт — текущая производительность (Th/s):
+• **Tasa de hash**: rendimiento actual (TH/s):  
 
-🟢 Зелёный кружок — хэшрейт больше 0.
+🟢 Círculo verde: tasa de hash mayor a 0.  
 
-🔴 Красный кружок — хэшрейт равен 0 или не определён.
+🔴 Círculo rojo: tasa de hash igual a 0 o no determinada.  
 
-• Имя воркера — имя пула и устройства (определяется агентом или вручную).
+• **Nombre del trabajador**: nombre del pool y del dispositivo (definido por el agente o manualmente).  
 
-• IP-адрес — автоматически определяется или задаётся вручную.
+• **Dirección IP**: detectada automáticamente o ingresada manualmente.  
 
-• S/N — серийный номер, определяется агентом или вручную.
+• **S/N**: número de serie, determinado por el agente o ingresado manualmente.  
 
-• Расположение — ДЦ / помещение / стеллаж (ссылки на объекты).
+• **Ubicación**: Centro de datos / Sala / Rack (enlaces a las entidades).  
 
-• Редактирование — кнопка настройки параметров.
+• **Edición**: botón para configurar los parámetros.  
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## **Создание устройства через форму**
+## **Creación de un dispositivo a través del formulario**  
 
-1\. Перейти в пункт меню **Устройства**.
+1\. Ir al menú **Dispositivos**.  
 
-2\. Нажать на кнопку **Добавить новое устройство**.
+2\. Hacer clic en el botón **Crear nuevo dispositivo**.  
 
-3\. В открывшемся окне ввести следующие данные:
+3\. En la ventana emergente, ingresar los siguientes datos:  
 
-• **Тип устройства** — модель (выпадающее меню с функцией поиска). _Обязательно для заполнения._
+• **Tipo de dispositivo**: modelo (menú desplegable con función de búsqueda). _Campo obligatorio._  
 
-• **Тэг актива** — уникальное имя устройства в системе Hashcare. _Обязательно для заполнения._
+• **Etiqueta de activo**: nombre único del dispositivo en el sistema Hashcare. _Campo obligatorio._  
 
-• **Серийный номер** — _Обязательно для заполнения._
+• **Número de serie**: _Campo obligatorio._  
 
-• **IP-адрес** — должен соответствовать шаблону: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Обязательно для заполнения._
+• **Dirección IP**: debe cumplir con el formato: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Campo obligatorio._  
 
-• **MAC-адрес** — должен соответствовать шаблону: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.
+• **Dirección MAC**: debe cumplir con el formato: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$.  
 
-• **Номер полки** — номер свободной полки в зависимости от стеллажа.
+• **Número de estante**: número del estante libre en función del rack.  
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1”._
-* Не может быть больше, чем заданное количество полок на стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size”._
-* Может быть только цифрой. _Ошибка: “Некорректный формат”._
+  * No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._  
+  * No puede ser mayor que el número total de estantes en el rack. _Error: "error.codes.rack\_exceed\_max\_size"._  
+  * Debe ser un número. _Error: "Formato incorrecto"._  
 
-• **Номер места** — номер свободного места на полке.
+• **Número de lugar**: número del espacio libre en el estante.  
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1”._
-* Не может быть больше, чем заданное количество мест на полке.
-* Может быть только цифрой. _Ошибка: “Некорректный формат”._
+  * No puede ser igual a 0. _Error: "Debe ser mayor o igual a 1"._  
+  * No puede ser mayor que el número total de lugares en el estante.  
+  * Debe ser un número. _Error: "Formato incorrecto"._  
 
-• **Пул Stratum URLs** — до 3 адресов. _Необязательно для заполнения._
+• **URLs de Stratum del grupo**: hasta 3 direcciones. _Campo opcional._  
 
-• **Имя воркера пула** — наименование устройства на пуле. _Обязательно для заполнения._
+• **Nombre del trabajador del grupo**: nombre del dispositivo en el pool. _Campo obligatorio._  
 
-• **Имя пула** — название пула. _Обязательно для заполнения._
+• **Nombre del pool**: nombre del pool. _Campo obligatorio._  
 
-• **Стеллаж** — выбор из существующих стеллажей. _Обязательно для заполнения._
+• **Rack**: selección de un rack existente. _Campo obligatorio._  
 
-• **Тип прошивки** — _Обязательно для заполнения._
+• **Tipo de firmware**: _Campo obligatorio._  
 
-4\. Нажать **Создать**.
+4\. Hacer clic en **Crear**.  
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="447"><figcaption></figcaption></figure>
 
-## **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
+## **Importación de dispositivos en lista** <a href="#importacion-de-dispositivos-en-lista" id="importacion-de-dispositivos-en-lista"></a>  
 
-1. Перейти в пункт меню **Устройства**
-2. Выбрать в выпадающем меню пункт **Импортировать устройства (.csv)**
-3. Выбрать файл .csv на жёстком диске
-4. При успешной загрузке появится сообщение “Файл успешно загружен“
+1\. Ir al menú **Dispositivos**.  
+
+2\. Seleccionar la opción **Importar dispositivos (.csv)** en el menú desplegable.  
+
+3\. Seleccionar el archivo .csv en el disco duro.  
+
+4\. Si la carga es exitosa, aparecerá el mensaje "Archivo cargado con éxito".  
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-**Пример CSV таблицы**
+**Ejemplo de tabla CSV**  
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
