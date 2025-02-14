@@ -1,77 +1,68 @@
-# Trabajadores
+# Trabajadores  
 
-В системе Bullpool устройства называются воркерами (Worker). Это ключевые элементы, которые:
+En el sistema Bullpool, los dispositivos se denominan **trabajadores (Worker)**. Son elementos clave que:  
 
-• Представляют одно или несколько объединённых устройств, подключенных к майнинговому пулу.
+• Representan uno o varios dispositivos conectados al pool de minería.  
+• Realizan tareas para la extracción de criptomonedas.  
 
-• Выполняют задачи по добыче криптовалюты.
+## ¿Qué hace un Worker?  
 
-## Что делает Worker?
+Cada worker:  
 
-Каждый воркер:
+• 🖥️ Realiza cálculos para resolver bloques.  
+• 📊 Supervisa el rendimiento: el pool registra los resultados de su trabajo.  
+• ⚡ Optimiza la eficiencia en la minería de criptomonedas.  
 
-• 🖥️ Выполняет вычислительные задачи для решения блоков.
+## Lista de mineros  
 
-• 📊 Отслеживает производительность — пул фиксирует результаты его работы.
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>  
 
-• ⚡ Оптимизирует эффективность добычи криптовалюты.
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>  
 
-## Список майнеров
+## **Tabla de trabajadores: información clave y parámetros**  
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+La tabla de trabajadores muestra información completa sobre cada dispositivo conectado al pool. Aquí están las principales columnas y sus significados:  
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+### **1. Minero**  
 
-## **Таблица воркеров: ключевая информация и параметры**
+Identificador del worker en el pool (ID Worker). Permite identificar rápidamente el dispositivo y su conexión con el pool.  
 
-В таблице воркеров представлена полная информация о каждом устройстве, подключённом к пулу. Вот основные столбцы и их значения:
+### **2. Tasa de hash promedio**  
 
-### **1. Майнер**
+Muestra el rendimiento del dispositivo en diferentes períodos de tiempo:  
 
-Идентификатор воркера (ID Worker) на пуле. Он позволяет быстро определить устройство и его связь с пулом.
+• **Promedio de 10 minutos** — rendimiento en un corto período.  
+• **Promedio de 1 hora** — valor medio de la última hora.  
+• **Promedio de 24 horas** — indicador de estabilidad a largo plazo.  
 
-### **2. Средний хэшрейт**
+Estos datos ayudan a analizar la eficiencia minera y detectar anomalías.  
 
-Хэшрейт устройства за разные промежутки времени:
+### **3. Porcentaje de acciones rechazadas (Reject Rate)**  
 
-• Средний за 10 минут — показатель производительности за короткий период.
+Muestra el porcentaje de soluciones enviadas por el dispositivo que fueron rechazadas por el pool.  
 
-• Средний за час — усреднённое значение за последний час.
+• Se expresa en porcentaje.  
+• Indica la eficiencia en la transmisión de datos entre el dispositivo y el pool.  
+• Una tasa de rechazo alta puede indicar problemas de red o configuración del dispositivo.  
 
-• Средний за 24 часа — долгосрочный показатель стабильности устройства.
+### **4. Hora de la última presentación**  
 
-Эти данные помогают анализировать эффективность майнинга и выявлять отклонения.
+Momento en el que el worker envió su última solución al pool.  
 
-### **3. Процент отклонённых шар (Reject Rate)**
+• Los datos se actualizan cada 5 minutos.  
 
-Этот показатель демонстрирует долю шаров (решений задач), которые были отправлены устройством, но не приняты пулом.
+### **5. Estado**  
 
-• Выражается в процентах.
+Estado actual del dispositivo:  
 
-• Указывает на эффективность передачи данных между устройством и пулом.
+• **Activo** — el dispositivo está funcionando y enviando datos al pool.  
+• **Inactivo** — el dispositivo no está enviando datos al pool (posibles problemas de conexión o fallos en el dispositivo).  
 
-• Высокий Reject Rate может свидетельствовать о проблемах с сетью или настройками устройства.
+### **6. Operaciones**  
 
-### **4. Время последней отправки**
+Botón interactivo que permite:  
 
-Время последней передачи шар на пул.
+• Ver el gráfico de cambio de la tasa de hash del worker.  
+• Analizar el porcentaje de rechazos (acciones rechazadas).  
 
-• Данные обновляются каждые 5 минут.
-
-### **5. Статус**
-
-Текущее состояние устройства:
-
-• Активный — устройство работает и данные поступают на пул.
-
-• Неактивный — данные с устройства не поступают на пул (возможные проблемы с подключением или устройством).
-
-### **6. Операции**
-
-Интерактивная кнопка, которая позволяет:
-
-• Просмотреть график изменения хэшрейта воркера.
-
-• Проанализировать процент отказов (отклонённых шар).
-
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>  
