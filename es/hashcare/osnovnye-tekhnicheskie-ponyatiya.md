@@ -6,7 +6,7 @@ description: >-
 
 # 📘 Conceptos técnicos básicos
 
-## 💻 ASIC (Asic)
+## 💻 ASIC
 
 **🔹 ¿Qué es?**  
 
@@ -16,7 +16,7 @@ ASIC (Application-Specific Integrated Circuit) es un dispositivo especializado o
 
 • Diseñado exclusivamente para realizar cálculos con algoritmos de minería, por ejemplo, SHA-256 para Bitcoin.  
 
-## ⚡ Hashrate (Tasa de hash)  
+## ⚡ Hashrate 
 
 **🔹 ¿Qué es?**  
 
