@@ -1,146 +1,147 @@
 # Racks
 
-Стеллаж — сущность, привязанная к одному помещению, включает определённое количество мест для устройств. Отображает данные только устройств внутри него.
+Un **rack** es una entidad vinculada a una sala específica y contiene un número determinado de espacios para dispositivos. Solo muestra los datos de los dispositivos dentro de él.
 
-• Можно создать неограниченное количество стеллажей в одном помещении.
+• Se puede crear un número ilimitado de racks en una sala.  
 
-• По умолчанию создаётся один стеллаж, привязанный к созданному помещению.
+• Por defecto, se crea un rack vinculado a la sala creada.  
 
-## **Таблица “Стеллажи”**
+## **Tabla "Racks"**  
 
-• Поиск — поиск по названию.
+• **Buscar**: búsqueda por nombre.  
 
-• Дата-центр — выбор стеллажей в конкретном дата-центре.
+• **Centro de datos**: selección de racks en un centro de datos específico.  
 
-• Помещения — выбор стеллажей в помещении.
+• **Salas**: selección de racks en una sala específica.  
 
-• Добавить новый стеллаж — кнопка для создания.
+• **Crear nuevo rack**: botón para la creación de un rack.  
 
-## Поля таблицы:
+### **Campos de la tabla:**  
 
-• ID — идентификатор в базе данных.
+• **ID**: identificador en la base de datos.  
 
-• Имя — название стеллажа.
+• **Nombre**: nombre del rack.  
 
-• Дата-центр — название дата-центра.
+• **Centro de datos**: nombre del centro de datos.  
 
-• Помещение — помещение, к которому привязан стеллаж.
+• **Sala**: sala a la que está vinculado el rack.  
 
-• Редактирование — настройка параметров.
+• **Edición**: configuración de parámetros.  
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-## **Создание стеллажа**
+## **Creación de un rack**  
 
-1\. Перейти в меню **Стеллажи**.
+1\. Ir al menú **Racks**.  
 
-2\. Нажать кнопку **Добавить новый стеллаж**.
+2\. Hacer clic en el botón **Crear nuevo rack**.  
 
-3\. В открывшемся окне:
+3\. En la ventana emergente:  
 
-* Ввести название в поле **Имя**.
-* Указать количество полок (Высота) от 1 до 10.
-* Указать количество мест на полке (Ширина) от 1 до 10.
-* Выбрать помещение из выпадающего списка.
+* Ingresar un nombre en el campo **Nombre**.  
+* Especificar la cantidad de estantes (**Altura**) de 1 a 10.  
+* Especificar la cantidad de espacios por estante (**Ancho**) de 1 a 10.  
+* Seleccionar una sala del menú desplegable.  
 
-4\. Нажать кнопку **Создать**.
+4\. Hacer clic en **Crear**.  
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## Редактирование стеллажа
+## **Edición de un rack**  
 
-1\. Нажать на кнопку _три точки_ рядом с нужным стеллажом.
+1\. Hacer clic en el botón ⋮ junto al rack deseado.  
 
-2\. Выбрать пункт **Изменить**.
+2\. Seleccionar la opción **Actualizar rack**.  
 
-3\. Внести изменения:
+3\. Realizar los cambios:  
 
-* Новое имя.
-* Количество полок (Высота) от 1 до 10.
-* Количество мест на полке (Ширина) от 1 до 10.
-* Помещение, к которому будет привязан стеллаж.
+* Nuevo nombre.  
+* Cantidad de estantes (**Altura**) de 1 a 10.  
+* Cantidad de espacios por estante (**Ancho**) de 1 a 10.  
+* Sala a la que se vinculará el rack.  
 
-4\. Нажать **Обновить**.
+4\. Hacer clic en **Actualizar**.  
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt="" width="340"><figcaption></figcaption></figure>
 
-## **Удаление Стеллажа:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
+## **Eliminación de un rack**  
 
-1. Нажать на кнопку _три точки_ рядом с нужным стеллажом
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**.
+1\. Hacer clic en el botón ⋮ junto al rack deseado.  
+
+2\. Seleccionar la opción **Eliminar**.  
+
+3\. En la ventana emergente, hacer clic en **Confirmar**.  
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt="" width="341"><figcaption></figcaption></figure>
 
-## **Переход на страницу стеллажа**
+## **Acceder a la página de un rack**  
 
-* В меню **Стеллажи** нажать на **Имя** нужного стеллажа.
+* En el menú **Racks**, hacer clic en el **Nombre** del rack deseado.  
 
-## **Содержимое страницы стеллажа**
+## **Contenido de la página del rack**  
 
-### **Детали:**
+### **Detalles:**  
 
-• Размер: ширина × высота (например, 10×10).
+• **Tamaño**: ancho × altura (por ejemplo, 10×10).  
 
-• Количество мест: общее число (ширина × высота).
+• **Número de espacios**: total (ancho × altura).  
 
-• Количество устройств:
+• **Número de dispositivos**:  
 
-* Всего — неактивные + онлайн.
-* Онлайн — устройства передают данные.
+* **Todos**: inactivos + en línea.  
+* **En línea**: dispositivos transmitiendo datos.  
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-### **Графики:**
+### **Gráficos:**  
 
-**• Хэшрейт:**
+**• Tasa de hash:**  
 
-* Asic Hashrate — переданный устройством.
-* Nominal Hashrate — заявленный производителем.
+* **Asic Hashrate**: tasa de hash informada por el dispositivo.  
+* **Nominal Hashrate**: tasa de hash declarada por el fabricante.  
 
-**• Потребление:**
+**• Consumo de energía:**  
 
-* Asic Power — переданное устройством.
-* Nominal Power — заявленное производителем.
+* **Asic Power**: consumo reportado por el dispositivo.  
+* **Nominal Power**: consumo declarado por el fabricante.  
 
-**• Устройства:**
+**• Dispositivos:**  
 
-* Active Asic — работающие устройства.
-* Total Asic — все устройства, включая нерабочие.
+* **Active Asic**: dispositivos en funcionamiento.  
+* **Total Asic**: cantidad total de dispositivos, incluyendo los inactivos.  
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-### **Карта стеллажа**
+### **Mapa del rack**  
 
-Отображает 2D-схему с заданным количеством мест и размещёнными устройствами.
+Muestra un esquema 2D con la cantidad de espacios definida y los dispositivos colocados.  
 
-• В каждой ячейке указаны:
+• En cada celda se indican:  
 
-* Действительный хэшрейт.
-* Максимальная температура чипов.
+* La tasa de hash actual.  
+* La temperatura máxima de los chips.  
 
-• Особенности отображения:
+• Características de la visualización:  
 
-* Если хэшрейт или температура = 0 или превышают норму, шрифт становится красным.
-* Для просмотра текущих проблем можно переключить отображаемую характеристику в правом верхнем углу.
+* Si la tasa de hash o la temperatura = 0 o supera los valores normales, el texto se muestra en rojo.  
+* Para ver los problemas actuales, se puede cambiar la característica mostrada en la esquina superior derecha.  
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-### **Список устройств на стеллаже**
+### **Lista de dispositivos en el rack**  
 
-Перечисляет устройства, привязанные к стеллажу.
+Enumera los dispositivos vinculados al rack.  
 
-• Таблица включает:
+• La tabla incluye:  
 
-* ID устройства — уникальный идентификатор, заданный системой.
-* Модель — определяется агентом или задаётся вручную; отображается прошивка.
-* Хэшрейт — текущий показатель устройства:
+* **ID del dispositivo**: identificador único asignado por el sistema.  
+* **Modelo**: determinado por el agente o ingresado manualmente; se muestra la versión del firmware.  
+* **Tasa de hash**: rendimiento actual del dispositivo:  
 
-&#x20;     🟢 Хэшрейт > 0
+  🟢 Tasa de hash > 0  
+  🔴 Tasa de hash = 0 o no determinada  
 
-&#x20;     🔴 Хэшрейт = 0 или не определён
-
-* Имя воркера — состоит из имени пула и устройства, определяется агентом или вручную.
-* IP-адрес — автоматически определяется агентом или задаётся вручную.
+* **Nombre del trabajador**: compuesto por el nombre del pool y del dispositivo, determinado por el agente o ingresado manualmente.  
+* **Dirección IP**: detectada automáticamente por el agente o ingresada manualmente.  
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
