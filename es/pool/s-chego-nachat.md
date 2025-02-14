@@ -1,8 +1,10 @@
-# С чего начать?
+# ¿Por dónde empezar?
+
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175126.png" alt=""><figcaption><p>При первом входе в Личный Кабинет не подключено ни одного пула</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175330.png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt="" width="338"><figcaption></figcaption></figure>
 
 ## 🚀 Создание пула
 
@@ -62,7 +64,7 @@
 
 ❕ _Если ID одинаковый для нескольких устройств, система будет отображать суммарные показатели всех устройств с этим ID._
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-02-05 175753.png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt="" width="339"><figcaption></figcaption></figure>
 
 ## 💰 Настройка вывода средств
 
