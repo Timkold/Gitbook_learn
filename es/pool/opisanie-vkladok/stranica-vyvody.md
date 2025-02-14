@@ -1,20 +1,20 @@
-# 💸 Página “Retiros”
+# 💸 Página “Retiros”  
 
-На странице “Выводы” отображается история всех транзакций, связанных с выводом средств клиентами.
+La página “Retiros” muestra el historial de todas las transacciones relacionadas con los retiros de fondos por parte de los clientes.  
 
-• Минимальная сумма вывода: транзакции происходят автоматически, как только баланс клиента достигает 0.001 BTC.
+• **Monto mínimo de retiro**: las transacciones se realizan automáticamente cuando el saldo del cliente alcanza 0.001 BTC.  
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>  
 
-## 📋 Состав таблицы “Выводы”
+## 📋 **Estructura de la tabla “Retiros”**  
 
 \
-Таблица включает следующие колонки:
+La tabla incluye las siguientes columnas:  
 
-• 📅 Дата и время — момент осуществления вывода.
+• 📅 **Fecha y hora** — momento en el que se realizó el retiro.  
 
-• 💰 Сумма — количество BTC, переведённое в рамках транзакции.
+• 💰 **Monto** — cantidad de BTC transferida en la transacción.  
 
-• 🏦 Адрес — номер кошелька, на который отправлены средства.
+• 🏦 **Dirección** — número de la billetera a la que se enviaron los fondos.  
 
-• 🔗 Номер транзакции — уникальный идентификатор операции в блокчейне.
+• 🔗 **Número de transacción** — identificador único de la operación en la blockchain.  
