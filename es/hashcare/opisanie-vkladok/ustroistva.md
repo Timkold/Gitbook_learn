@@ -94,169 +94,175 @@ Para la recopilación de datos por un agente externo, es necesario crear disposi
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-12-19 в 23.34.15.png" alt=""><figcaption></figcaption></figure>
 
-## **Редактирование устройства**
+## **Edición de dispositivo**  
 
-1\. Нажать на кнопку (три точки) рядом с нужным устройством.
+1\. Hacer clic en el botón (tres puntos) junto al dispositivo deseado.  
 
-2\. Выбрать пункт **Изменить**.
+2\. Seleccionar la opción **Actualizar**.  
 
-_**Доступные для изменения параметры:**_
+_**Parámetros disponibles para la edición:**_  
 
-• **Тип устройства** — модель. Поле работает как выпадающее меню с функцией поиска по символам. _Обязательно для заполнения._
+• **Tipo de dispositivo** — modelo. Campo desplegable con función de búsqueda. _Obligatorio._  
 
-• **Тэг актива** — уникальное имя устройства в системе Hashcare. _Обязательно для заполнения._
+• **Etiqueta de activo** — nombre único del dispositivo en el sistema Hashcare. _Obligatorio._  
 
-• **Серийный номер** — _Обязательно для заполнения._
+• **Número de serie** — _Obligatorio._  
 
-• **IP-адрес** — должен соответствовать шаблону: ^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$. _Обязательно для заполнения._
+• **Dirección IP** — debe cumplir con el formato:  
+^(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9]).(25\[0-5]|2\[0-4]\[0-9]|1\[0-9]{2}|\[1-9]?\[0-9])$.  
+_Obligatorio._  
 
-• **MAC-адрес** — должен соответствовать шаблону: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Обязательно для заполнения._
+• **Dirección MAC** — debe cumplir con el formato: ^\[a-fA-F0-9]:\[a-fA-F0-9]{2}{5}$. _Obligatorio._  
 
-• **Номер полки** — номер свободной полки в зависимости от выбранного стеллажа.
+• **Número de estante** — número del estante libre en el rack seleccionado.  
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество полок в стеллаже. _Ошибка: “error.codes.rack\_exceed\_max\_size.”_
-* Может быть только цифрой. _Ошибка: “Некорректный формат.”_
+  * No puede ser igual a 0. _Error: “Debe ser mayor o igual a 1”._  
+  * No puede ser mayor que el número total de estantes en el rack. _Error: “error.codes.rack\_exceed\_max\_size”._  
+  * Debe ser un número. _Error: “Formato incorrecto”._  
 
-• **Номер места** — номер свободного места на полке.
+• **Número de lugar** — número del espacio libre en el estante.  
 
-* Не может быть равным 0. _Ошибка: “Должно быть больше или равно 1.”_
-* Не может быть больше, чем заданное количество мест на указанной полке. _Ошибка: “Некорректный формат.”_
-* Может быть только цифрой. _Обязательно для заполнения._
+  * No puede ser igual a 0. _Error: “Debe ser mayor o igual a 1”._  
+  * No puede ser mayor que el número total de lugares en el estante. _Error: “Formato incorrecto”._  
+  * Debe ser un número. _Obligatorio._  
 
-• **Пул Stratum URLs** — Стратум адреса. Может быть добавлено от 1 до 3 адресов. _Необязательно для заполнения._
+• **URLs de Stratum del grupo** — direcciones de Stratum. Se pueden agregar de 1 a 3 direcciones. _Opcional._  
 
-• **Имя воркера пула** — наименование устройства на пуле. _Обязательно для заполнения._
+• **Nombre del trabajador del grupo** — nombre del dispositivo en el pool. _Obligatorio._  
 
-• **Имя пула** — название пула. _Обязательно для заполнения._
+• **Nombre del pool** — nombre del pool. _Obligatorio._  
 
-• **Стеллаж** — выбор из существующих стеллажей. _Обязательно для заполнения._
+• **Rack** — selección de un rack existente. _Obligatorio._  
 
-• **Тип прошивки** — _Обязательно для заполнения._
+• **Tipo de firmware** — _Obligatorio._  
 
-• **Изменить кол-во полок** (Высота) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Modificar cantidad de estantes** (Altura) — debe ser mayor o igual a 1 y menor o igual a 10.  
 
-• **Изменить кол-во мест на полках** (Ширина) — должно быть больше или равно 1 и меньше либо равно 10.
+• **Modificar cantidad de lugares en estantes** (Ancho) — debe ser mayor o igual a 1 y menor o igual a 10.  
 
-• **Изменить помещение**, к которому будет привязан стеллаж.
+• **Modificar la sala** a la que estará vinculado el rack.  
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="446"><figcaption></figcaption></figure>
 
-3\. Нажать **Обновить** для сохранения изменений.
+3\. Hacer clic en **Actualizar** para guardar los cambios.  
 
-## **Редактирование устройств через CSV файл** <a href="#redaktirovanie-ustrojstv-cherez-csv-fajl" id="redaktirovanie-ustrojstv-cherez-csv-fajl"></a>
+## **Edición de dispositivos a través de archivo CSV** <a href="#edicion-de-dispositivos-csv" id="edicion-de-dispositivos-csv"></a>  
 
-Имеется возможность отредактировать больше одного устройства через csv файл. Для этого необходимо загрузить csv с списком устройств, которые уже есть в списке созданных.
+Existe la posibilidad de editar varios dispositivos a la vez mediante un archivo CSV. Para ello, se debe cargar un archivo CSV con la lista de dispositivos ya creados.  
 
-1. Главным идентификатором будет **MAC адрес** - если MAC созданного устройства и устройства в csv файле, то остальные данные изменяются согласно информации в csv файле
-2. Если MAC адреса нет в системе Hashcare - создаётся новое устройство с заданными в csv файле параметрами
+1\. El **identificador principal** será la **Dirección MAC**:  
+   - Si la dirección MAC del dispositivo en el CSV coincide con la de un dispositivo en Hashcare, los demás datos se actualizan según el archivo CSV.  
+   - Si la dirección MAC no está registrada en el sistema Hashcare, se creará un nuevo dispositivo con los parámetros definidos en el CSV.  
 
-## **Удаление Устройства:**
+## **Eliminación de un dispositivo**  
 
-1. Нажать на кнопку (_три точки_) рядом с нужным устройством
-2. Выбрать пункт меню **Удалить**
-3. В открывшемся окне нажать кнопку **Подтвердить**
+1\. Hacer clic en el botón (tres puntos) junto al dispositivo deseado.  
+
+2\. Seleccionar la opción **Eliminar**.  
+
+3\. En la ventana emergente, hacer clic en **Confirmar**.  
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
-## **Детали устройства:**
+## **Detalles del dispositivo**  
 
-• **Модель**
+• **Modelo**  
 
-Автоматически определяется внутренним агентом или задаётся вручную в настройках устройства. Включает заводской хэшрейт.
+Se detecta automáticamente por el agente interno o se configura manualmente en la configuración del dispositivo. Incluye el hashrate nominal de fábrica.  
 
-• **IP-адрес**
+• **Dirección IP**  
 
-Автоматически определяется внутренним агентом при опросе сети или задаётся вручную в настройках устройства.
+Se detecta automáticamente por el agente interno al escanear la red o se configura manualmente en la configuración del dispositivo.  
 
-• **Прошивка**
+• **Firmware**  
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Se detecta automáticamente por el agente interno al escanear el dispositivo o se configura manualmente en la configuración del dispositivo.  
 
-• **Серийный номер (S/N)**
+• **Número de serie (S/N)**  
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Se detecta automáticamente por el agente interno al escanear el dispositivo o se configura manualmente en la configuración del dispositivo.  
 
-### **Мощность**
+### **Potencia**  
 
-• **Номинальная мощность**
+• **Potencia nominal**  
 
-Статичное значение, установленное для каждой модели устройства.
+Valor estático preestablecido para cada modelo de dispositivo.  
 
-* W/TH - относительная величина, рассчитываемая как отношение номинального потребления к номинальному хэшрейту модели.
+* **W/TH** - Relación de potencia nominal en función del hashrate nominal del modelo.  
 
-• **Номинальный хэшрейт**
+• **Hashrate nominal**  
 
-Значение заводского хэшрейта, полученное внутренним агентом из ASIC.
+Valor del hashrate de fábrica obtenido por el agente interno del ASIC.  
 
-### **Дополнительная информация**
+### **Información adicional**  
 
-• **Имя воркера**
+• **Nombre del trabajador**  
 
-Состоит из имени пула и имени устройства на пуле. Определяется автоматически внутренним агентом или задаётся вручную в настройках устройства.
+Compuesto por el nombre del pool y el nombre del dispositivo en el pool. Se detecta automáticamente por el agente interno o se configura manualmente en la configuración del dispositivo.  
 
-• **MAC-адрес**
+• **Dirección MAC**  
 
-Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
+Se detecta automáticamente por el agente interno al escanear el dispositivo o se configura manualmente en la configuración del dispositivo.  
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### **Показатели:**
+### **Indicadores:**  
 
-**• Оценочный доход (PPS | FPPS):**
+**• Ingreso estimado (PPS | FPPS):**  
 
-* PPS (Pay Per Share): фиксированная оплата за доли.
-* FPPS (Full Pay Per Share): включает доход от комиссий, выше PPS.
+* **PPS** (Pay Per Share): pago fijo por shares.  
+* **FPPS** (Full Pay Per Share): incluye ingresos por tarifas, superior a PPS.  
 
-**• Доход из пула:**
+**• Ingreso del pool:**  
 
-Реальный доход от пула за выбранный период.
+Ingreso real recibido del pool durante el período seleccionado.  
 
-_Настройка пула: «Настройка пулов» → Создать пул._
+_Configurar pool: «Configuración de pools» → Crear pool._  
 
-**• Затраты на электричество:**
+**• Costos de electricidad:**  
 
-Основаны на мощности устройства и тарифе:\\
+Basado en la potencia del dispositivo y la tarifa:\\  
 
-(Потребляемая мощность (W) × 24) ÷ 1000 × Тариф\\
+(Consumo de energía (W) × 24) ÷ 1000 × Tarifa\\  
 
-**• Прибыль:**
+**• Beneficio:**  
 
-{FPPS доход} - {Электричество}
+{Ingreso FPPS} - {Electricidad}  
 
-### **График хэшрейта**
+### **Gráfico de tasa de hash**  
 
-• **Asic Hashrate** — текущий хэшрейт, переданный устройством.
+• **Asic Hashrate** — tasa de hash actual reportada por el dispositivo.  
 
-• **Nominal Hashrate** — заявленный производителем хэшрейт.
+• **Nominal Hashrate** — tasa de hash nominal del fabricante.  
 
-### **График хэшрейта плат**
+### **Gráfico de tasa de hash de placas**  
 
-Показывает производительность отдельных плат ASIC-майнера.
+Muestra el rendimiento de las placas individuales del minero ASIC.  
 
-• Каждая плата обозначается, например, как SM 0, SM 1, SM 2.
+• Cada placa se representa, por ejemplo, como SM 0, SM 1, SM 2.  
 
-• Помогает выявить неисправности, снижающие общий хэшрейт.
+• Ayuda a identificar fallos que reducen el hashrate total.  
 
-### **Температура устройства**
+### **Temperatura del dispositivo**  
 
-• Температура плат (boards) и чипов (chip, PCB): отображает нагрев отдельных компонентов устройства.
+• **Temperatura de placas y chips**: muestra el calentamiento de los componentes internos del dispositivo.  
 
-• Температура воздуха (in/out):
+• **Temperatura del aire (entrada/salida):**  
 
-* **In** — температура входящего холодного воздуха.
-* **Out** — температура выходящего нагретого воздуха.
+* **In** — temperatura del aire frío de entrada.  
+* **Out** — temperatura del aire caliente de salida.  
 
-### **График скорости вентиляторов**
+### **Gráfico de velocidad de ventiladores**  
 
-Показывает обороты охлаждающих вентиляторов в минуту (RPM).
+Muestra las RPM de los ventiladores de enfriamiento.  
 
-* **In** — вентиляторы на входе воздушного потока.
-* **Out** — вентиляторы на выходе.
+* **In** — ventiladores de entrada de aire.  
+* **Out** — ventiladores de salida de aire.  
 
-### **График потребления электроэнергии**
+### **Gráfico de consumo de energía**  
 
-* **Asic Power** — текущее потребление, переданное устройством.
-* **Nominal Power** — заявленное производителем потребление.
+* **Asic Power** — consumo actual reportado por el dispositivo.  
+* **Nominal Power** — consumo nominal del fabricante.  
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
