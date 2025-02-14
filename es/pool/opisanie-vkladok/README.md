@@ -1,12 +1,12 @@
 ---
 description: >-
-  Далее вы можете ознакомиться с различными разделами своего личного кабинета,
-  чтобы полностью изучить все его возможности.
+  A continuación, puedes familiarizarte con las diferentes secciones de tu
+  panel de control para explorar todas sus funcionalidades.
 ---
 
-# Описание вкладок
+# Descripción de las pestañas  
 
-Вот статьи из этого раздела:
+Aquí están los artículos de esta sección:  
 
 {% content-ref url="vorkery.md" %}
 [vorkery.md](vorkery.md)
