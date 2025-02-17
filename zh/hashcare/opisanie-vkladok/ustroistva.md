@@ -137,7 +137,7 @@ _**Доступные для изменения параметры:**_
 
 • **Изменить помещение**, к которому будет привязан стеллаж.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="447"><figcaption></figcaption></figure>
 
 3\. Нажать **Обновить** для сохранения изменений.
 
@@ -154,7 +154,7 @@ _**Доступные для изменения параметры:**_
 2. Выбрать пункт меню **Удалить**
 3. В открывшемся окне нажать кнопку **Подтвердить**
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **Детали устройства:**
 
@@ -196,7 +196,7 @@ _**Доступные для изменения параметры:**_
 
 Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 ### **Показатели:**
 
@@ -256,4 +256,4 @@ _Настройка пула: «Настройка пулов» → Создат
 * **Asic Power** — текущее потребление, переданное устройством.
 * **Nominal Power** — заявленное производителем потребление.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
