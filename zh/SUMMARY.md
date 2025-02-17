@@ -4,7 +4,7 @@
 * [Pool](pool/README.md)
   * [如何开始？](pool/s-chego-nachat.md)
   * [选项卡说明](pool/opisanie-vkladok/README.md)
-    * [工作器](pool/opisanie-vkladok/vorkery.md)
+    * [工人](pool/opisanie-vkladok/vorkery.md)
     * [📈 “利润”页面](pool/opisanie-vkladok/stranica-pribyl.md)
     * [💸 “提现”页面](pool/opisanie-vkladok/stranica-vyvody.md)
 * [HashCare](hashcare/README.md)
