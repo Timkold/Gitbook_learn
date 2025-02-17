@@ -1,4 +1,4 @@
-# Устройства
+# მოწყობილობები
 
 Для сбора данных внешним агентом необходимо создать устройства с заданными параметрами. Устройства привязываются к стеллажу, без привязки создание невозможно. По умолчанию устройства отсутствуют.
 
@@ -32,7 +32,7 @@
 
 • Редактирование — кнопка настройки параметров.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## **Создание устройства через форму**
 
@@ -76,7 +76,7 @@
 
 4\. Нажать **Создать**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="449"><figcaption></figcaption></figure>
 
 ## **Импортирование устройств списком** <a href="#importirovanie-ustrojstv-spiskom" id="importirovanie-ustrojstv-spiskom"></a>
 
@@ -85,7 +85,7 @@
 3. Выбрать файл .csv на жёстком диске
 4. При успешной загрузке появится сообщение “Файл успешно загружен“
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Пример CSV таблицы**
 
@@ -137,7 +137,7 @@ _**Доступные для изменения параметры:**_
 
 • **Изменить помещение**, к которому будет привязан стеллаж.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="451"><figcaption></figcaption></figure>
 
 3\. Нажать **Обновить** для сохранения изменений.
 
@@ -154,7 +154,7 @@ _**Доступные для изменения параметры:**_
 2. Выбрать пункт меню **Удалить**
 3. В открывшемся окне нажать кнопку **Подтвердить**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="344"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="344"><figcaption></figcaption></figure>
 
 ## **Детали устройства:**
 
@@ -196,7 +196,7 @@ _**Доступные для изменения параметры:**_
 
 Автоматически определяется внутренним агентом при опросе устройства или задаётся вручную в настройках устройства.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Показатели:**
 
@@ -256,4 +256,4 @@ _Настройка пула: «Настройка пулов» → Создат
 * **Asic Power** — текущее потребление, переданное устройством.
 * **Nominal Power** — заявленное производителем потребление.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
