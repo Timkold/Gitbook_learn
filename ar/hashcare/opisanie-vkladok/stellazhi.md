@@ -45,7 +45,7 @@
 
 4\. اضغط على زر **إنشاء**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **تعديل الرف**
 
@@ -62,7 +62,7 @@
 
 4\. اضغط على **تحديث**.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ## **حذف الرف:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -72,7 +72,7 @@
 
 3\. في النافذة المفتوحة، اضغط على زر **تأكيد**.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## **الانتقال إلى صفحة الرف**
 
