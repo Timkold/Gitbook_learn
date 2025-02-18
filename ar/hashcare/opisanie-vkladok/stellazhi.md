@@ -28,7 +28,7 @@
 
 • التعديل - تعديل الإعدادات.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## **إنشاء رف جديد**
 
@@ -45,7 +45,7 @@
 
 4\. اضغط على زر **إنشاء**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 ## **تعديل الرف**
 
@@ -62,7 +62,7 @@
 
 4\. اضغط على **تحديث**.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ## **حذف الرف:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 
@@ -72,7 +72,7 @@
 
 3\. في النافذة المفتوحة، اضغط على زر **تأكيد**.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## **الانتقال إلى صفحة الرف**
 
@@ -91,7 +91,7 @@
 * الإجمالي - الأجهزة غير النشطة + المتصلة.
 * المتصلة - الأجهزة التي ترسل البيانات.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **الرسوم البيانية:**
 
@@ -110,7 +110,7 @@
 * Active Asic - الأجهزة النشطة.
 * Total Asic - جميع الأجهزة، بما في ذلك غير النشطة.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **خريطة الرف**
 
@@ -126,7 +126,7 @@
 * إذا كان معدل الهاش أو درجة الحرارة = 0 أو تتجاوز الحد المسموح به، يصبح الخط أحمر.
 * لعرض المشكلات الحالية، يمكن تبديل الميزة المعروضة في الزاوية اليمنى العليا.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="290"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="290"><figcaption></figcaption></figure>
 
 ### **قائمة الأجهزة في الرف**
 
@@ -138,9 +138,9 @@
 * الطراز - يتم تحديده بواسطة الوكيل أو يتم تعيينه يدويًا؛ يتم عرض إصدار البرنامج الثابت.
 * معدل الهاش - القيمة الحالية للجهاز:
 
-&#x20;     🟢 معدل الهاش > 0
+🟢 معدل الهاش > 0
 
-&#x20;     🔴 معدل الهاش = 0 أو غير محدد
+🔴 معدل الهاش = 0 أو غير محدد
 
 * اسم العامل - يتكون من اسم التجمع واسم الجهاز، يتم تحديده بواسطة الوكيل أو يدويًا.
 * عنوان IP - يتم تحديده تلقائيًا بواسطة الوكيل أو يتم تعيينه يدويًا.
