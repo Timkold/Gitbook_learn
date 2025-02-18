@@ -28,7 +28,7 @@
 
 • ویرایش — تنظیمات پارامترها.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **ایجاد قفسه**
 
@@ -45,7 +45,7 @@
 
 4\. دکمه **ایجاد** را فشار دهید.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## **ویرایش قفسه**
 
@@ -62,7 +62,7 @@
 
 4\. دکمه **به‌روزرسانی** را فشار دهید.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ## **حذف قفسه:** <a href="#udalenie-data-centra" id="udalenie-data-centra"></a>
 

@@ -20,7 +20,7 @@
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-18 141803.png" alt=""><figcaption><p>داده‌های جمع‌آوری‌شده از استخر در صفحه لیست ماینرها نمایش داده می‌شود. در این صفحه، ماینرهای یک استخر نشان داده می‌شوند. برای انتخاب استخر دیگر، باید منوی کشویی لیست استخرهای ایجادشده را باز کنید.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>لیست استخرهای ایجادشده</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>لیست استخرهای ایجادشده</p></figcaption></figure>
 
 ## **جدول Workers: اطلاعات کلیدی و پارامترها**
 

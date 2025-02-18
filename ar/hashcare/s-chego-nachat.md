@@ -25,7 +25,7 @@
 
 🟡 **زرد** — هم عوامل فعال و هم غیرفعال وجود دارند.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **مراحل ایجاد:**
 
@@ -41,7 +41,7 @@ _دستورالعمل نصب را می‌توان از طریق لینک مشا�
 
 ⚠️ اگر این فیلد خالی باشد، دکمه **ایجاد** غیرفعال خواهد شد.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="448"><figcaption></figcaption></figure>
 
 ## **🌐 اضافه کردن زیرشبکه‌ها:**
 
